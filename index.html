@@ -1,12 +1,325 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Welcome</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GlobalPeak Industries | Reliable Manufacturing Partner</title>
+  <meta name="description" content="GlobalPeak Industries provides OEM/ODM manufacturing, stable quality, competitive pricing and global export service.">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Welcome</h1>
-<p>This website is active and running normally.</p>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>OEM / ODM Manufacturing · Global Export Service</span>
+      <div>
+        <a href="mailto:sales@example.com">sales@example.com</a>
+        <span class="divider">|</span>
+        <a href="#contact">Get a Quote</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#">
+        <span class="brand-mark">GP</span>
+        <span class="brand-text">
+          <strong>GLOBALPEAK</strong>
+          <small>INDUSTRIES</small>
+        </span>
+      </a>
+
+      <button class="menu-btn" aria-label="Open menu">☰</button>
+
+      <nav class="nav">
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#factory">Factory</a>
+        <a href="#quality">Quality</a>
+        <a href="#markets">Markets</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <span class="eyebrow">YOUR TRUSTED GLOBAL SUPPLY PARTNER</span>
+          <h1>Reliable Products.<br><span>Made for Global Markets.</span></h1>
+          <p>
+            Professional OEM/ODM manufacturing with stable quality, flexible customization,
+            competitive pricing and dependable delivery for importers, distributors and brands worldwide.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#products">Explore Products</a>
+            <a class="btn secondary" href="#contact">Request a Quote</a>
+          </div>
+          <div class="hero-trust">
+            <div><strong>15+</strong><span>Years Experience</span></div>
+            <div><strong>30+</strong><span>Export Markets</span></div>
+            <div><strong>1000+</strong><span>Global Customers</span></div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <span class="mini-label">QUICK INQUIRY</span>
+          <h3>Looking for a reliable supplier?</h3>
+          <p>Send us your product requirements. Our export team will contact you.</p>
+          <form id="quickForm">
+            <input id="qName" type="text" placeholder="Your Name">
+            <input id="qEmail" type="email" placeholder="Email Address">
+            <textarea id="qMessage" rows="4" placeholder="Product / quantity / requirements"></textarea>
+            <button class="btn primary wide" type="submit">Send Inquiry</button>
+          </form>
+          <small>* Static website demo: inquiry opens your email application.</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div><span class="trust-icon">✓</span><strong>OEM / ODM</strong><small>Flexible Customization</small></div>
+        <div><span class="trust-icon">✓</span><strong>Quality Control</strong><small>Strict Inspection</small></div>
+        <div><span class="trust-icon">✓</span><strong>Fast Response</strong><small>Professional Export Team</small></div>
+        <div><span class="trust-icon">✓</span><strong>Global Shipping</strong><small>Worldwide Delivery</small></div>
+      </div>
+    </section>
+
+    <section id="products" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow dark-text">PRODUCT CATEGORIES</span>
+            <h2>Products Built for Business</h2>
+          </div>
+          <p>Replace these demo categories with your actual products. Each category can link to a dedicated product detail page.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80" alt="Industrial products">
+            <div class="product-info">
+              <span>01</span><h3>Industrial Components</h3>
+              <p>Reliable components for industrial and commercial applications.</p>
+              <a href="#contact">Send Inquiry →</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80" alt="Home and lifestyle">
+            <div class="product-info">
+              <span>02</span><h3>Home & Lifestyle</h3>
+              <p>Flexible OEM/ODM solutions for retail and distribution channels.</p>
+              <a href="#contact">Send Inquiry →</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=1200&q=80" alt="Packaging products">
+            <div class="product-info">
+              <span>03</span><h3>Packaging Solutions</h3>
+              <p>Custom materials, sizes, colors and branding for global buyers.</p>
+              <a href="#contact">Send Inquiry →</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=1200&q=80" alt="Customized products">
+            <div class="product-info">
+              <span>04</span><h3>Custom Projects</h3>
+              <p>From sample development to mass production and export delivery.</p>
+              <a href="#contact">Send Inquiry →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-gray">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&w=1400&q=80" alt="Factory manufacturing">
+          <div class="experience-badge"><strong>15+</strong><span>Years in Manufacturing</span></div>
+        </div>
+        <div class="about-copy">
+          <span class="eyebrow dark-text">ABOUT GLOBALPEAK</span>
+          <h2>A Manufacturing Partner You Can Depend On</h2>
+          <p>
+            GlobalPeak Industries is a professional manufacturer and exporter serving wholesalers,
+            distributors, retailers and brand owners in overseas markets.
+          </p>
+          <p>
+            We focus on stable production, transparent communication, consistent quality and long-term cooperation.
+            From product development and sampling to production, inspection and shipment, our team supports your project at every step.
+          </p>
+          <div class="check-list">
+            <div>✓ OEM / ODM Service</div>
+            <div>✓ Sample Development</div>
+            <div>✓ Small & Large Orders</div>
+            <div>✓ Export Documentation</div>
+            <div>✓ Pre-shipment Inspection</div>
+            <div>✓ Long-term Supply</div>
+          </div>
+          <a class="text-link" href="#contact">Talk to our export team →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="factory" class="section factory-section">
+      <div class="container">
+        <div class="section-head light-head">
+          <div><span class="eyebrow">FACTORY CAPABILITY</span><h2>Built for Stable Production</h2></div>
+          <p>Show your real production lines, warehouse, inspection equipment and packaging area here.</p>
+        </div>
+
+        <div class="factory-grid">
+          <div class="factory-photo large-photo">
+            <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=80" alt="Production line">
+            <span>Production Line</span>
+          </div>
+          <div class="factory-photo">
+            <img src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=1000&q=80" alt="Warehouse">
+            <span>Warehouse</span>
+          </div>
+          <div class="factory-photo">
+            <img src="https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=1000&q=80" alt="Quality inspection">
+            <span>Quality Inspection</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="quality" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div><span class="eyebrow dark-text">QUALITY ASSURANCE</span><h2>Quality Before Shipment</h2></div>
+          <p>Overseas buyers care about repeatability, documentation and inspection. Put your real certificates and test reports here.</p>
+        </div>
+
+        <div class="quality-grid">
+          <article>
+            <span class="num">01</span>
+            <h3>Raw Material Control</h3>
+            <p>Supplier screening and incoming material inspection before production.</p>
+          </article>
+          <article>
+            <span class="num">02</span>
+            <h3>In-process Inspection</h3>
+            <p>Quality checkpoints during production to reduce defects and rework.</p>
+          </article>
+          <article>
+            <span class="num">03</span>
+            <h3>Final Inspection</h3>
+            <p>Appearance, function, packaging and quantity checks before shipment.</p>
+          </article>
+          <article>
+            <span class="num">04</span>
+            <h3>Export Documentation</h3>
+            <p>Commercial invoice, packing list and supporting documents as required.</p>
+          </article>
+        </div>
+
+        <div class="certs">
+          <span>ISO 9001</span>
+          <span>CE</span>
+          <span>RoHS</span>
+          <span>REACH</span>
+          <small>Demo certificates — replace with your actual certifications.</small>
+        </div>
+      </div>
+    </section>
+
+    <section id="markets" class="section markets">
+      <div class="container markets-grid">
+        <div>
+          <span class="eyebrow">GLOBAL MARKETS</span>
+          <h2>Serving Customers Worldwide</h2>
+          <p>Our products are supplied to importers, distributors and retailers across major overseas markets.</p>
+          <div class="market-tags">
+            <span>North America</span><span>Europe</span><span>Middle East</span>
+            <span>Southeast Asia</span><span>Australia</span><span>South America</span>
+          </div>
+        </div>
+        <div class="map-box">
+          <div class="map-title">EXPORT NETWORK</div>
+          <div class="world">
+            <i class="dot d1"></i><i class="dot d2"></i><i class="dot d3"></i>
+            <i class="dot d4"></i><i class="dot d5"></i><i class="dot d6"></i>
+            <div class="world-text">GLOBAL<br>SUPPLY<br>NETWORK</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="process section">
+      <div class="container">
+        <div class="section-head">
+          <div><span class="eyebrow dark-text">HOW WE WORK</span><h2>Simple Cooperation Process</h2></div>
+        </div>
+        <div class="process-grid">
+          <div><span>01</span><strong>Inquiry</strong><small>Send requirements</small></div>
+          <div><span>02</span><strong>Quotation</strong><small>Price & lead time</small></div>
+          <div><span>03</span><strong>Sample</strong><small>Confirm details</small></div>
+          <div><span>04</span><strong>Production</strong><small>Mass production</small></div>
+          <div><span>05</span><strong>Inspection</strong><small>Quality control</small></div>
+          <div><span>06</span><strong>Shipment</strong><small>Worldwide delivery</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <span class="eyebrow">LET'S WORK TOGETHER</span>
+          <h2>Tell Us What You Need</h2>
+          <p>Send your product name, specifications, quantity, target market and any customization requirements.</p>
+
+          <div class="contact-items">
+            <div><small>EMAIL</small><a href="mailto:sales@example.com">sales@example.com</a></div>
+            <div><small>WHATSAPP</small><a href="https://wa.me/8613800000000" target="_blank">+86 138 0000 0000</a></div>
+            <div><small>BUSINESS HOURS</small><span>Mon–Sat · 09:00–18:00 (GMT+8)</span></div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <input id="name" type="text" placeholder="Your Name">
+            <input id="email" type="email" placeholder="Business Email">
+          </div>
+          <div class="form-row">
+            <input id="company" type="text" placeholder="Company">
+            <input id="country" type="text" placeholder="Country">
+          </div>
+          <input id="product" type="text" placeholder="Product Interested In">
+          <textarea id="message" rows="6" placeholder="Quantity, specifications, customization and other requirements"></textarea>
+          <button type="submit" class="btn primary wide">SEND INQUIRY</button>
+          <small>This demo uses mailto and works on GitHub Pages without a backend.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <a class="floating-whatsapp" href="https://wa.me/8613800000000" target="_blank" aria-label="WhatsApp">
+    WA
+  </a>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">GLOBALPEAK INDUSTRIES</div>
+        <p>Professional OEM / ODM manufacturing and global export service.</p>
+      </div>
+      <div><strong>Products</strong><a href="#products">Product Categories</a><a href="#factory">Factory</a></div>
+      <div><strong>Company</strong><a href="#about">About Us</a><a href="#quality">Quality</a></div>
+      <div><strong>Contact</strong><a href="mailto:sales@example.com">Email</a><a href="#contact">Get a Quote</a></div>
+    </div>
+    <div class="container copyright">© 2026 GlobalPeak Industries. All Rights Reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
