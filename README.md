@@ -1,4 +1,4 @@
-# 外贸公司 GitHub Pages 官网模板
+# 中文外贸公司 GitHub Pages 官网模板
 
 这是一个可以直接部署到 GitHub Pages 的纯静态外贸企业官网。
 

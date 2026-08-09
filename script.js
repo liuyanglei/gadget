@@ -13,20 +13,20 @@ document.getElementById('quickForm').addEventListener('submit', function(e) {
   const name = document.getElementById('qName').value || '';
   const email = document.getElementById('qEmail').value || '';
   const message = document.getElementById('qMessage').value || '';
-  const body = `Name: ${name}\nEmail: ${email}\n\nRequirements:\n${message}`;
-  window.location.href = buildMailto('Website Product Inquiry', body);
+  const body = `姓名：${name}\n邮箱：${email}\n\n需求：\n${message}`;
+  window.location.href = buildMailto('网站产品询盘', body);
 });
 
 document.getElementById('contactForm').addEventListener('submit', function(e) {
   e.preventDefault();
   const body =
-`Name: ${document.getElementById('name').value || ''}
-Email: ${document.getElementById('email').value || ''}
-Company: ${document.getElementById('company').value || ''}
-Country: ${document.getElementById('country').value || ''}
-Product: ${document.getElementById('product').value || ''}
+`姓名：${document.getElementById('name').value || ''}
+邮箱：${document.getElementById('email').value || ''}
+公司：${document.getElementById('company').value || ''}
+国家/地区：${document.getElementById('country').value || ''}
+产品：${document.getElementById('product').value || ''}
 
-Requirements:
+需求：
 ${document.getElementById('message').value || ''}`;
-  window.location.href = buildMailto('Business Inquiry from Website', body);
+  window.location.href = buildMailto('网站商务询盘', body);
 });
