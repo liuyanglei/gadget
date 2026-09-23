@@ -7,6 +7,7 @@
   <meta name="theme-color" content="#0b1c33">
   <title>财经观察｜中文财经全文中心</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="frontend-overrides.css">
 </head>
 <body>
   <a class="skip-link" href="#latest-news">跳到新闻列表</a>
@@ -37,23 +38,6 @@
     </nav>
   </header>
   <main>
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="container hero__grid">
-        <div class="hero__intro">
-          <span class="section-kicker">MARKET INTELLIGENCE</span>
-          <h1 id="hero-title">读懂市场脉搏<br><em>看见产业趋势</em></h1>
-          <p>自动收录中文官方财经全文，用清晰的分类与简洁的阅读体验，帮助你快速掌握政策、产业与资本市场动态。</p>
-          <div class="hero__facts">
-            <div><strong>全文</strong><span>附件同步解析</span></div>
-            <div><strong>4×</strong><span>每日定时更新</span></div>
-            <div><strong>6</strong><span>核心财经板块</span></div>
-          </div>
-        </div>
-        <article class="lead-card" id="leadCard" aria-live="polite">
-          <div class="skeleton skeleton--lead"></div><p>正在读取最新财经要闻…</p>
-        </article>
-      </div>
-    </section>
     <section class="source-bar" aria-label="资讯来源">
       <div class="container source-bar__inner"><span>官方来源</span><strong>上海证券交易所</strong><strong>工业和信息化部</strong><strong>PDF · Word · 表格 · OCR</strong></div>
     </section>
@@ -62,7 +46,7 @@
         <div class="section-heading">
           <div><span class="section-kicker section-kicker--dark">LATEST NEWS</span><h2 id="listTitle">最新财经资讯</h2></div>
           <div class="news-tools">
-            <label class="search-box"><span class="sr-only">搜索新闻</span><input id="searchInput" type="search" placeholder="搜索标题或正文" autocomplete="off"><span aria-hidden="true">⌕</span></label>
+            <label class="search-box"><span class="search-label">全文搜索</span><input id="searchInput" type="search" placeholder="搜索标题、来源或完整正文" autocomplete="off"><span aria-hidden="true">⌕</span></label>
             <p>数据更新：<time id="updatedAt">读取中</time></p>
           </div>
         </div>

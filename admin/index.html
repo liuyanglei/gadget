@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#071526">
+  <title>财经观察｜运维后台</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="../"><span>财</span><div><strong>财经观察</strong><small>OPERATIONS</small></div></a>
+    <nav aria-label="后台导航">
+      <a class="active" href="#overview">运行总览</a>
+      <a href="#categories">栏目容量</a>
+      <a href="#quality">质量检测</a>
+      <a href="#settings">栏目设置</a>
+      <a href="#articles">文章数据</a>
+      <a href="#automation">自动任务</a>
+    </nav>
+    <div class="sidebar-note"><i></i><span>GitHub Pages<br>静态运维控制台</span></div>
+  </aside>
+
+  <main>
+    <header class="topbar">
+      <div><p>站点管理 / 运行总览</p><h1>财经资讯运维后台</h1></div>
+      <div class="topbar-actions">
+        <span class="health-pill" id="overallHealth">检测中</span>
+        <button id="refreshButton" type="button">刷新数据</button>
+        <a class="primary-button" href="https://github.com/liuyanglei/gadget/actions/workflows/update-news.yml" target="_blank" rel="noopener">立即采集 ↗</a>
+      </div>
+    </header>
+
+    <section id="overview" class="section">
+      <div class="section-title"><div><span>OVERVIEW</span><h2>运行总览</h2></div><p id="updatedText">正在读取数据…</p></div>
+      <div class="metric-grid">
+        <article><span>文章总数</span><strong id="totalArticles">—</strong><small>完整正文记录</small></article>
+        <article><span>今日发布</span><strong id="todayArticles">—</strong><small>北京时间统计</small></article>
+        <article><span>有效来源</span><strong id="sourceCount">—</strong><small>官方公开来源</small></article>
+        <article><span>数据体积</span><strong id="dataSize">—</strong><small>浏览器加载大小</small></article>
+      </div>
+      <div class="panel source-panel">
+        <div><span class="eyebrow">SYSTEM</span><h3>采集系统状态</h3><p>每日北京时间 08:00、12:00、16:00、20:00 自动运行。只发布通过完整度与栏目相关性检测的中文官方材料。</p></div>
+        <dl>
+          <div><dt>内容模式</dt><dd id="contentMode">—</dd></div>
+          <div><dt>回填范围</dt><dd id="backfillDays">—</dd></div>
+          <div><dt>单栏上限</dt><dd id="categoryLimit">—</dd></div>
+          <div><dt>最近数据时间</dt><dd id="lastUpdate">—</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="categories" class="section">
+      <div class="section-title"><div><span>CAPACITY</span><h2>栏目容量</h2></div><p>“全部”为汇总入口，不单独占用容量</p></div>
+      <div class="category-grid" id="categoryGrid"></div>
+    </section>
+
+    <section id="quality" class="section">
+      <div class="section-title"><div><span>QUALITY</span><h2>全文质量检测</h2></div><p>检测不通过的数据不会进入正式列表</p></div>
+      <div class="quality-grid" id="qualityGrid"></div>
+    </section>
+
+    <section id="settings" class="section">
+      <div class="section-title"><div><span>SETTINGS</span><h2>栏目上限设置</h2></div><p>允许范围：每栏 20—5000 篇</p></div>
+      <div class="panel settings-panel">
+        <div id="limitInputs" class="limit-inputs"></div>
+        <div class="settings-help"><strong>如何让设置生效</strong><p>点击“保存配置”后，后台会复制完整配置并打开 GitHub 编辑页。替换页面内容并提交，下一轮自动采集就会使用新上限。GitHub 登录负责权限校验，本站不会保存账号或密钥。</p><div><button id="saveSettings" class="primary-button" type="button">保存配置</button><button id="downloadSettings" type="button">下载配置</button></div></div>
+      </div>
+    </section>
+
+    <section id="articles" class="section">
+      <div class="section-title"><div><span>CONTENT</span><h2>文章数据</h2></div><button class="text-button" id="exportButton" type="button">导出 news.json ↓</button></div>
+      <div class="panel table-panel">
+        <div class="table-tools">
+          <input id="articleSearch" type="search" placeholder="搜索标题、来源或正文">
+          <select id="categoryFilter" aria-label="筛选栏目"><option value="全部">全部栏目</option></select>
+          <span id="resultCount">—</span>
+        </div>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th>栏目</th><th>文章标题</th><th>来源</th><th>发布时间</th><th>正文</th></tr></thead>
+            <tbody id="articleRows"><tr><td colspan="5">正在加载…</td></tr></tbody>
+          </table>
+        </div>
+        <button class="load-more" id="loadMore" type="button" hidden>加载更多</button>
+      </div>
+    </section>
+
+    <section id="automation" class="section">
+      <div class="section-title"><div><span>AUTOMATION</span><h2>GitHub Actions</h2></div><a class="text-button" href="https://github.com/liuyanglei/gadget/actions" target="_blank" rel="noopener">查看全部运行记录 ↗</a></div>
+      <div class="panel automation-panel">
+        <div class="schedule"><strong>08:00</strong><strong>12:00</strong><strong>16:00</strong><strong>20:00</strong><span>北京时间 · 每日自动执行</span></div>
+        <div id="workflowRuns" class="run-list"><p>正在读取公开运行状态…</p></div>
+      </div>
+    </section>
+
+    <footer>财经观察运维后台 · 纯静态控制台 · 权限操作由 GitHub 账号控制</footer>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="admin.js" defer></script>
+</body>
+</html>

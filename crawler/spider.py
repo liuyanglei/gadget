@@ -23,13 +23,16 @@ from pypdf import PdfReader
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "news.json"
-MAX_ARTICLES = 220
-SSE_DISCOVERY_LIMIT = 170
+SETTINGS_FILE = ROOT / "data" / "settings.json"
+DEFAULT_CATEGORY_LIMIT = 500
+SSE_DISCOVERY_LIMIT = 400
 MAX_DOWNLOAD_BYTES = 25 * 1024 * 1024
 MAX_PDF_PAGES = 80
 MIN_CONTENT_LENGTH = 180
 TIMEOUT_SECONDS = 30
 WORKERS = 6
+CATEGORIES = ("A股公告", "分红派息", "公司报告", "监管动态", "宏观数据", "政策解读")
+CHINA_TZ = timezone(timedelta(hours=8))
 
 MIIT_LISTING_URL = "https://wap.miit.gov.cn/RRSdy/index.html"
 MIIT_ORIGIN = "https://www.miit.gov.cn"
@@ -43,6 +46,7 @@ HEADERS = {
 }
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+logging.getLogger("pypdf").setLevel(logging.ERROR)
 
 
 def normalized_text(value: str) -> str:
@@ -58,7 +62,7 @@ def iso_datetime(value: str) -> str:
     value = value.strip()
     for pattern in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M", "%Y-%m-%d"):
         try:
-            return datetime.strptime(value, pattern).replace(tzinfo=timezone.utc).isoformat().replace("+00:00", "Z")
+            return datetime.strptime(value, pattern).replace(tzinfo=CHINA_TZ).isoformat()
         except ValueError:
             continue
     return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
@@ -67,11 +71,11 @@ def iso_datetime(value: str) -> str:
 def category_for(title: str, source_kind: str) -> str:
     if re.search(r"权益分派|利润分配|现金分红|现金红利|派息|分红派息|股息", title):
         return "分红派息"
-    if re.search(r"年度报告|半年度报告|季度报告|业绩说明|业绩预告|业绩快报|投资者关系|调研活动|经营数据", title):
+    if re.search(r"年度报告|半年度报告|季度报告|业绩说明|业绩预告|业绩快报|投资者关系|调研活动|经营数据|研究报告|评估报告|审计报告|募集说明书|上市保荐书|法律意见书", title):
         return "公司报告"
     if source_kind == "sse":
         return "A股公告"
-    if re.search(r"运行情况|统计|数据|增长|产量|销量|增加值|经济运行", title):
+    if re.search(r"经济运行|行业运行|统计公报|统计数据|增加值|产量|销量|增长|月份.*情况|上半年.*情况|前\d+个月", title):
         return "宏观数据"
     if re.search(r"解读|意见|办法|规定|规范|政策|指南", title):
         return "政策解读"
@@ -334,17 +338,53 @@ def load_previous() -> list[dict[str, object]]:
         for item in articles:
             source_kind = "sse" if str(item.get("source", "")).startswith("上海证券交易所") else "miit"
             item["category"] = category_for(str(item.get("title", "")), source_kind)
-        return articles
+            published_at = str(item.get("published_at", ""))
+            if published_at.endswith("Z"):
+                legacy_time = datetime.fromisoformat(published_at.removesuffix("Z"))
+                item["published_at"] = legacy_time.replace(tzinfo=CHINA_TZ).isoformat()
+        return [item for item in articles if is_publishable(item)]
     except (OSError, json.JSONDecodeError, AttributeError):
         return []
+
+
+def is_publishable(item: dict[str, object]) -> bool:
+    title = normalized_text(str(item.get("title", "")))
+    content = normalized_text(str(item.get("content", "")))
+    category = str(item.get("category", ""))
+    source = str(item.get("source", ""))
+    if not title or len(content) < MIN_CONTENT_LENGTH or category not in CATEGORIES:
+        return False
+    if source.startswith("上海证券交易所"):
+        stats = item.get("attachment_stats") or {}
+        return isinstance(stats, dict) and int(stats.get("pages") or 0) > 0
+    if source.startswith("工业和信息化部"):
+        finance_terms = re.compile(
+            r"企业|行业|经济|工业|制造|汽车|新能源|通信|软件|电池|金属|市场|投资|产业|生产|消费|经营|标准|政策|税|回款"
+        )
+        return bool(finance_terms.search(title + "\n" + content[:1000]))
+    return False
+
+
+def load_category_limits() -> dict[str, int]:
+    limits = {category: DEFAULT_CATEGORY_LIMIT for category in CATEGORIES}
+    try:
+        settings = json.loads(SETTINGS_FILE.read_text(encoding="utf-8"))
+        configured = settings.get("category_limits", {})
+        for category in CATEGORIES:
+            value = int(configured.get(category, limits[category]))
+            limits[category] = min(5000, max(20, value))
+    except (OSError, ValueError, TypeError, json.JSONDecodeError, AttributeError):
+        logging.warning("Invalid settings.json; using safe defaults")
+    return limits
 
 
 def main() -> None:
     session = requests.Session()
     session.headers.update(HEADERS)
+    category_limits = load_category_limits()
     previous = load_previous()
     previous_ids = {str(item.get("id")) for item in previous}
-    today = datetime.now(timezone.utc).date()
+    today = datetime.now(CHINA_TZ).date()
     start_date = (today - timedelta(days=1)).isoformat()
     end_date = today.isoformat()
 
@@ -380,14 +420,23 @@ def main() -> None:
     unique: dict[str, dict[str, object]] = {}
     for item in combined:
         key = re.sub(r"\W+", "", str(item.get("title", "")).lower())
-        if key and item.get("content") and key not in unique:
+        if key and is_publishable(item) and key not in unique:
             unique[key] = item
-    articles = sorted(unique.values(), key=lambda item: str(item.get("published_at", "")), reverse=True)[:MAX_ARTICLES]
+    sorted_articles = sorted(unique.values(), key=lambda item: str(item.get("published_at", "")), reverse=True)
+    category_counts = {category: 0 for category in CATEGORIES}
+    articles: list[dict[str, object]] = []
+    for item in sorted_articles:
+        category = str(item["category"])
+        if category_counts[category] >= category_limits[category]:
+            continue
+        articles.append(item)
+        category_counts[category] += 1
     payload = {
         "updated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "successful_sources": len({str(item.get("source", "")).split(" · ")[0] for item in articles}),
         "content_mode": "official_full_text_zh_with_attachments",
         "backfill_days": 2,
+        "category_limits": category_limits,
         "articles": articles,
     }
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
