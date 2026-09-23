@@ -26,13 +26,13 @@
     </div>
     <nav class="category-nav" aria-label="新闻分类">
       <div class="container category-nav__inner">
-        <button class="category-button is-active" type="button" data-category="全部">要闻</button>
-        <button class="category-button" type="button" data-category="A股">A股</button>
-        <button class="category-button" type="button" data-category="港股">港股</button>
-        <button class="category-button" type="button" data-category="黄金">黄金</button>
-        <button class="category-button" type="button" data-category="原油">原油</button>
-        <button class="category-button" type="button" data-category="基金">基金</button>
-        <button class="category-button" type="button" data-category="宏观经济">宏观经济</button>
+        <button class="category-button is-active" type="button" data-category="全部">全部</button>
+        <button class="category-button" type="button" data-category="A股公告">A股公告</button>
+        <button class="category-button" type="button" data-category="分红派息">分红派息</button>
+        <button class="category-button" type="button" data-category="公司报告">公司报告</button>
+        <button class="category-button" type="button" data-category="监管动态">监管动态</button>
+        <button class="category-button" type="button" data-category="宏观数据">宏观数据</button>
+        <button class="category-button" type="button" data-category="政策解读">政策解读</button>
       </div>
     </nav>
   </header>
@@ -44,7 +44,7 @@
           <h1 id="hero-title">读懂市场脉搏<br><em>看见产业趋势</em></h1>
           <p>自动收录中文官方财经全文，用清晰的分类与简洁的阅读体验，帮助你快速掌握政策、产业与资本市场动态。</p>
           <div class="hero__facts">
-            <div><strong>中文</strong><span>官方公开来源</span></div>
+            <div><strong>全文</strong><span>附件同步解析</span></div>
             <div><strong>4×</strong><span>每日定时更新</span></div>
             <div><strong>6</strong><span>核心财经板块</span></div>
           </div>
@@ -55,14 +55,14 @@
       </div>
     </section>
     <section class="source-bar" aria-label="资讯来源">
-      <div class="container source-bar__inner"><span>全文来源</span><strong>中华人民共和国工业和信息化部</strong><strong>只收录中文完整正文</strong></div>
+      <div class="container source-bar__inner"><span>官方来源</span><strong>上海证券交易所</strong><strong>工业和信息化部</strong><strong>PDF · Word · 表格 · OCR</strong></div>
     </section>
     <section class="news-section" id="latest-news">
       <div class="container">
         <div class="section-heading">
           <div><span class="section-kicker section-kicker--dark">LATEST NEWS</span><h2 id="listTitle">最新财经资讯</h2></div>
           <div class="news-tools">
-            <label class="search-box"><span class="sr-only">搜索新闻</span><input id="searchInput" type="search" placeholder="搜索标题或摘要" autocomplete="off"><span aria-hidden="true">⌕</span></label>
+            <label class="search-box"><span class="sr-only">搜索新闻</span><input id="searchInput" type="search" placeholder="搜索标题或正文" autocomplete="off"><span aria-hidden="true">⌕</span></label>
             <p>数据更新：<time id="updatedAt">读取中</time></p>
           </div>
         </div>
@@ -77,7 +77,7 @@
           </div>
           <aside class="sidebar" aria-label="栏目导读">
             <section class="sidebar-card"><span class="sidebar-card__number">01</span><h3>市场分类</h3><div class="category-list" id="categoryStats"></div></section>
-            <section class="sidebar-card sidebar-card--dark"><span class="section-kicker">ABOUT</span><h3>关于财经观察</h3><p>本站由 GitHub Actions 定时采集中文官方公开财经材料，仅在完整正文提取成功时发布。</p><span class="site-badge">中文 · 全文 · 自动发布</span></section>
+            <section class="sidebar-card sidebar-card--dark"><span class="section-kicker">ABOUT</span><h3>关于财经观察</h3><p>本站由 GitHub Actions 定时采集中文官方公告与财经材料，并解析 PDF、Word、表格和图片文字；不完整的记录不会发布。</p><span class="site-badge">中文 · 全文 · 附件解析</span></section>
           </aside>
         </div>
       </div>
