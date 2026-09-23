@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
@@ -10,12 +10,12 @@
 </head>
 <body>
   <a class="skip-link" href="#latest-news">跳到新闻列表</a>
-  <div class="market-strip" aria-label="站点说明">
+  <section class="market-strip" aria-label="站点说明">
     <div class="container market-strip__inner">
       <span><i class="live-dot"></i> 全球市场资讯持续更新</span>
       <span id="currentDate"></span>
     </div>
-  </div>
+  </section>
   <header class="site-header">
     <div class="container masthead">
       <a class="brand" href="./" aria-label="财经观察首页">
@@ -78,7 +78,7 @@
           </div>
           <aside class="sidebar" aria-label="栏目导读">
             <section class="sidebar-card"><span class="sidebar-card__number">01</span><h3>市场分类</h3><div class="category-list" id="categoryStats"></div></section>
-            <section class="sidebar-card sidebar-card--dark"><span class="section-kicker">ABOUT</span><h3>关于财经观察</h3><p>本站由 GitHub Actions 定时采集公开 RSS 内容，所有文章版权归原媒体及作者所有。</p><a href="https://github.com/liuyanglei/gadget" target="_blank" rel="noopener noreferrer">查看开源项目 <span>↗</span></a></section>
+            <section class="sidebar-card sidebar-card--dark"><span class="section-kicker">ABOUT</span><h3>关于财经观察</h3><p>本站由 GitHub Actions 定时采集公开 RSS 内容，所有文章版权归原媒体及作者所有。</p><span class="site-badge">免费 · 自动 · 静态发布</span></section>
           </aside>
         </div>
       </div>
@@ -91,6 +91,14 @@
       <span>© <span id="currentYear"></span> 财经观察</span>
     </div>
   </footer>
+  <dialog class="article-dialog" id="articleDialog" aria-labelledby="dialogTitle">
+    <button class="article-dialog__close" id="dialogClose" type="button" aria-label="关闭详情">×</button>
+    <div class="article-dialog__meta"><span id="dialogCategory"></span><i></i><span id="dialogSource"></span><time id="dialogTime"></time></div>
+    <h2 id="dialogTitle">资讯详情</h2>
+    <div class="article-dialog__rule"></div>
+    <p id="dialogSummary"></p>
+    <div class="article-dialog__notice">本站摘要由公开 RSS 提供，仅供资讯浏览，不会跳转到外部网站。</div>
+  </dialog>
   <noscript><div class="noscript">请启用 JavaScript 以加载最新财经资讯。</div></noscript>
   <script src="script.js" defer></script>
 </body>
