@@ -1,1085 +1,190 @@
 {
-  "updated_at": "2026-09-23T14:44:23.880956Z",
-  "successful_sources": 4,
+  "updated_at": "2026-09-23T15:22:14.805228Z",
+  "successful_sources": 1,
+  "content_mode": "official_full_text_zh",
   "articles": [
     {
-      "id": "c167984167c9fb44",
-      "title": "Zelenskyy says Ukraine ready for ‘energy ceasefire,’ calls for trilateral meeting with Putin, Trump",
-      "url": "https://www.cnbc.com/2026/09/23/ukraine-war-zelenskyy-putin-trump-russia.html",
-      "published_at": "2026-09-23T14:41:48Z",
-      "summary": "Zelenskyy said Ukraine is ready for an “energy ceasefire” with Russia, provided Moscow stops attacks on critical infrastructure.",
-      "source": "CNBC",
+      "id": "fce5178025399781",
+      "title": "第二次中国—新西兰新能源汽车对话在京举行",
+      "published_at": "2026-09-23T10:01:00Z",
+      "content": "2026年9月22日，工业和信息化部总工程师王卫明与新西兰城市、环境、区域和交通部副部长克里斯·尼斯在北京共同主持召开第二次中新新能源汽车对话。\n王卫明表示，建立新能源汽车对话机制是落实中新两国领导人重要共识的务实举措。双方于去年12月在新西兰惠灵顿共同举行首次中新新能源汽车对话，为两国产业合作奠定了重要基础。工业和信息化部愿同新西兰城市、环境、区域和交通部继续加强新能源汽车领域对话交流。\n克里斯·尼斯表示，新能源汽车对话机制为新中双方开展新能源汽车领域政策交流搭建了重要平台，新方愿同中国工业和信息化部在该机制下继续合作。\n工业和信息化部有关司局负责人参加对话。",
+      "source": "工业和信息化部 · 国际合作司、办公厅、工信微报",
       "category": "宏观经济"
     },
     {
-      "id": "0d66506a00096ac3",
-      "title": "McDonald's CEO expects high inflation, flat traffic are not going away for restaurant industry",
-      "url": "https://www.cnbc.com/2026/09/23/mcdonalds-investor-day-ceo-chris-kempczinksi-inflation.html",
-      "published_at": "2026-09-23T14:40:04Z",
-      "summary": "McDonald's CEO Chris Kempczinski said that he expects that high inflation and flat traffic will continue to weigh on the restaurant industry.",
-      "source": "CNBC",
+      "id": "b7668e3b64728c26",
+      "title": "2026中国无线电大会在河北雄安新区开幕",
+      "published_at": "2026-09-22T12:45:00Z",
+      "content": "9月21日，2026中国无线电大会在河北雄安新区开幕。工业和信息化部党组成员、副部长谢远生，河北省副省长赵大春出席开幕式并致辞。\n会议指出，习近平总书记近日就发展先进制造业作出重要指示强调，持续做大做强先进制造业，为推进中国式现代化提供有力支撑。习近平总书记的重要指示深刻阐述了发展先进制造业的重大意义、方向路径和重点任务，具有很强的战略性、指导性、针对性，为做好相关工作提供了重要遵循。要深入学习贯彻习近平总书记关于发展先进制造业的重要指示和全国先进制造业大会精神，做好频谱资源科学规划、精准供给、合理开发、高效利用，让无形的频谱资源释放出有形的巨大能量，为加快构建以先进制造业为骨干的现代化产业体系注入澎湃动能。\n会议强调，发展先进制造业，加快推进新型工业化，离不开稀缺的无线电频谱资源的支撑保障和安全有序的电磁环境。要优化频谱资源布局，充分发挥频谱资源引领无线电技术创新应用、支撑无线电产业发展的作用，夯实产业发展根基。要建强创新平台，推进无线电科技创新和产业创新融合发展，激活内生动能。要提升无线电治理效能，持续健全无线电管理法律法规和制度标准体系，加强无线电监测干扰查处，依法严厉打击非法用频设台行为，筑牢电磁空间安全屏障。要深化开放合作，办好国际电信联盟2027年世界无线电通信大会，为国际频谱治理贡献中国智慧、中国方案。\n本届大会以“无线创新 谱绘未来”为主题，围绕战略前瞻、技术突破和产业实践等举办1场主论坛，频谱高效开发利用等10场专题研讨会，《中华人民共和国无线电管理条例》修订发布10周年等3场专题交流会，AI赋能无线电等3场供需对接会。同期公布了2026年无线电频谱资源开发利用与技术创新大赛获奖名单。来自行业主管部门、科研院所、高等院校、产业链重点企业等单位的1200余人参会。",
+      "source": "工业和信息化部 · 无线电管理局、办公厅、工信微报",
       "category": "宏观经济"
     },
     {
-      "id": "20c12ae18721581f",
-      "title": "Oil prices rise after five-day losing streak",
-      "url": "https://www.cnbc.com/2026/09/23/iran-us-talks-crude-oil-un-wti.html",
-      "published_at": "2026-09-23T14:38:54Z",
-      "summary": "Oil prices were mixed Wednesday, amid hopes of a diplomatic solution to the conflict in the Middle East after Iran and the U.S. had talks.",
-      "source": "CNBC",
-      "category": "原油"
-    },
-    {
-      "id": "d573707c65599046",
-      "title": "DOJ defends Trump ban of 3 news outlets, says White House access is a 'privilege — not a right'",
-      "url": "https://www.cnbc.com/2026/09/23/trump-white-house-ban-media-doj-cnn-msnow-politico.html",
-      "published_at": "2026-09-23T14:38:47Z",
-      "summary": "The Department of Justice also argued President Trump was motivated by national security concerns in banning MS NOW, CNN and Politico from the White House.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "ad503bbcd6269b39",
-      "title": "Iran's president blames U.S., Israel for global instability in defiant UN speech",
-      "url": "https://www.cnbc.com/2026/09/23/iran-united-nations-trump-israel.html",
-      "published_at": "2026-09-23T14:38:18Z",
-      "summary": "Pezeshkian began his address to the UN General Assembly in New York City by holding up photos of children he said were killed by U.S. and Israeli bombs.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "d57e0ebb7b64bc55",
-      "title": "IonQ shares rise after company says it made a major quantum computing breakthrough",
-      "url": "https://www.cnbc.com/2026/09/23/ionq-shares-rally-after-company-says-it-made-a-major-quantum-computing-breakthrough.html",
-      "published_at": "2026-09-23T14:32:22Z",
-      "summary": "Shares of quantum computing company IonQ surged in premarket trading following its successful test of the industry's first real time end-to-end error decoder.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "496633bfaf128dfc",
-      "title": "冰轮环境(000811.SZ)部分董高层拟合计减持不超21.04万股公司股份 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRTZfRF90VW9wMWswY2tmN1NhTnlSSVk3bndVUVB2VlhtSDMxOV9rODcyOHVOT0I1OU9ZQ0N1LUlrNHFjQkdlN0lKWXMwR3ZVUGxabFFVS2VkVVhWMGJ4bnR2STJnWGZPdXY5LUdjeVRoVkg4akJGejVHUWg0cElWYUZjVXZwY2V1WFVURGt3?oc=5",
-      "published_at": "2026-09-23T14:25:00Z",
-      "summary": "冰轮环境(000811.SZ)部分董高层拟合计减持不超21.04万股公司股份 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "28b6868c7c46a63b",
-      "title": "琏升科技：定增申请获深交所审核通过 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5NRjVNMHJxOEk3WGZVaS1NLTY0WTFjS0ZYdVJ2NFBLWl9qQnBnSTBfSE1MUDl5T0cySk1MZ0xuQWlvajZyZURCMGFWdW02QmQ1QWxZRms2ZGVHdUNJR2ZCek0ta3h2NEJqNGdCOXEzUERvNW9UX1RPTA?oc=5",
-      "published_at": "2026-09-23T14:22:00Z",
-      "summary": "琏升科技：定增申请获深交所审核通过 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "3d84cb7e004d1dde",
-      "title": "Activist Toms Capital urges Devon Energy in letter to explore alternatives, including a sale",
-      "url": "https://www.cnbc.com/2026/09/23/activist-toms-capital-urges-devon-energy-in-letter-to-explore-alternatives-including-a-sale.html",
-      "published_at": "2026-09-23T14:21:16Z",
-      "summary": "Toms, which manages just over $4 billion in assets, says in the letter it is now one of Devon's top five shareholders.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "028228d0f3f4b0c8",
-      "title": "爱奇艺创始人龚宇：AI推动影视行业步入正向循环 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5jT0d4MVFxZURTSkpPQVNmRm1VbDNjNEdueE5od3o2T3A2SlFmOHBzNElyVTY3Nk0yNzNxT290UTBWZDVIR0tVMlAydHFFWjRjWDYyN0NtVVNTaWNXUW9WN2JJWUxxb0U2M2Z3OG5jV2NVY3ZOdWVXTQ?oc=5",
-      "published_at": "2026-09-23T14:21:00Z",
-      "summary": "爱奇艺创始人龚宇：AI推动影视行业步入正向循环 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "90df1fe9cfa3f31b",
-      "title": "怡园酒业(08146)：马力及钟彩民获委任为执行董事 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWThycl93bHRKNmtaTEZEa09PeGlsaVR5Si1EX1Y5TzA4MkJta2JvRFRwUGM2QzFJOTlUNzNCeGFWV19lZnZkU083ZGI1cGQ5UV9memdVaThQRzhudVRMdXNkbC1ycmVoLWlveWUzUVBDLW5WSWtobEdudDAwQ1BfcXQxTkV6TUZucW5PTjB3?oc=5",
-      "published_at": "2026-09-23T14:18:00Z",
-      "summary": "怡园酒业(08146)：马力及钟彩民获委任为执行董事 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "0b0158cc76374db2",
-      "title": "百本医护(02293)发布年度业绩，年内溢利623.5万港元 同比减少64.45% - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQem96WXplRXFiM1BieWxvMEx6X0JwSzJkQWRKbTdTUWpqRk56YV9LWGFNRTRvd19FU1VIamlEUVhqSmVvdVhXOUE5c2hWV01JdWpxQ0taVGVmZlZmdTRtSmEtNlB1QWZDTVM4ODNYOWo2bDhPeXpWYzJCQVl0NHhKZ2lhelhPU1cxUURpS1JB?oc=5",
-      "published_at": "2026-09-23T14:16:00Z",
-      "summary": "百本医护(02293)发布年度业绩，年内溢利623.5万港元 同比减少64.45% 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "0fa2639d8249b3b2",
-      "title": "费城半导体指数日内跌2% - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAzYklJM0JpV1JIWXZCUTN5eGl1QjJiNkdXTzBDWHJWTi1WREJyQ3M5V0Vxc3dMcDZIVkRjR3RIa19wc1RsUlE4V29LbnI0NXM1ZjYyVGtpdlhPanpNTVlPaElEVUZ5STk3SmJyUTRwX1lyZDQzRUlMcA?oc=5",
-      "published_at": "2026-09-23T14:12:00Z",
-      "summary": "费城半导体指数日内跌2% 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "c2df8f179b5031c4",
-      "title": "Iran says Trump’s threats a sign of ‘strategic desperation,’ floats conditions for Hormuz reopening",
-      "url": "https://www.cnbc.com/2026/09/23/us-iran-war-trump-hormuz.html",
-      "published_at": "2026-09-23T14:06:40Z",
-      "summary": "Tehran's proposal could pave the way for restoring traffic through the Strait of Hormuz, reviving fragile hopes for a diplomatic off-ramp.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "4e2a674ca1e75729",
-      "title": "新一届赣州市纪委领导班子产生 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4zYVdNUDNsM2tYQ2JwZFI5Z0FPVGliaVdvamlSZmtSZmlLUEU4QTFJei1ldVpzaGZhN1VUQm1Id0otbXc5LWhCMDBYc3ZkTzlXWmJqVGRfNEwwT0JKTW5qMGFyOVN4UzY3Tm1WYVUxR2xnb0hZQnRHeg?oc=5",
-      "published_at": "2026-09-23T14:04:00Z",
-      "summary": "新一届赣州市纪委领导班子产生 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "e1ba700cc29b0442",
-      "title": "纳斯达克100指数下跌0.5% - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBKYTJBVVc3Nk95RkM1b3FpNzRiZURzdVJiSkFmVzlsal8xV2NoVDJvWGczMzVURnZ4WmZyZldoNFFYY2lNUWs4cFhIMWI5OEZpMzN2WTZXemU1M0Q2a1E5M1hIcHczS1dZYlNEX00yN1psdWI2bXJoNw?oc=5",
-      "published_at": "2026-09-23T13:59:00Z",
-      "summary": "纳斯达克100指数下跌0.5% 新浪财经",
-      "source": "新浪财经",
-      "category": "美股"
-    },
-    {
-      "id": "3942a872e4033a43",
-      "title": "奥联电子(300585.SZ)控股股东将变更为骏图天泽 股票明日复牌 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdFZ5Sm9kWnZVODZXNHNrQW9FTjBRMVFxR2xpeUhrSzN3Q3NnVzNRRjlDY05SbTRhWVhyNkRGQk5odUFuX2JwVEtZSmVXUmN0YkI4SlVKNlh3RUs3QS13THk5TVRHX3E5VlNUNWtianFWTUNfYS03LWI5MnF5V3h3MWVLZmhWTlR0MlQ1VEFn?oc=5",
-      "published_at": "2026-09-23T13:59:00Z",
-      "summary": "奥联电子(300585.SZ)控股股东将变更为骏图天泽 股票明日复牌 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "1eb8111fedd75389",
-      "title": "中钢协：9月中旬钢材社会库存环比下降2.8% - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLTFIRl9SOXljc1cxbDFPR25UcXBPaEFOMWJDMmg4SXBPRVYzaEVhOWdJeHpDTTYyM1JPekpfbGtQcGpjbEppeXpUSXFJc0t0MzI3RlF6X0xaTGVHUkdsc1AwVDJwRVhlM3F6Y2VadkRVMHY3ZW4wQ2RQc0dzNVpveg?oc=5",
-      "published_at": "2026-09-23T13:56:00Z",
-      "summary": "中钢协：9月中旬钢材社会库存环比下降2.8% 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "e7fe1cfd7a616d13",
-      "title": "北汽集团张国富：已累计投入超200亿元在享界项目上 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0tYTM4WUhDWllndUx6VHVBX2xYdlhiN1VpRFl1SXVCdDlBbVRSV2tsTXRnblZDUllTUFlFTlBjeTlSbHhwaWtPYjgzRlR1VVRqbGhyc2xaYzRvLUdQQXhWMjRtTE5vbzhUajd2RTNTX0VVVEdUTElsbA?oc=5",
-      "published_at": "2026-09-23T13:53:00Z",
-      "summary": "北汽集团张国富：已累计投入超200亿元在享界项目上 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "ada18bb7d41cc234",
-      "title": "【财经分析】从算力到电力：数据中心扩张给欧洲能源系统带来新挑战 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9XeDExX3ZkZlFXQ1JEWDI5TTNhZlU5TVNQTHVxRHUyaFRqWWk5S1dGeVJ1YzFlX3V6UUZXTkRGRFdqenlXaVdZamVndHJOTDdsWTBEdEl4WnlYUkZpTUV0clp0QmRacFQza0g0eUNEN3c5VzhFRzQtMA?oc=5",
-      "published_at": "2026-09-23T13:48:00Z",
-      "summary": "【财经分析】从算力到电力：数据中心扩张给欧洲能源系统带来新挑战 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "e3c2b8677f648ed5",
-      "title": "中央财经大学数字经济融合创新发展中心主任陈端：完善估值锚体系是企业外源性融资的关键前提 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvSGF3TVJVTEliZXlZd0ZKUFRHcEt5TGdIX3lDazJlbkxQd1EySXlyY2ZiTG8tRVNKdWVDQlhKTU1BMDBmM0FKLW5mdFN2QlV5RGdWY2VsQzRMcml1T3Z0U1R1X0hFT1hmYkZDQ3p0RzVWcnZlNVpuTg?oc=5",
-      "published_at": "2026-09-23T13:47:00Z",
-      "summary": "中央财经大学数字经济融合创新发展中心主任陈端：完善估值锚体系是企业外源性融资的关键前提 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "3334aa3af9f218f9",
-      "title": "【环球财经】刚果（金）副总理称该国仍有扩大举债空间 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE04UmMzNlRrc1ZvNjlXSkFGQ2Z3ZUJubkhLdFJGc3hRUTFxbjlPWjN1NjVjZVNpQ3hMSzIxdzNCQ2VTdVhrb2tyX2J5czEzbGpKd2tyc3hFdm44My01eWdBdHF3TFU2aHR2SW53bnZvalBHQnItNU1pRw?oc=5",
-      "published_at": "2026-09-23T13:40:00Z",
-      "summary": "【环球财经】刚果（金）副总理称该国仍有扩大举债空间 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "8be1e62d81283a66",
-      "title": "美股“科技七巨头”盘初涨跌不一，英伟达跌0.22% - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53VHBhNUZ2SXJ0Z2VqbWU0Nmhnc1pnRUM3ZGJWSnRQalZ6a0FESUV0Y19qUFE2SGhZLVpRZUdOcTUyNmhjcDFJOVgzNjNhNjlJMVUycmp6eTZWd2hPNVV2NlVfUzhYRzY2YlY2MGh0ZWVFSW12bTFabg?oc=5",
-      "published_at": "2026-09-23T13:32:00Z",
-      "summary": "美股“科技七巨头”盘初涨跌不一，英伟达跌0.22% 新浪财经",
-      "source": "新浪财经",
-      "category": "美股"
-    },
-    {
-      "id": "06586646f907b0f9",
-      "title": "Trump-Xi meeting: Why China's self-sufficiency changes the calculus",
-      "url": "https://www.cnbc.com/2026/09/23/trump-xi-meeting-why-chinas-self-sufficiency-changes-the-calculus.html",
-      "published_at": "2026-09-23T13:29:08Z",
-      "summary": "Persistent growth of Chinese exports to the U.S. is helping the world's second-largest economy ride out ongoing domestic challenges.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "6d40436b06db4147",
-      "title": "央视财经专访马斯克，这些热点问题回应了！ - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1SRXE5WW9qRHZjWldQc1h0VjE4Ulc2VnZZZkw4bEhnVk5nTmFXN1JVbWFGWXBMekdyVUtsMkpDb254eTcwbm8zUG5FYTNBQkQyaHF1Y1hZaUpFZjVSYnc0SXAtejRmZDJOazJYU0ZFY2dNWjFMcGhQaw?oc=5",
-      "published_at": "2026-09-23T13:24:00Z",
-      "summary": "央视财经专访马斯克，这些热点问题回应了！ 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "3f5fac8932829806",
-      "title": "瑞银维持苹果(AAPL.US)“中性”评级：iPhone 18需求边际改善，但中国仍是“最大软肋” - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE52Q2pyLVc4dklRNXZHRGtLWHozSHhVNUhaT2x3SmZiaXhQUmZGa1FUTEJjaVVsTjctVDdSMXBWcTZQZ1dJOHZTZjJLaWZxY3Mtck1ORDFvRlJUUzZoajdEckRaS3lZbW0yNkczZVVoSmpmSFFEbVR0NmlGYVo?oc=5",
-      "published_at": "2026-09-23T13:22:00Z",
-      "summary": "瑞银维持苹果(AAPL.US)“中性”评级：iPhone 18需求边际改善，但中国仍是“最大软肋” 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "a137dd99f30f7f59",
-      "title": "Typical job search advice isn't working in today's market. Experts' new rules for landing a role right now",
-      "url": "https://www.cnbc.com/2026/09/23/new-rules-of-finding-a-job-right-now.html",
-      "published_at": "2026-09-23T13:15:01Z",
-      "summary": "AI and the economy are reshaping hiring. These are the new strategies for finding a job in today's tough market.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "4ae64094849381ee",
-      "title": "光迅科技(002281.SZ)：控股股东拟变更为芯珂技术 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM3FkenNZQUROR2F2WXhVeTRfYzFEYVhoREpVZkttSm5iZkszZkFtMnBVSE1COGt4X19wekFRVFZVYV9nejFYbVo1a1FGNmR1Um83M0dfdjVERU9vRFhFUm9LR2I4U3RSbDRWR2dfMTFfTkJUR19nY2hLV1huOTZRR05NY1QzbU9jRGk2c1Rn?oc=5",
-      "published_at": "2026-09-23T13:14:00Z",
-      "summary": "光迅科技(002281.SZ)：控股股东拟变更为芯珂技术 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "43a33b645987ccd3",
-      "title": "【财经分析】科创债ETF规模逼近3500亿元 债券投资“指数化”进程走到哪一步了？ - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9aX0ZLVUp6ZV9ZM2JLNmdnQTFXdDRQd2JvSVI1OE5WX0JIZS10blFBaHRTT0N1MUFJZFVFRklHdkM3OHQ2YUxtZjhhRkhfUUNJUF9mTXd4dmxHc0gyM1hpYVFhZk9JWHUwVTQyX0NXelVqclUzNGRTNw?oc=5",
-      "published_at": "2026-09-23T13:12:00Z",
-      "summary": "【财经分析】科创债ETF规模逼近3500亿元 债券投资“指数化”进程走到哪一步了？ 新浪财经",
-      "source": "新浪财经",
-      "category": "基金"
-    },
-    {
-      "id": "050a6bf352106068",
-      "title": "Our top 10 things to watch in the stock market Wednesday",
-      "url": "https://www.cnbc.com/2026/09/23/our-top-10-things-to-watch-in-the-stock-market-wednesday.html",
-      "published_at": "2026-09-23T13:08:43Z",
-      "summary": "Microsoft lands an analyst upgrade, and Meta Connect is here.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "b8371ab5ccdf3420",
-      "title": "McDonald's will spend big on restaurant upgrades, training to drive growth",
-      "url": "https://www.cnbc.com/2026/09/23/mcdonalds-investor-day-remodels-training-chicken-growth-plans.html",
-      "published_at": "2026-09-23T13:05:24Z",
-      "summary": "The plans are part of the fast-food giant's new growth strategy, called McDonald's > NEXT.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "a072734450605ea3",
-      "title": "CPU需求升温、供给承压，英特尔回应AI算力变化 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5tNDVDbEpOeWZIVEJZMDdHaTVmVkVZYnhkMk15Y3JEdDV1QVhGSE5WR3haM2ZwNG02enBNWU9fQWJpTEhSbmIySmtWeDRYVzlwd3ZFQTFVTDUxTzZ1eWo3YlFRdW12NU1hb2F5WER6T0w2ZG9MeXk3TA?oc=5",
-      "published_at": "2026-09-23T12:49:00Z",
-      "summary": "CPU需求升温、供给承压，英特尔回应AI算力变化 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "a21e7ace2a0590cf",
-      "title": "AI进化速递丨千问发布Qwen-Audio-3.1 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE11V2c0eWtUUE9aLTZEVDVFWUZYNzZwQmRuU1ZVUHUwRlBDN2E3cGFncHlERmpGeGo3ZkZDUGdLT1F4bE55R0tnYy0wRzQwaXlVSUFNTjRaVzV5UXVkQUx1ckFZTVhWVXU4QXZWbnR1Sk85bEVtektsOQ?oc=5",
-      "published_at": "2026-09-23T12:46:00Z",
-      "summary": "AI进化速递丨千问发布Qwen-Audio-3.1 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "1e91a745ddecc9f1",
-      "title": "Trump-Xi summit puts AI safety talks on the table but neither side wants to slow down",
-      "url": "https://www.cnbc.com/2026/09/23/trump-xi-meeting-ai-safety-chips-us-china-dialogue.html",
-      "published_at": "2026-09-23T12:42:03Z",
-      "summary": "Recent weeks have seen AI safety fears reach new heights. That will be a key focus for the U.S. and Chinese leaders, analysts told CNBC.",
-      "source": "CNBC",
-      "category": "美股"
-    },
-    {
-      "id": "6ada2d38bce3a4b8",
-      "title": "深振业A(000006.SZ)拟1.7亿元出售部分物业资产 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdWx5S3VqOHIwX1U3Wld2dE9FM0lnQXM0NWxvaHVOM2NtdFQ0cWhla3BYZkNBS1V4eWR0Q0x6SHBJVWIxNDJVSjJjTkdrcm1QN19UUjgtNXl4SVBnNkp5WkJqT1VkaGVlNDRkUndiVF9YV1pmOWVhWkRrcjJJQ1NtU2JEbl9VYnlKSGxVcEVB?oc=5",
-      "published_at": "2026-09-23T12:30:00Z",
-      "summary": "深振业A(000006.SZ)拟1.7亿元出售部分物业资产 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "0d189b0b81c0aa83",
-      "title": "营收下滑超7成！马上消金的“换挡时刻”：IPO搁浅，换帅求变 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOV0VRc3ZwZGJaQ0d4X2t1YTJLMU93X29MNnIzTU5JMEVSN2E3YXR6M0VWLWdFejgxMUJaV2p0emlSVkNBV3Y5SEJmWDZEaVJZcWdYQ1BCRWNwZHB1SkstYkZ3TTZEVlp5aE9lNWJuZTRIUW5wTmJHRE1xNHVXeE1OczBqT1o2MFhmOENfdE83dkY5b0RIM21pWGYwaHM3QW5kUmNBd05sYWJoM182NXdJVzg3Zk14WmhUWlJub0I4SDdka0dzeTR3WkdnTkd3bzl6SHA4ZnFkV3llNXlJeE9r?oc=5",
-      "published_at": "2026-09-23T12:14:00Z",
-      "summary": "营收下滑超7成！马上消金的“换挡时刻”：IPO搁浅，换帅求变 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "9fbd650f122ee563",
-      "title": "正泰电源(002150.SZ)拟推2026年员工持股计划 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVVFoSTdXUGcxNkRDMGZWOU52VC12NFVFWDdINGs4RERoZmI3d0hfOGlqbUlNS3d4ZE5ORjFsWnFZTGhOdkt1dHdZanFCeHVfOGNUbXFqOGF6Rng5UVNTZjM1aHdPNEE3cmNWUnlzSzd3Y1lhQmlyelMzaTNldEpKVmtHRVk0WDkzZndRVEJn?oc=5",
-      "published_at": "2026-09-23T12:12:00Z",
-      "summary": "正泰电源(002150.SZ)拟推2026年员工持股计划 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "e7d2983249afbf55",
-      "title": "太平洋酒吧(08432)：梁位谦获委任为财务总监、公司秘书及授权代表 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNFZJU2dWblVQSGdpNDRYVVBRaUR6SjZGR0hEQnFmRkMzYVY4WWJySE0yTFNTZDV5aVVmbkNRek5PSFRlUXBGQ05LSDlYc0I4R2d4RnVFMFBMYUZVQXROVURSdjdIX2xqSFFVaEZkMl9wUXV6azMtNWc2MFBDNkpwU2lyOHJQV2tLZzBzbGZB?oc=5",
-      "published_at": "2026-09-23T12:05:00Z",
-      "summary": "太平洋酒吧(08432)：梁位谦获委任为财务总监、公司秘书及授权代表 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "3a994dfd96287367",
-      "title": "【环球财经】德国博世集团上半年销售额464亿欧元 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcW9mbWdKYlRXbG1PSTEzSkV2bmE0M3RnUng4MjNMQVhjaWF0aGlPWjM2VlNRNGVoTFhfdXJEeTNhUFpVa1VrSWxJTHFoN3Z5UExMS2RtYW5HVU9kclFXcVo3aHh0T3ZWTy1kWHZENkJHeW40WW5IdE5iSEZCNXN3VQ?oc=5",
-      "published_at": "2026-09-23T11:56:00Z",
-      "summary": "【环球财经】德国博世集团上半年销售额464亿欧元 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "2c9e380c108bcd63",
-      "title": "Meta's Muse reignites AI disruption fears. Traders are targeting this brokerage stock as next casualty",
-      "url": "https://www.cnbc.com/2026/09/23/metas-muse-ai-causes-schwab-selloff.html",
-      "published_at": "2026-09-23T11:51:23Z",
-      "summary": "Meta's latest consumer AI product is sending such big shockwaves through the market that it's even inflaming a long-time rivalry in the brokerage business.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "cd3572f77327571f",
-      "title": "Trump administration is examining whether a diesel export ban is feasible, Treasury secretary says",
-      "url": "https://www.cnbc.com/2026/09/22/trump-diesel-export-ban-urkaine-russia-iran.html",
-      "published_at": "2026-09-23T11:49:49Z",
-      "summary": "Republican lawmakers have called for an export ban as high diesel prices hit farmers and truckers ahead of the November midterm elections.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "602cd87bb863baaf",
-      "title": "Nearly 10% of borrowers opted for riskier mortgages last week, as rates soared over 7%",
-      "url": "https://www.cnbc.com/2026/09/23/nearly-10percent-of-borrowers-opted-for-riskier-mortgages-last-week.html",
-      "published_at": "2026-09-23T11:44:32Z",
-      "summary": "As mortgage rates rise, borrowers are seeking savings in riskier, adjustable-rate mortgages that offer lower rates.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "0c95fcd2de324bc2",
-      "title": "纳指ETF易方达(159696)将于2026年9月24日开市起停牌 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE01a2lRWkhMMEl6ak9IbnlqWEVUMUFkOWVDcDFLYUo4VnJEYl9yMmY5VFNnOWZfa2g3amxCWmFLZk1CNS15R0lUem8yVkJvdlIxSUVydmZiNTRhS0JoOXI2TTI2UV85Y3lBcS15b2ZzOUR5MjhkNHVuTw?oc=5",
-      "published_at": "2026-09-23T11:43:00Z",
-      "summary": "纳指ETF易方达(159696)将于2026年9月24日开市起停牌 新浪财经",
-      "source": "新浪财经",
-      "category": "基金"
-    },
-    {
-      "id": "c8aea08dd8c71a35",
-      "title": "美股三大股指期货下跌，纳斯达克期货下跌0.3% - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5wd002ZU1qZ3hvRkd2Qy1xWjFXLWtaT1NTWS16LUJLa1ZjWkVoQkJpeWUwZXlvZE1zNE9UaVZIVVpDTDRDX0RvRlZlWVFsbDFINURsLTFvb2FfTWUtVHhNaWxLSTllNW5BSWU3Q25JU0M1Z1BQV2FKQw?oc=5",
-      "published_at": "2026-09-23T11:38:00Z",
-      "summary": "美股三大股指期货下跌，纳斯达克期货下跌0.3% 新浪财经",
-      "source": "新浪财经",
-      "category": "美股"
-    },
-    {
-      "id": "d2ed9aa17f6d90a2",
-      "title": "任正非，最新发声 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5idzlVRFdLc19FODlRM1NYWlMtYVNRTTVKOUh3eTZNaGQ5T0d3R3ZCZ0dQZnQ1a3pLZ0xsYUc0eFNfMVl0d1dfZlFSSElmUVRyOUh0YklhOTZMS2hsZHZQTmhsNW1VSENnZ0VocHAzWHJjYjBMMkE?oc=5",
-      "published_at": "2026-09-23T11:10:00Z",
-      "summary": "任正非，最新发声 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "8c949755405d9491",
-      "title": "卢伟冰：小米18 Fold中折叠手机，首销销量同比上代大折叠增长300% - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOG9LVmxhZV9rNlNoc0RONm0xdldjdFo3eDUwUUxYMENsTU80bkI1dmNsLTA2ZlZDNzBsT0N6MmJCR2plbzBGQjh2NVE0azhQVzdvYThzWDZaWWx0N0pDNGN3UHluTVhVS2VGMzNIWElYbDU2bnJDUjVKV1NwSWZKc3RHWFNpYzVoYkxRWlEyYXZ2eS1DYU85TG5IVEZtOE1oWGFKQUlqdVNWMlNxX1NDdWNCZlRMM3NCUXJFLWUzMGptZ0x0d0hLX1dTeUNHc0pE?oc=5",
-      "published_at": "2026-09-23T11:08:00Z",
-      "summary": "卢伟冰：小米18 Fold中折叠手机，首销销量同比上代大折叠增长300% 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "5751db6ca95ce3c0",
-      "title": "对话花旗首席可持续官：全球银行业ESG已进入“落实阶段” - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPeE15M0ZNZjJCaF9HRXYtVjlCdVNvamR3UzB5YmhGU3paYUVTb1U1dDNpUDA2VTNBbWFnbmRxWTdjakRXNDhJR18yRk9DVERPcm9MbzVvYnVqUzFVMTM3OVRPMlRqLVdDYVRuWmhzRmNUc2pSZjk4d3N1aXQtOWRLdkVRT1I4bkREV0gzU0VYTmEtb0UwWmRvbjlzRDAyWGs1aXZydXRwSUhoMG9rbDZUSHN0ek5nUUNZeDU3akdoX1F5VHlPQzVUZmdHN1REdW9jTGc?oc=5",
-      "published_at": "2026-09-23T10:26:00Z",
-      "summary": "对话花旗首席可持续官：全球银行业ESG已进入“落实阶段” 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "4494bd18b57edf13",
-      "title": "Texas turning blue may hinge on Democrats harnessing data center opposition",
-      "url": "https://www.cnbc.com/2026/09/23/texas-data-centers-election.html",
-      "published_at": "2026-09-23T10:00:01Z",
-      "summary": "Data center opposition is reshaping Texas' 2026 governor and Senate races as voters raise concerns over power, water and utility costs.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "9622aa38442f5054",
-      "title": "Europe's economy surprisingly resilient amid war-driven energy shock, surveys show - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORjhMRFNMVWI2VzNSa2lZSEtxWXlLajBkRWhUMGlQM2xiall6TmJnMDNDTmdlbmVYa2l5UFdQRlZIYVFoSXNVZnNSelNWV0Nza2tPcnR0X2t0d0VYLWVrNUk5d1c4V08zSjlRT1ZtMzJwRW8xNllSeVJzODlRSlk5Q2FoM3pBQXRkblhkUTQ1Z1pUV0hDOUJTbEpZcTZ4TVk3TjNEUWxNbHFFb1FxQkVReUdoejY?oc=5",
-      "published_at": "2026-09-23T09:50:37Z",
-      "summary": "Europe's economy surprisingly resilient amid war-driven energy shock, surveys show Reuters",
-      "source": "Reuters",
-      "category": "宏观经济"
-    },
-    {
-      "id": "393e3e2f78a68327",
-      "title": "AI drone maker hits $6.4 billion valuation as Ukraine war spurs defense tech",
-      "url": "https://www.cnbc.com/2026/09/23/ai-drone-maker-ukraine-war-defense-tech.html",
-      "published_at": "2026-09-23T09:47:31Z",
-      "summary": "Tekever is one of a number of European defense tech startups raising sizable rounds amid a rearmament campaign from countries in the region.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "67681e3838e605d2",
-      "title": "South Korea pushes for Trump summit with renegade North Korea, seeing opportunity for peace",
-      "url": "https://www.cnbc.com/2026/09/23/lee-jae-myung-trump-kim-summit-north-korea.html",
-      "published_at": "2026-09-23T09:22:51Z",
-      "summary": "South Korea pushes for Trump summit with renegade North Korea, seeing opportunity for peace",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "e8c026d2f161740d",
-      "title": "AI is killing the grunt work, forcing companies to rethink entry-level hiring",
-      "url": "https://www.cnbc.com/2026/09/23/ai-workplace-graduate-entry-level-junior-hiring.html",
-      "published_at": "2026-09-23T08:42:34Z",
-      "summary": "AI is becoming increasingly adept at tasks usually given to junior employees. Some fear the impact it might have on entry-level hiring.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "3881a84d641ff7a1",
-      "title": "Soybeans, planes and rare earths: What they say about fragile U.S.-China trade truce",
-      "url": "https://www.cnbc.com/2026/09/23/trump-xi-summit-us-china-trade-rare-earth-soybean-plane.html",
-      "published_at": "2026-09-23T08:25:41Z",
-      "summary": "Uneven delivery on soybean, plane and rare earths commitments points to a fragile U.S.-China trade truce, with both sides upholding a careful détente.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "b7f826fc1427a32b",
-      "title": "Britain's JD Sports says Nike turnaround is only a matter of time - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdk5mdHpYU1FCWk5Rdkh4TWxGY2I4QUpVT2lRUlQ0cEppeXVXVXllV3I5Y0h1XzJTR0p3ejVQOWF2SVAtY1hscDJ4dE9jR0t5RXVocndtRUZjTFBqWkxROEE2VHN2SExpMVNEemVyaURCalltc0ZRbnpXWkV1NEZuSVR3akdnN2FYYWVmRXU5T0UwTV8wNU9IOENCN3pfTk9NMU5fNnBfWVF0OVhkQWNUNTBnMEFGOTBPd3RtTQ?oc=5",
-      "published_at": "2026-09-23T08:21:44Z",
-      "summary": "Britain's JD Sports says Nike turnaround is only a matter of time Reuters",
-      "source": "Reuters",
-      "category": "宏观经济"
-    },
-    {
-      "id": "d2dfa9e3b561814a",
-      "title": "港股老铺黄金跌超3% - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ldUJxakdOc1B4Q1lvV3NEX0k5VzdzZXhfMnFTSXRWcjRBYTZFMVZ1QWc0UEtCNlhOVl9WbDA5RU1tWHQ3dHlNVTBEVnVoMmdiU3hObXlqOEZ5SEtXTDN3M1V1b1ZocDh2cFprVzBpdllsMHF3b2J4Nw?oc=5",
-      "published_at": "2026-09-23T07:53:00Z",
-      "summary": "港股老铺黄金跌超3% 新浪财经",
-      "source": "新浪财经",
-      "category": "港股"
-    },
-    {
-      "id": "172659a46eba0574",
-      "title": "Fed's Collins warns inflation could be 'notably' higher after backing rate hike",
-      "url": "https://www.cnbc.com/2026/09/23/federal-reserve-inflation-interest-rates-ecb.html",
-      "published_at": "2026-09-23T07:33:14Z",
-      "summary": "There is \"an increased likelihood\" of inflation staying \"notably\" above the Federal Reserve's 2% target, Boston Federal Reserve President Susan Collins said.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "431a5db357832e2d",
-      "title": "【财经分析】日本制造业重镇传统优势面临新考验 从“招人”到“借智”寻找应对之策 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9zM1MwaGFxZWF0d3BiWkRwSVdaZWRkZl9CTEExWVMtYkJoTHNRNjlvOWpjdmE4YlNRcll4ODdnUmRDQnNLUlZGdmpoMlFTY3VmOTBYLTRFSVoyUEg4V09pTUVmX3JiYXdsZnduYzR3WmktYnVtODI0cg?oc=5",
-      "published_at": "2026-09-23T06:19:00Z",
-      "summary": "【财经分析】日本制造业重镇传统优势面临新考验 从“招人”到“借智”寻找应对之策 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "b357628096bc8ec9",
-      "title": "智谱跌超10% MINIMAX-W跌超5% - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9DTms1UVEwdkRzWTVYS3g3UEkxUzZ0N1g2NHkzSy0tbEFMRDY2WEU5bnBIZ25QSTFlaE9keWs2NHNlNHF3ck1XNXpIalRRdm1Yd1VUbFoyMEtMWlNGdU45VkpOZmpwUk1vUWVoaXlVdzAwVzhINmtveQ?oc=5",
-      "published_at": "2026-09-23T06:09:00Z",
-      "summary": "智谱跌超10% MINIMAX-W跌超5% 新浪财经",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "2313114f70f903ef",
-      "title": "地产股持续大涨 业内人士：全国性政策的可能性不大 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiRW1tNjlURy1qLURXaE1WVk45MkNDTmozdXprQWNybWsxeXdDSVc0UkU5Z296NTAwVnl5ZmJqSGFBSENNV0pxSC1DYmJobGZVWThMQ1dqNUF3cU80V0U4Sg?oc=5",
-      "published_at": "2026-09-23T05:54:23Z",
-      "summary": "地产股持续大涨 业内人士：全国性政策的可能性不大 东方财富",
-      "source": "东方财富",
-      "category": "宏观经济"
-    },
-    {
-      "id": "b8ef1af7cae5a96b",
-      "title": "India business activity rebounds in September to 3-month high, PMI shows - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOUdTYVdOMDlZNTk0U3BITFNsd1lIbmJjd3c2Q2hycUxIcmNoZkh2NlpOcmJFZV9KR096VjZidFU1UjV5b2Y4VDUtVUVTUHZDamZxOWdKQmxIZjBwLU1hRmFTOUxjRXdiQ3dlaTVldGdWaHdSNVgwczk4Z0dhT1kxamtyLXpURVplRFNpWXJid295cWZ5dDJEdjJmLWk1WEhUQ1lSS0FGLTBWd01Mcl9QbFNzbw?oc=5",
-      "published_at": "2026-09-23T05:39:00Z",
-      "summary": "India business activity rebounds in September to 3-month high, PMI shows Reuters",
-      "source": "Reuters",
-      "category": "宏观经济"
-    },
-    {
-      "id": "7eb587f4318cad87",
-      "title": "Rupee slips as dollar gets Fed hike expectations tailwind - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbVNmdlVNbHl0UDFJQll5ckV0NHkzNXZVTmhvdlVPNk1Bci1RSXJRV2RRc3FVRm4zTlNONm15dlNZOFhNTzlOYVFnVWJQUUJmWnMzZnJCdzV6RV9OblJldlBZMExybTBaVDk2X0VVbXVYNHVTNy1wcWF4TzdiVXZNbXBSYnpYZjhsVzNjZTJhWF8zR183OXBCX0lWMm1TamR5WjRJSjhrMWZ2UQ?oc=5",
-      "published_at": "2026-09-23T02:46:00Z",
-      "summary": "Rupee slips as dollar gets Fed hike expectations tailwind Reuters",
-      "source": "Reuters",
-      "category": "宏观经济"
-    },
-    {
-      "id": "769d97d8744fb174",
-      "title": "Global stocks stall, oil ticks up as investors await Mideast peace signals - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSzB2Vlh0Nm9MZUlDRnA2S1pIMUJXWmZtdlZEVUdFRDV2WEJ1U3pLQnJKUFNBU3YyZGxXZ0trVk1tdm9lVFp0aEh5N0VpVUdOZDNWYjRzOTdUVW84bEYwYnZHNEQ1X213dHl5OGlpQWNSUEFkdXRpRC1rUTRDaDRBMFh2Zw?oc=5",
-      "published_at": "2026-09-23T01:51:00Z",
-      "summary": "Global stocks stall, oil ticks up as investors await Mideast peace signals Reuters",
-      "source": "Reuters",
-      "category": "原油"
-    },
-    {
-      "id": "4fef4e69791b4e19",
-      "title": "Dollar hits near two-month high on Fed rate hike prospects - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ09vVklTVy1TeFR1N3AzZE9MUHJnb0dWeTVVUXJOS1N1dE1lT0ZSX1BSZ3RnMzVoVTdXTHhldmxGZkhCYkVTaHRMLWFrU2FUQVJhbzZHWld6TnZ5OFdXTGNDWXNUbTl1NE9qSmV5a3ZiQ0FUa3laZUdZVjRZZmNwazFoNDlKVHlkdEVQdzVLM01pb3M0S0x2VkFqN0dJRzhOLVZkenlmQzNxTVRVVm9reFRUN1psM1ZkbW1ycUhYU0VMM28?oc=5",
-      "published_at": "2026-09-23T01:43:00Z",
-      "summary": "Dollar hits near two-month high on Fed rate hike prospects Reuters",
-      "source": "Reuters",
-      "category": "宏观经济"
-    },
-    {
-      "id": "ed0e64c0efc424df",
-      "title": "【财经分析】科创债ETF规模逼近3500亿元 债券投资“指数化”进程走到哪一步了？ - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5IS0JxUlp5bER5Q3RnZWlKam12M19jMlpzM3d3dHJfa1Y1U2tWTTRLSXIyYU9VXzl1czdaNkhzNXcxX0RULWI3cnJlRklKQlkwZE9hS1E1Q3VseHF4WEtyZHpPY3Z0dw?oc=5",
-      "published_at": "2026-09-23T01:42:21Z",
-      "summary": "【财经分析】科创债ETF规模逼近3500亿元 债券投资“指数化”进程走到哪一步了？ 东方财富",
-      "source": "东方财富",
-      "category": "基金"
-    },
-    {
-      "id": "14dcf7253f36bd5d",
-      "title": "CFTC says prediction markets' 'mentions' contracts present a higher risk of manipulation",
-      "url": "https://www.cnbc.com/2026/09/22/cftc-prediction-markets-mentions-contracts-have-manipulation-risk.html",
-      "published_at": "2026-09-23T00:58:16Z",
-      "summary": "The announcement comes after reports in August that the agency was conducting an internal review into the event contract type.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "4ee4552712286c56",
-      "title": "Here's who we know is going to the Trump-Xi dinner so far",
-      "url": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html",
-      "published_at": "2026-09-22T23:43:43Z",
-      "summary": "Very little is known about which Chinese business executives, if any, are expected to attend.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "1f414e2c20b7c8fe",
-      "title": "Qantas to start selling tickets next year for its New York to Sydney nonstop flight",
-      "url": "https://www.cnbc.com/2026/09/22/qantas-flight-new-york-sydney-nonstop.html",
-      "published_at": "2026-09-22T23:00:01Z",
-      "summary": "Qantas plans to start selling tickets for its first New York to Sydney nonstop flight.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "69293953ee9dc9b3",
-      "title": "Ban on US diesel exports would hurt, not help fuel markets, analysts say - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcFVnODdXSGNuNWJSMGVVTjMySl9oT2l0enUxVmFDaVc2S3RYMG1mMndUTWF3U0RaYXdNNGZ0aWN0WlpjYjc5NGU4alB2MTk2eFBtWktwZFFvUG15NlpicEwyd0hLb181cVh2Z09kRmNjLWoteHQ4ZDQtRjJ4LThRQS0xSlE5VGxpNGJHNEljMXlXcXlWdFoya1c0YW9ZWkxya3BsVTJvTERZYTU3dHBrXzln?oc=5",
-      "published_at": "2026-09-22T22:54:00Z",
-      "summary": "Ban on US diesel exports would hurt, not help fuel markets, analysts say Reuters",
-      "source": "Reuters",
-      "category": "宏观经济"
-    },
-    {
-      "id": "df48716eaec3b1d9",
-      "title": "Republican senator calls for probe of Trump family business dealings - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQ1VINWFaTnNHOU1IY3ZueVY0UjMwWXFVTmx1bnA3RjlxT0t4Q0tUcEtpVFRqWVZpUF9JZk1kWkNPNmk0TV9UVVlfMW1sMnBHVzFLRGhpOXBlMU1EYzBrbE1jZzB4dzgtNDFUemg3ZnVpT1B1a1VJWXkwZ0tGMmtCRk80cWFoRVJVdUxPc190dGFkUzk3aUtNT1U5U2lpOW9rVXloYlA5WUhMQWd6OG9tVXhvUXM3VjZSZ0lkRA?oc=5",
-      "published_at": "2026-09-22T22:51:48Z",
-      "summary": "Republican senator calls for probe of Trump family business dealings Reuters",
-      "source": "Reuters",
-      "category": "宏观经济"
-    },
-    {
-      "id": "e07931404eddde2e",
-      "title": "Nasdaq reaches record high close, AI stocks rally - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOUI2bTZ5ZFhnZUozYjg5LXM1WHhuT24xUS0zYmRRZkViWVBreE05ZTNMWFBDSGhHTXUyQ3ZyMWhsUFdxSUlxUXVUUXVHWGRVelg3Z2RuVXo3bndwaXJfRXhEUEFERFNSUVZoaDNERnFxdnhuNkxLdVhnNDRpRGhxYndETzVJdVNnZXJESmpMNmw5QVFQODFGY2w2NzVCcFl0bXBSNjRaTQ?oc=5",
-      "published_at": "2026-09-22T22:25:27Z",
-      "summary": "Nasdaq reaches record high close, AI stocks rally Reuters",
-      "source": "Reuters",
-      "category": "美股"
-    },
-    {
-      "id": "a7ffda8a53891379",
-      "title": "周三（9月23日）重点关注财经事件和经济数据 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GMF94T2IwOGtRbXFrOGloQzh5VDVxX3g0T3N2NlFwaE4zcEVuSllmRUt6bkw1eGhTZFFDQ3FUVDBoV1NJM2xoUFpYUDN2RVFodGVSd2ZCYW1yMEl6X1dwYzZ0OVBBZw?oc=5",
-      "published_at": "2026-09-22T22:11:17Z",
-      "summary": "周三（9月23日）重点关注财经事件和经济数据 东方财富",
-      "source": "东方财富",
-      "category": "宏观经济"
-    },
-    {
-      "id": "1fc024ea693fe248",
-      "title": "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon",
-      "url": "https://www.cnbc.com/2026/09/22/trump-trades-microsoft-amazon-july-financial-disclosure.html",
-      "published_at": "2026-09-22T22:03:33Z",
-      "summary": "Trump sold tech stocks including Amazon and Microsoft when the Mag 7 stocks popped on July 20, adding $291 billion in market value in one day.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "15e78ebe99e13a7e",
-      "title": "Smaller packs, more protein: AB InBev to adapt drinks to shifting tastes - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMWxLSHRUVi1Ua1A5X29YNk1keENNX0tDcnB2V1BZeFlwYWE3YURrZzdWUFg0c0wwa0FZc1NQZElPMTRENW1DbVNJRzRheGV6Xy1JQU5jNzRSeXNzQUc4S19Melg2Y0F1S0FXTms5UmVUQnpkdVBSaVVMNEtTUkhSNElRb2cxYzJTb0lHQ2NaNWJDS3VCdF9FT2tJVFlhSW50d3ViOVVZRWNwQnM4aFNHXzljWWtTT0U5VlEzSjM1UWlQU09vc3hWSV9WT085aEpyM2c?oc=5",
-      "published_at": "2026-09-22T21:27:13Z",
-      "summary": "Smaller packs, more protein: AB InBev to adapt drinks to shifting tastes Reuters",
-      "source": "Reuters",
-      "category": "宏观经济"
-    },
-    {
-      "id": "48a796355c761f5f",
-      "title": "Qualcomm releases Android chip built for AI as memory shortage weighs on smartphone market",
-      "url": "https://www.cnbc.com/2026/09/22/qualcomm-releases-android-chip-built-for-ai-amid-memory-shortage.html",
-      "published_at": "2026-09-22T21:09:17Z",
-      "summary": "The overall smartphone market is expected to contract 14% in terms of units shipped in 2026.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "ac5629a6f230014a",
-      "title": "Trump administration removes around 760,000 Obamacare enrollments, alleging fraud",
-      "url": "https://www.cnbc.com/2026/09/22/trump-administration-removes-around-760000-obamacare-enrollments.html",
-      "published_at": "2026-09-22T21:07:21Z",
-      "summary": "Vice President JD Vance's White House Task Force to Eliminate Fraud estimates the action will save roughly $2.2 billion in taxpayer-funded subsidies.",
-      "source": "CNBC",
-      "category": "基金"
-    },
-    {
-      "id": "fff924b9e1d2070b",
-      "title": "Financial stocks fall with AI and flattening yield curve in focus - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPejZNajQteTk5RElWNTZRWHR4YV8tdF90N19DelgxWHI0X0RSTFgtRm9GVVQ2bWIzaWJ4SEFwdi1DUmZ6cXQ3dm5rYVRZdjJQaGRxMDRsZ0IyZ19mVDdHN0VlUXdObko1Y2R1Qkx1ekNDYXNnY05oN3lsUnVwYjRobXFXU2hrUEx6T3BES3Vad25fTDk5cHBjWjVFQTE4VWZCWHlkMS1TRkltc281QUVWRw?oc=5",
-      "published_at": "2026-09-22T20:52:00Z",
-      "summary": "Financial stocks fall with AI and flattening yield curve in focus Reuters",
-      "source": "Reuters",
-      "category": "宏观经济"
-    },
-    {
-      "id": "2fdcdb7c3d1b7de8",
-      "title": "U.S. regulators rush to write crypto rulebook after Clarity Act stalls in Senate",
-      "url": "https://www.cnbc.com/2026/09/22/clarity-act-crypto-rules-regulators.html",
-      "published_at": "2026-09-22T20:46:52Z",
-      "summary": "State and federal regulators are rushing to fill the void after comprehensive crypto rules failed to clear the Senate.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "e49d4398e34f536d",
-      "title": "Market participants favor Treasury parking some cash in repo market - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbzJEVHNSbi1ZdndvbzlLT3NMczBzUHVWODNZdm50U0tQcF9TMnFtYmhfUlpKaXF6TzVUU2t6OVktLWh3Y3FUckxsZTd5OHhHc2VNbC1XdV9sa0txVWV2YXQtc01tZ1JSVUVscng0c0l5WTVtVFdjdkdEMHV0NVZlNGpsOGV5SXVjeW12MXY4Qkp2RGhvNEdXVDNzd3gzTm1kRlQ0eFFQeGhkRktIRzJvWlVJVlF3dS1wSnp5MQ?oc=5",
-      "published_at": "2026-09-22T20:29:43Z",
-      "summary": "Market participants favor Treasury parking some cash in repo market Reuters",
-      "source": "Reuters",
-      "category": "宏观经济"
-    },
-    {
-      "id": "da6310b1ad0f41cf",
-      "title": "Lawmakers float gas-tax break, commuter deduction to ease pressure of high prices at the pump",
-      "url": "https://www.cnbc.com/2026/09/22/gas-tax-holiday-commuter-deduction-fuel-prices.html",
-      "published_at": "2026-09-22T20:27:05Z",
-      "summary": "With affordability ranking as a major issue ahead of the Nov. 3 midterm elections, lawmakers are introducing bills to reduce the cost of gasoline and diesel.",
-      "source": "CNBC",
-      "category": "宏观经济"
-    },
-    {
-      "id": "a5c6d40e168406bb",
-      "title": "Viking Therapeutics' obesity drug shows durable weight-loss benefit, shares surge - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVkU1WW0wcFNxNy1FMHdKaGpieUFiLUliREc4M1gzTENwWl9VTDY1amJ3QTJYc2Y2MUxyTnE2aGhJWUJWd25vMEhaMURqbFY2dk9BWXo0WlRwMENsLWZZZ0tpYUJjTFlsYTlsNWk5R2xVbWtSbXctLTBVbk16ZGhVdWdGTWpwcUNLYUJxZGdwSzlCSXhEWGNnd09wQzVhZWZMYnVkN2xKY0l1cjdDTTEyY1R1Vk43Qmpnc1RYQVJLZmpEN3o3dTBaY0JKOA?oc=5",
-      "published_at": "2026-09-22T20:10:11Z",
-      "summary": "Viking Therapeutics' obesity drug shows durable weight-loss benefit, shares surge Reuters",
-      "source": "Reuters",
-      "category": "宏观经济"
-    },
-    {
-      "id": "11cb8d1128bf992e",
-      "title": "Wall Street expects Meta's AI agent to shape into a new revenue engine - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSHZ3dUF2a3BDZVdNNW00Rm5jekRCZUlNeTdabXRaQUdNaHpqZG95QnlISWVGQTJYR3F0bWJ5MmkxUUZkYndqUkZsSG1EdXU4MFcwdE5taHp4UU1DTk16OWV0bWJDU0drdEVVb0FmMnJWUVdLbm5SRFdMdWtRMzd4NnRlUDB4bnVQd3d1Q1VmSmdVOFJQdlJtVTBQUExDeFVFdXRWbTRvVE9yTDFZdVE?oc=5",
-      "published_at": "2026-09-22T18:25:41Z",
-      "summary": "Wall Street expects Meta's AI agent to shape into a new revenue engine Reuters",
-      "source": "Reuters",
-      "category": "美股"
-    },
-    {
-      "id": "72652462a48076ce",
-      "title": "Trump hails Burnham as 'natural business person' after first meeting - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQakxzMjBKTVRJSzN2ZXZOQU9ralRZd2lVb2RwLUdjZnBsaC1IWFQtUEt2R1p4cmxIQ1hwbmxscThkUExXdHdUSUo1NmpXWEFSTV9EUGl2VmZTR0RJcmpaZ3dRZktYanlKblNmLUlTaUc5Y08tX0VqaVIweTJsQ25hRUZ3YmZic0hFVGpXX2RqcGV4ZE92TFUxd09RRlc1VFh0bU81QTRRTmhEeHR1OWFqRE5paGpSOEFsUVFZUG5UZw?oc=5",
-      "published_at": "2026-09-22T16:55:00Z",
-      "summary": "Trump hails Burnham as 'natural business person' after first meeting Reuters",
-      "source": "Reuters",
-      "category": "宏观经济"
-    },
-    {
-      "id": "af4b0a7959b33ab8",
-      "title": "EXCLUSIVE: Saudi Aramco plans reorganisation to create gas division, sources say - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMWpkb3RQV3p1VmpBdlAwTHlnTVI2bkJRSW9hWDNHV1JqRFloLXNkV0pOVDR4aXRmNkpIMzFwS0xBMU9zMFRqVUF0VThLWndEeFlSc1NMVGVYc2NiSDVkb05mZVozNGp5RWRkcjNhY2N5amZwX19QT1NGemF4djVKSU51SjRDaWg5dTUwMFpkd243bWlyejFCQWNmY29EbTF1WG9QNGNoTVJBODRHakgwMW1fX2JfaHZI?oc=5",
-      "published_at": "2026-09-22T15:41:00Z",
-      "summary": "EXCLUSIVE: Saudi Aramco plans reorganisation to create gas division, sources say Reuters",
-      "source": "Reuters",
-      "category": "宏观经济"
-    },
-    {
-      "id": "241b0f69309bba74",
-      "title": "Explainer: Why Turkey's stock market is under scrutiny after last week's selloff - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORXJNem45NUNJS2NlWDN4TVNMMzdrc00xUERuQndJd2tjeVV3Ul9EZHlSVkNxNEJ0aWtuVkt3ODZONnczYllrcnVPV0VNekZZOHpkdUljekdyRjVpSTIzcDNCa21WaFN6SnIzdU80THdlNlhKOFhaZkw4c1VZTE1WNmJnMVVLMWVYUEItdHU4NGdKM2hqQWNuc0c5dS1Wc3JGaHNGSU9Bc1d5eXlJQ1ZLMWt3UDlRYklEUldLSlVn?oc=5",
-      "published_at": "2026-09-22T14:32:12Z",
-      "summary": "Explainer: Why Turkey's stock market is under scrutiny after last week's selloff Reuters",
-      "source": "Reuters",
-      "category": "宏观经济"
-    },
-    {
-      "id": "2a9f1b0076565d97",
-      "title": "Fed's Williams says rate-control toolkit is working well - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeW9XZUd5U3BmaXhkR2F4NEgwNk1FMWtuZEd0UVVFcWgxMUZkOXRDZHJqSzI5X1U2Y01BbXY0OG04c0hmOEpqMHpERWd1WUQyVElTeUdrTmJYNFBHYTFRek1XNkZRb3FEQWxJQUZpZFhkUms0MWl5LXByUDd1Y2tIbHRtVzRzUU1zbXdZQUVwMGRCR1BnZkpnMGFUc0RmNUtvcTl2bFZ1WmE1ejk1?oc=5",
-      "published_at": "2026-09-22T14:07:00Z",
-      "summary": "Fed's Williams says rate-control toolkit is working well Reuters",
-      "source": "Reuters",
-      "category": "宏观经济"
-    },
-    {
-      "id": "9ac1e6230a1a7e2b",
-      "title": "SNAPSHOT Nasdaq hits intraday record high as tech stocks regain footing - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNlc5U2haVjdCOXFmcjZtdUJGOGtOaThkenVQS3piZGpYa0xqbHFuRU5fRHZ2TkdwVC1oZkpRSzVJNXRqU0g2M3BlakJnaVR1NUx1RG90aGRjdjJQYXo1MGg5R2w4ejJ4aXVhY3V1Qk5tX3Y5ZE5sY0dEYzlKY0c5Mmh4WDRleHFCdTM0UjVLT2dFTEVVMXFmVk00bHhhSDlFYXA5cEpGX0tvOU9YRjVraVBKaw?oc=5",
-      "published_at": "2026-09-22T13:54:11Z",
-      "summary": "SNAPSHOT Nasdaq hits intraday record high as tech stocks regain footing Reuters",
-      "source": "Reuters",
-      "category": "美股"
-    },
-    {
-      "id": "17d3a0ae57b64ad3",
-      "title": "【环球财经】德国人工智能市场规模今年预计增长近五成 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1icE9kaE9SY0s4MkV6QWxMMkN5RTF3Y0h3Z3psblEyZWJWOGtzTHFhOE4wWWJ3bWlTXzFDMDgzc3lhaU8xVXJXdmJ4bXNndHozRnN2c3BPajVlSFczdDhod2l0ZzEzZw?oc=5",
-      "published_at": "2026-09-22T13:36:02Z",
-      "summary": "【环球财经】德国人工智能市场规模今年预计增长近五成 东方财富",
-      "source": "东方财富",
-      "category": "宏观经济"
-    },
-    {
-      "id": "623ca2fa2e2b40ea",
-      "title": "ECB, EU central banks suggest dropping stablecoin deposits rule - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSXByZ1dMUmEtUkNYT0FyXzRxTVhhUWZJS0RRYU54WlNnaDRFc2lqYWF0MllMOVp1OVVEUm5OQk9yV0FCcENvZldNN1p2MGJCNWlydVpCc3lqaWI3dkFITjFjLUY5d3d0anpSU2pQWVEycUJJMTRzaGNLOUt3c3dueXA0Q0RDbkI4cnVqa05fSFZQM1l3SXRUWUVtT3p1N2JTRy14c3lOaFRMSWYtd3c?oc=5",
-      "published_at": "2026-09-22T12:30:23Z",
-      "summary": "ECB, EU central banks suggest dropping stablecoin deposits rule Reuters",
-      "source": "Reuters",
-      "category": "宏观经济"
-    },
-    {
-      "id": "2be1e35d80a0328f",
-      "title": "Global biofuel output to jump nearly 70% by 2030 due to Gulf energy crisis, study finds - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNa3h6S0hQdGMwNVRQaDNROUhRQkNQamszQ1IyRGRGdkhPeUFrTm9icnhRQlZicTdZZ01EdEpWTmFiOTk0UllMN2hQbUJkaElUWjZOWWROZk96eGZPVVQxOHV0U3VOU0YzbXZTVmNQVHRlUkFySURHeXJSdlZMUFpwWXdMa2tWRVp3dkRsWkhhb2NZbWRGa3pMejQ1QUNNMXFMTlVkc01IMTR2TzJiaU44QWNfVTNhUVBsdXd0WlVHcl8xUGo4NUV5ZVpsMA?oc=5",
-      "published_at": "2026-09-22T11:24:00Z",
-      "summary": "Global biofuel output to jump nearly 70% by 2030 due to Gulf energy crisis, study finds Reuters",
-      "source": "Reuters",
-      "category": "宏观经济"
-    },
-    {
-      "id": "49b78218358caae9",
-      "title": "Sterling steady after report says Iran may reopen Hormuz - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdzFkOFFDTDdZZ1Qta1UxWVNXUGxyd2d2M083NUVaRk9ielJtTmZ6QXl2OUJ6V2FtRmprNV83ZWg0ejhxQVBCVlJRblJUc2sxNmtkYUsyaGVGRGNUTFNQVDM2UXRZQ2g0ZWxITjNGX3ZwQ3ZvLWJCenJnZ1BJcVp1WC1RQXdIaGpIVDlCT3Myc3dqaVp0NzBWVnh1Tnc3cGNZTmJF?oc=5",
-      "published_at": "2026-09-22T10:20:28Z",
-      "summary": "Sterling steady after report says Iran may reopen Hormuz Reuters",
-      "source": "Reuters",
-      "category": "宏观经济"
-    },
-    {
-      "id": "381a2df4e9ede88a",
-      "title": "Saudi Arabia restarts East-West oil pipeline, sources say - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNmJidHFzNHlscWlnT2hsWFdKc1hNRFMxOWRnTTRQRHVHbV9tRTJySFJoOGFoZXdNdTIwMngxZlczRmY3dWJxWkNiWTRYclVyT0JoWXQyUHJpNThicmpUNDMwWjNqREdrYmw3Ty1peU9oaEtRdC1GWXE1S0o1eGlrWDZONDhqS0FDbWotZXV1LXBvTEhUWHdlT1BzYU5udjNKTTFXdk1hX0wwVk1yczRTdV94R0p4UUQ1bEViTXJ2S2pEaTVLTFlvdw?oc=5",
-      "published_at": "2026-09-22T10:08:00Z",
-      "summary": "Saudi Arabia restarts East-West oil pipeline, sources say Reuters",
-      "source": "Reuters",
-      "category": "原油"
-    },
-    {
-      "id": "f6394aa6fc70650b",
-      "title": "全球重要期指 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBJVzhXV2VUTFFRR1JtU2l6aVlkdUdMcTRxcFRIRkl2aG5BcHQzUldpSGtwd19mZDhSRVdJQmRQbWxIaHJhYWtISnVBdWJmQQ?oc=5",
-      "published_at": "2026-09-22T09:00:05Z",
-      "summary": "全球重要期指 东方财富",
-      "source": "东方财富",
+      "id": "06635ef88ed63ace",
+      "title": "《道路机动车辆生产企业及产品》（第410批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第八十九批）、《减免车辆购置税的新能源汽车车型目录》（第三十四批）",
+      "published_at": "2026-09-21T11:36:00Z",
+      "content": "根据《中华人民共和国行政许可法》、《国务院对确需保留的行政审批项目设定行政许可的决定》、《财政部 税务总局 工业和信息化部 交通运输部关于节能 新能源车船享受车船税优惠政策的通知》（财税〔2018〕74号）、《工业和信息化部 财政部 税务总局关于调整享受车船税优惠的节能 新能源汽车产品技术要求的公告》（2025年第25号）、《财政部 税务总局 工业和信息化部 科技部关于免征新能源汽车车辆购置税的公告》（2017年第172号）、《财政部 税务总局 工业和信息化部关于延续和优化新能源汽车车辆购置税减免政策的公告》（2023年第10号）、《工业和信息化部 财政部 税务总局关于2026—2027年减免车辆购置税新能源汽车产品技术要求的公告》（2025年第24号）等有关规定，现将许可的《道路机动车辆生产企业及产品》（第410批）以及经商国家税务总局同意的《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第八十九批）、《减免车辆购置税的新能源汽车车型目录》（第三十四批）予以公告。\n附件：\n1.道路机动车辆生产企业及产品（第410批）.doc\n2.享受车船税减免优惠的节约能源 使用新能源汽车车型目录（第八十九批）.doc\n3.减免车辆购置税的新能源汽车车型目录（第三十四批）.doc\n工业和信息化部\n2026年9月18日",
+      "source": "工业和信息化部 · 装备工业一司",
       "category": "宏观经济"
     },
     {
-      "id": "8433ea346369e5ec",
-      "title": "2026年A股科技赛道如何布局，汇正财经朱光宙的中长期配置框架 - 财富号",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jUTA0NjZaT2JpNkFHZWdpTHUtRlZIdE1kN2ZjY1dsTkFUV01JcmRqcXIyR1dNdEpPLWpfSmJ4NWdnTHZjY3hwZ0F4dC1ZeldwT3pqZ1kxNGRPWmF3WFRiTUI2aWgyUEJ4M3ZR?oc=5",
-      "published_at": "2026-09-22T08:59:00Z",
-      "summary": "2026年A股科技赛道如何布局，汇正财经朱光宙的中长期配置框架 财富号",
-      "source": "东方财富",
+      "id": "2e5e01b718e35c93",
+      "title": "李乐成主持召开中小企业圆桌会 强调健全主动发现机制 做好对企服务",
+      "published_at": "2026-09-20T17:49:00Z",
+      "content": "2026年9月20日，工业和信息化部党组书记、部长李乐成主持召开第十六次中小企业圆桌会议，深入学习贯彻习近平总书记关于发展先进制造业的重要指示和全国先进制造业大会精神，围绕健全优质中小企业主动发现机制、提升精准服务水平听取意见建议。部党组成员、副部长柯吉欣出席会议。\n会上，来自人工智能、商业航天、量子科技等领域的8家中小企业负责人作交流发言，介绍企业在技术攻关、场景应用、产业链协同、投融资等方面情况，结合企业生产经营中遇到的困难和挑战，提出意见建议。李乐成认真听取大家发言，就所反映的困难问题和意见建议与企业家深入交流讨论，并要求有关司局和单位认真研究吸纳、逐项推动解决。\n李乐成指出，工业和信息化部将深入贯彻党中央、国务院决策部署，加快构建促进专精特新中小企业发展壮大机制，完善优质企业梯度培育体系，一体化推进优质中小企业“选种、育苗、培优”，加强对初创潜力企业识别，把那些埋头搞技术、专心做产品的优质企业主动发现出来，推动培育服务从“坐等申报”为“主动上门”。要持续完善法律政策、优企培育、助企服务体系，推动中小企业高质量发展，不断增强先进制造业发展的动力活力。\n李乐成强调，要大力弘扬企业家精神，在推进新型工业化、加快制造强国建设中谋发展、担使命，努力把企业锻造成基业长青的“百年老店”。要永葆创新锐气，坚定不移走专精特新发展道路，持续加大研发投入，勇于向关键核心技术发起攻坚，推动企业从“跟跑”走向“并跑”“领跑”。要深耕细作主业，心无旁骛锻造核心竞争力，把产品做精、把工艺做透、把服务做优，在细分赛道上形成独树一帜、不可替代的领先优势。要找准角色定位，在固基强链中彰显独特价值，瞄准产业链供应链“卡点”“堵点”，为提升产业链供应链韧性和安全水平作出更大贡献。\n部有关司局、部属单位、部代管基金公司负责同志参加会议。",
+      "source": "工业和信息化部 · 中小企业局、办公厅、工信微报",
       "category": "A股"
     },
     {
-      "id": "6e355bfa0f743762",
-      "title": "Volkswagen China chief expects China's passenger car market to decline by 20% in 2026 - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPM1JaNGpEWmdzcXZGNllhNGZidzBnV1ZZVWxic19ocU1NaE5xeV92NzlXUTZDdDZjaS1saTVxZmYtam9MZ01zZTZDLTlJZlQwekh2QkptQlFCVUxGb1VrUzlkcWVuX1ctbDl0RV9KUFlMTEFiTEF6SHFXTFhxLUJ5SmhuX1RzQ1pjODhvOGVOOFhJRGJyWkJSdnN5M2tvRl9tdlZUNUV0VFdENWdEM2hVamNqN0ZFTlRubUNPWFA3S2s5c0JLV0ZTYTdLanU?oc=5",
-      "published_at": "2026-09-22T08:53:50Z",
-      "summary": "Volkswagen China chief expects China's passenger car market to decline by 20% in 2026 Reuters",
-      "source": "Reuters",
+      "id": "5741982ff194c437",
+      "title": "关于公开征求工业和信息化部工业软件标准化技术委员会第一届委员名单意见的公示",
+      "published_at": "2026-09-20T09:13:00Z",
+      "content": "根据工作需要，相关单位提出了工业和信息化部工业软件标准化技术委员会组建方案。为进一步听取各方意见，现将有关委员名单予以公示。如有不同意见，请在公示期间将意见反馈至我司，电子版请发送至kjbz@miit.gov.cn（邮件主题：工业和信息化部工业软件标准化技术委员会第一届委员名单公示意见反馈）。\n公示时间：2026年9月19日—2026年10月18日\n联系电话：010-64102945，010-68205261\n附件：\n工业和信息化部工业软件标准化技术委员会第一届委员名单\n工业和信息化部科技司\n2026年9月18日",
+      "source": "工业和信息化部 · 科技司",
       "category": "宏观经济"
     },
     {
-      "id": "538caeb26ec40313",
-      "title": "EU rail suppliers miss out on €97 billion a year due to closed markets, study says - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSDlBLXVlc3l5Q1dzeHhDYy01eW5HR3dleHRGVWpLR3BtTlg5SWk4VDJla2Z3dHJPaEtOSndoWnpZSHhmOHJvcUdWcmNhMGdMeE4zcXI1TkxNbEdQbFVFOVZnZjJEc2dtY1NvZFFDbVdFcFl0ZjQwOHZhZXU4T3gzc1ZudXZIT3BTN3J3dmVtTExCZGFUemZzeE1HSndmd2pidkpsLXJzSzA1RWhKdVdqb2lER2dfazRhTmIxRQ?oc=5",
-      "published_at": "2026-09-22T07:01:44Z",
-      "summary": "EU rail suppliers miss out on €97 billion a year due to closed markets, study says Reuters",
-      "source": "Reuters",
+      "id": "699ba60e7da7fb70",
+      "title": "公开征求《氢能装备（碱性水电解制氢装备）制造行业规范条件（2026年本）（征求意见稿）》的意见",
+      "published_at": "2026-09-20T09:12:00Z",
+      "content": "为规范氢能装备制造行业发展，促进产品性能和可靠性提升，支撑氢能产业高质量发展，我们组织编制了《氢能装备（碱性水电解制氢装备）制造行业规范条件（2026年本）（征求意见稿）》（见附件1）。现公开征求社会各界意见，如有意见或建议，请填写《征求意见反馈信息表》（见附件2）发送至jienengchu@miit.gov.cn（邮件主题注明：氢能装备制造行业规范条件征求意见反馈）。\n公示时间：2026年9月18日—2026年10月17日\n联系电话：010-68205341\n附件：1.\n氢能装备（碱性水电解制氢装备）制造行业规范条件（2026年本）（征求意见稿）.wps\n2.\n征求意见反馈信息表.wps\n工业和信息化部节能与综合利用司\n2026年9月18日",
+      "source": "工业和信息化部 · 节能与综合利用司",
       "category": "宏观经济"
     },
     {
-      "id": "4d53d8969499c295",
-      "title": "Oil prices settle lower as crude flows from Middle East improve - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMzJ5LUNVMlYtZzRwaGc4MDRoSlpkWFJpVkZnUWlIR2dhbHlqc3ltYXpEQTd2SmhDWlhydUFqMkpMQ2FrZkk0NzlUYWwwR0R2SDBKcWMxaklPcV9FNGpvN2tYOExMb1kzMzZFTGJrNHpvY1FvSElhUDBBSDgxakxoUTlJOXVncjJJbXQyZy15bHFkUzViQlhlTHpMeUNpa2lxN0E?oc=5",
-      "published_at": "2026-09-22T00:34:00Z",
-      "summary": "Oil prices settle lower as crude flows from Middle East improve Reuters",
-      "source": "Reuters",
-      "category": "原油"
-    },
-    {
-      "id": "3a290757d80de1e0",
-      "title": "【环球财经】国际油价21日显著下跌 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE83MDR1Y0p2N2dKdHByVUo3bzdNVTJPaEliNzFjSmZHb2hXRjRHeElSSVJpYWNuWG9Dd3ZQMEM2VGVNekxSeUtZSHZkUll6SWhzamkzYnRFakZlUEczNWFJNnF6WQ?oc=5",
-      "published_at": "2026-09-21T23:17:13Z",
-      "summary": "【环球财经】国际油价21日显著下跌 东方财富",
-      "source": "东方财富",
-      "category": "原油"
-    },
-    {
-      "id": "36eca8e08c1ba555",
-      "title": "Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbUY0bG1IQkExN3pxSFZoX1VGN0hTNkluZ1hFd1F6VzZwdWtPRExzOXRnS0prRjV1M0I3U2tfUnhZcmJSQkV6STFKbUo2YXB6S1RhNUkycUFJUXg3UXA0WW9CWkRYaVVVUGRqRmRtUERCU1I4M3ZMYXhETmY1Q3FZQU9Ob1MtMzRONFc3NVFrNzVpcTQySVRzd1dENmcxdw?oc=5",
-      "published_at": "2026-09-21T23:12:31Z",
-      "summary": "Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat Reuters",
-      "source": "Reuters",
-      "category": "美股"
-    },
-    {
-      "id": "35436e6668aeacb2",
-      "title": "【环球财经】金融时报100指数21日上涨0.75% - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBVcHJMQmsyWjNlN3IyYjBhVVpvdjZCWGdMMzRkUWl3ck4xc2ZocXdELVdiOFlHcHpRY2RDbU1aTU8wLUJaUnpxeDJVdWI0eHdhN214WFI5eVdwZ2VydGtvcnFDYw?oc=5",
-      "published_at": "2026-09-21T22:27:12Z",
-      "summary": "【环球财经】金融时报100指数21日上涨0.75% 东方财富",
-      "source": "东方财富",
+      "id": "079f12a32c5a4e73",
+      "title": "关于公开征求《有色金属行业科技成果评价规范》等10项行业标准报批意见的公示",
+      "published_at": "2026-09-18T17:20:00Z",
+      "content": "根据行业标准制修订计划，相关标准化技术组织已完成《有色金属行业科技成果评价规范》1项有色金属行业标准、《液体香皂》等6项轻工行业标准、《压剪试验机》等2项机械行业标准、《纺织行业科技成果评价规范》1项纺织行业标准的编制工作。为进一步听取社会各界意见，现予以公示。\n以上标准报批稿请登录“工业和信息化标准信息服务平台”网站（https://std.miit.gov.cn）“项目公示”栏目阅览，如有意见请于公示期内反馈。\n公示时间：2026年9月19日—2026年10月18日\n联系电话：010–68205241\n工业和信息化部科技司\n2026年9月18日",
+      "source": "工业和信息化部 · 科技司",
       "category": "宏观经济"
     },
     {
-      "id": "b865d873e7f4a0e1",
-      "title": "Porsche's decline from crown jewel to millstone for parent Volkswagen - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWlNiYlZsNUR6NldLQ2VhRzJSY2h6QlJTRDl0em5SXzlQOG1KdGNyWWYzRmFkSk1hME5jNFd3RDhSRGRJS2JzemZMdV9mM1NGeEVIZGE4TkZqcXkwMlR2aTBfVGpvUmFOaVBZNlByQ1d0NE5Qa0VGazdMakEzTmh6N3dZUFNNS05yTHZ1MDJDUmtfV1RHT3lHdktWWWp3LUZLdUs2Q2JLbXdfbEhES0E?oc=5",
-      "published_at": "2026-09-21T16:06:00Z",
-      "summary": "Porsche's decline from crown jewel to millstone for parent Volkswagen Reuters",
-      "source": "Reuters",
+      "id": "cde06368911d488a",
+      "title": "关于公开征求《5G移动通信网 智能网络数据分析（NWDA）总体技术要求（第三阶段）》等20项通信行业标准报批意见的公示",
+      "published_at": "2026-09-18T17:19:00Z",
+      "content": "根据行业标准制修订计划，相关标准化技术组织已完成《5G移动通信网 智能网络数据分析（NWDA）总体技术要求（第三阶段）》等20项通信行业标准。为进一步听取社会各界意见，现予以公示。\n以上标准报批稿请登录“工业和信息化标准信息服务平台”网站（https://std.miit.gov.cn）“项目公示”栏目阅览，如有意见请于公示期内反馈。\n公示时间：2026年9月19日—2026年10月18日\n联系电话：010–68205241\n工业和信息化部科技司\n2026年9月18日",
+      "source": "工业和信息化部 · 科技司",
       "category": "宏观经济"
     },
     {
-      "id": "ceaa6c84d46f1fa0",
-      "title": "【环球财经】土耳其扩大股市操纵调查 延长基金清算期限 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBwc1MzdWFRRVFRTDZCejM3QWhfckFka0lLZTNHWWswLUo5YWstY2Y3MVBONm1yQTlIVHRtbWFnRUU2ckxURnJZYjB1SkpIQllnNGxwOG8wWGZnU19jUk9wV3kyTHZvUQ?oc=5",
-      "published_at": "2026-09-21T13:39:39Z",
-      "summary": "【环球财经】土耳其扩大股市操纵调查 延长基金清算期限 东方财富",
-      "source": "东方财富",
-      "category": "基金"
-    },
-    {
-      "id": "2745a461521b28e2",
-      "title": "Weight-loss drug developers line up to tap lucrative market as competition heats up - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObEZFOGxYRS1mQVEzWGNzaXNkZWc1U25feEpuRUhNQ21ZcW9xTC1iWlpvWUVEc1dzSW50cFVlMF80Q09CVjV3OXZhb2hrRnlHZlYzTGViYVBvWjlrcEx0cW5FVE1HVmhGN0Y1NXhrUTJKRXBVOUNqaFJZZ2FmdzF5cnlFS180dk5vNUJFQlpRMlFEOGRsWXNndk8tMnJZX2dhRDJNYnZTb0gwSzh2RXp0dXhWTnZaUlp5UEcydzh5Mlo?oc=5",
-      "published_at": "2026-09-21T13:19:00Z",
-      "summary": "Weight-loss drug developers line up to tap lucrative market as competition heats up Reuters",
-      "source": "Reuters",
+      "id": "79289066ab085c23",
+      "title": "关于公开征求全国汽车标准化技术委员会安全玻璃等3个分技术委员会换届委员名单意见的公示",
+      "published_at": "2026-09-18T16:59:00Z",
+      "content": "根据工作需要，相关单位提出了全国汽车标准化技术委员会安全玻璃等3个分技术委员会换届方案。为进一步听取各方意见，现将有关委员名单予以公示。如有不同意见，请在公示期间将意见反馈至我司，电子版请发送至kjbz@miit.gov.cn（邮件主题：全国标委会换届公示意见反馈）。\n公示时间：2026年9月18日—2026年10月17日\n联系电话：010-64102945，010-68205261\n附件：1.\n全国汽车标准化技术委员会第六届安全玻璃分技术委员会委员名单\n2.\n全国汽车标准化技术委员会第六届灯具及灯光分技术委员会委员名单\n3.\n全国汽车标准化技术委员会第四届电子与电磁兼容分技术委员会委员名单\n工业和信息化部科技司\n2026年9月17日",
+      "source": "工业和信息化部 · 科技司",
       "category": "宏观经济"
     },
     {
-      "id": "f11be438940ef8c8",
-      "title": "ECB opens blockchain link to financial markets - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZUplN3d1UkJIeE40bnNjTHZjNk5qcThPM3JXSW8wNU9QSnhWLXRGTFpsZnVvV1dpZ0h5WFA2Qlk1MndSLXExVlBDeHN2eUxIV0szTFN0bUlGM3FOa09pek92S1haR2lRRHRYd0NJQXRlUXhLQ3NnTWJ2Tks1TEhyaGhvSEU4UVVkOXJmZ3pnNUhvR1FFVnBvSmRkcVc?oc=5",
-      "published_at": "2026-09-21T10:26:51Z",
-      "summary": "ECB opens blockchain link to financial markets Reuters",
-      "source": "Reuters",
+      "id": "4f82a3c25f4358a2",
+      "title": "关于公开征求《冶金企业煤气管道防泄漏排水安全要求》等11项强制性国家标准制修订计划项目、《乘用车后碰撞安全要求》等2项强制性国家标准外文版计划项目意见的公示",
+      "published_at": "2026-09-18T16:59:00Z",
+      "content": "根据标准化工作的总体安排，现将申请立项的《冶金企业煤气管道防泄漏排水安全要求》等11项强制性国家标准制修订计划项目、《乘用车后碰撞安全要求》等2项强制性国家标准外文版计划项目予以公示（见附件1、2）。\n如对拟立项标准项目有不同意见，请在公示期间填写《标准立项反馈意见表》（见附件3）并反馈至我司，电子邮件发送至kjbz@miit.gov.cn（邮件主题注明：强制性国家标准立项公示反馈）。\n公示时间：2026年9月18日—2026年9月23日\n联系电话：010-64102958，010-68205261\n附件：1.\n强制性国家标准制修订计划（征求意见稿）\n2.\n强制性国家标准外文版计划（征求意见稿）\n3.\n标准立项反馈意见表\n工业和信息化部科技司\n2026年9月17日",
+      "source": "工业和信息化部 · 科技司",
       "category": "宏观经济"
     },
     {
-      "id": "cdf106140554aacc",
-      "title": "【环球财经】土耳其旅游收入八年间由300亿美元增至650亿美元 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4xTnpLZ01SYjBjbWh6d0RNSXBrZ0VoZktPbmVKOWlwMFJmM21XRlRLSG1Rc3c2V21URDRCOVo0Vm5WcjZpRFhfUzFZWE9BbzFtdGtHV3FWNjFsYXlCOHhubWlWMlJIQQ?oc=5",
-      "published_at": "2026-09-21T09:24:40Z",
-      "summary": "【环球财经】土耳其旅游收入八年间由300亿美元增至650亿美元 东方财富",
-      "source": "东方财富",
+      "id": "4a5c7add05d4560e",
+      "title": "工业和信息化部召开党组会议和干部大会 学习贯彻习近平总书记重要指示和全国先进制造业大会精神",
+      "published_at": "2026-09-18T16:46:00Z",
+      "content": "2026年9月18日上午，工业和信息化部先后召开党组会议和干部大会，学习贯彻习近平总书记关于发展先进制造业的重要指示和全国先进制造业大会精神，研究贯彻落实举措。部党组书记、部长李乐成出席会议并讲话，部领导辛国斌、叶民、熊继军、柯吉欣、单忠德、余晓晖、高东升、钟志红、王卫明出席会议。\n会议指出，全国先进制造业大会是党中央决定召开的一次重要会议，也是首次以先进制造业为主题召开的全国性会议。习近平总书记的重要指示，高屋建瓴、内涵丰富，深刻阐述了发展先进制造业的重大意义，指明了先进制造业发展的方向路径和重点任务，把我们党对先进制造业发展的规律性认识提升到了新高度，具有很强的战略性、指导性、针对性，为发展先进制造业、加快建设制造强国提供了根本遵循。工业和信息化系统要认真学习领会，切实把思想和行动统一到习近平总书记重要指示和党中央决策部署上来，学深悟透习近平总书记关于发展先进制造业的重要论述，落实李强总理讲话要求，进一步增强发展先进制造业的紧迫感责任感使命感，持续做大做强先进制造业，为推进中国式现代化提供有力支撑。\n会议强调，要强化贯彻落实，以新担当新作为扎实抓好先进制造业发展各项重点任务。要统筹高质量发展和高水平安全，推进科技创新和产业创新深度融合，加速突破重点领域关键核心技术，实施新一轮制造业重点产业链高质量发展行动，建设高水平自立自强的产业创新体系。要坚持智能化、绿色化、融合化方向，实施“人工智能+制造”行动，加快发展新一代智能制造，深入实施节能降碳行动和绿色工厂提质扩面计划，创新发展服务型制造，推动先进制造业与现代服务业深度融合。要巩固提升完整产业体系优势，统筹推进传统产业升级、新兴产业壮大、未来产业培育，打造一批“中国制造”卓著品牌，培育一批世界级先进制造业集群。\n会议指出，发展先进制造业是一项系统工程，要完善体制机制，充分发挥各类主体的积极性创造性，进一步增强发展动能。要持续优化企业服务，完善优质企业梯度培育体系，促进大中小企业协同融通发展，加快建设世界一流企业。要提升产业治理现代化水平，健全政策法规和标准体系，深化重点领域改革，推进全国统一大市场建设，持续整治无序非理性竞争，营造市场化法治化国际化一流营商环境。\n会议强调，学习贯彻好全国先进制造业大会精神是部系统当前和今后一个时期的重大政治任务。部党组要以上率下，抓紧抓实学习贯彻工作，全面落实大会战略任务部署。各级党组织要精心组织部署，指导督促广大党员干部吃透大会精神实质，迅速掀起学习贯彻大会精神的热潮。部属单位要聚焦大会提出的新任务新要求，不断深化对新征程做大做强先进制造业的重大问题研究，为大力发展先进制造业提供理论支撑和决策参考。部属高校要把大会精神作为思政教育和课堂教学的重要内容，进一步强化对教职员工、青年学生的思想引导和政治引领。要加强宣传引导、做好宣讲阐释，增强广大党员干部发展先进制造业的政治自觉、思想自觉、行动自觉，切实推动会议部署落地见效。\n中央纪委国家监委驻工业和信息化部纪检监察组有关负责同志，部机关各司局主要负责同志，部属单位党政主要负责同志，部代管基金公司、部管相关社会组织主要负责同志，部机关党员干部代表参加会议。",
+      "source": "工业和信息化部 · 办公厅、工信微报",
       "category": "宏观经济"
     },
     {
-      "id": "f6ea29502f4d08ee",
-      "title": "财智新语 证见中国｜第十五届财经新媒体内容创作者沙龙在无锡圆满举办 - 财富号",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE85S0pXS1J1UW9pMVRMa3ViUElZVUMtX0NiZEJCbUJTd3pYWlhXM3VRMWVVZmRLRGs1OXRHVkpSNW1weUEtd2g3VFBpRkpMZndIaVF1eGJuTGc0SGpOM21xY3dOSnIxbEZwRURB?oc=5",
-      "published_at": "2026-09-19T01:52:00Z",
-      "summary": "财智新语 证见中国｜第十五届财经新媒体内容创作者沙龙在无锡圆满举办 财富号",
-      "source": "东方财富",
+      "id": "b8010c23161bb157",
+      "title": "2026年上半年全国锂离子电池行业运行情况",
+      "published_at": "2026-09-15T16:44:00Z",
+      "content": "2026年上半年，我国锂离子电池（下称“锂电池”）产业延续增长态势。根据锂电池行业规范公告企业信息和行业协会测算，上半年全国锂电池总产量超过1240GWh，同比增长44%。\n电池环节，上半年消费型、储能型和动力型锂电池产量分别为40GWh、420GWh、785GWh。上半年，全国锂电池出口总额达到3370亿元，同比增长37%。\n一阶材料环节，上半年正极材料、负极材料、隔膜、电解液产量分别约为475万吨、300万吨、330亿平方米、220万吨，同比增长均超过50%。\n二阶材料环节，上半年电池级碳酸锂产量62万吨，同比增长44%，电池级氢氧化锂产量18万吨，同比增长5.4%。上半年电池级碳酸锂和氢氧化锂（微粉级）均价分别为16.3万元/吨和15.3万元/吨。",
+      "source": "工业和信息化部 · 电子信息司",
       "category": "宏观经济"
     },
     {
-      "id": "f1b6dd71b921fdda",
-      "title": "S&P 500, Nasdaq advance, turning the page on a tumultuous week - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2p6dkpCd0xfbVRBMnhySFRVbm5OSElMZXRXc0NpaGhoRmw2MzNfSUstaC1RVFFnUU1DNUM0MEpHTmxhbHJxOC1Ec2lMWU0xMFVaSVdsZGdVSi1JaWpDX093SHhBdlBkdFdGZnFpd05yYW9LRXk2NkdOMnRWSzJ2dkhuTFpDN01LM1JvNjhyamFZM2dLRFRzM24xSUZwRGVBakhwM3N3em1ycFBuWVg2UVB2OTQ?oc=5",
-      "published_at": "2026-09-18T23:10:24Z",
-      "summary": "S&P 500, Nasdaq advance, turning the page on a tumultuous week Reuters",
-      "source": "Reuters",
-      "category": "美股"
-    },
-    {
-      "id": "576650b77b807a5b",
-      "title": "力佳科技 - money.finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQTdSX1hpa3JnNGQ0Z3hMaUtCOWtkVnZkdC1wRTVJQVNFbm53S3ZDOXRON3lDeVRybFEyb0pUU3ZBellxcGhldUdETnpWOVFGUGd1SDVPdWp1OVBxWVliRGg5R3NLeU0tOHNBam8zQ0FzNzRrRFRQemxzU1FPVTlKZzItaHpUQThoakdZS3FEVmNKR21tcE9pTDA1Yw?oc=5",
-      "published_at": "2026-09-18T07:30:01Z",
-      "summary": "力佳科技 money.finance.sina.com.cn",
-      "source": "新浪财经",
-      "category": "宏观经济"
-    },
-    {
-      "id": "d3bf047fae991f1d",
-      "title": "全球及中国财经要闻综述（2026.09.18） - 财富号",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4tallqOXJGZTBwQ0Y2QXR1dk5fUTFXRkg3NGdSTUZ3STN1eWZfNHl6WTdxTGtXMk9VeUlfblhnc2RkRkZUYlpYZDZUcXFTVk1xV2JNd1JHc0JiZEM1SlNpQ2IwRUlhOU05eGxV?oc=5",
-      "published_at": "2026-09-18T00:45:00Z",
-      "summary": "全球及中国财经要闻综述（2026.09.18） 财富号",
-      "source": "东方财富",
-      "category": "宏观经济"
-    },
-    {
-      "id": "2d28d740c0b8a7b5",
-      "title": "9月17日东方财富财经晚报（附新闻联播） - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3QU1DcGE3V3dJaWR0VG43bzR3VHhVOFZxc0l0eFZUQWVVZUVqUDdJekVNTWVUV2FsbDY5TnREWWc3ZFZYXzRrYndaRWNTRV9vRFc0VkxZcm56Z3FNOU9zR3BCUFFvZw?oc=5",
-      "published_at": "2026-09-17T12:48:34Z",
-      "summary": "9月17日东方财富财经晚报（附新闻联播） 东方财富",
-      "source": "东方财富",
-      "category": "宏观经济"
-    },
-    {
-      "id": "0ee90b3d6cd0717e",
-      "title": "9月16日星期三财经主线 - 财富号",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4ya3lZNGVuU0ZNUUM3YUhRNHE0UEJGLVJyLVBJcjRUN0VZRWVROGU1RlBkS2JuNWJIbS1qTGVmQWRiU3d2clk1SHp3ajZZRGZQUHYtbEVaVzljNTBWX18wZDBUN2s4dlRxMHA0?oc=5",
-      "published_at": "2026-09-16T12:24:00Z",
-      "summary": "9月16日星期三财经主线 财富号",
-      "source": "东方财富",
-      "category": "宏观经济"
-    },
-    {
-      "id": "d626eafe684abd87",
-      "title": "9月17日（周四）重磅财经大事前瞻！八大核心事件影响A股 - 财富号",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5nV29MRXhuWnJRVWYtWTdZa09RdElXMFlJOExzbGZySHJ3SExQZDh3UUg5R1ljd2JHcjljbnRudEttM3hza1c0WkMwVm9TT0swSC1jLUo3YjdEQ2tfaXlBYzh2QzlMX2NteTlz?oc=5",
-      "published_at": "2026-09-16T11:16:00Z",
-      "summary": "9月17日（周四）重磅财经大事前瞻！八大核心事件影响A股 财富号",
-      "source": "东方财富",
+      "id": "5e22a626717cb9a6",
+      "title": "国新办举行国务院政策例行吹风会 介绍加强中小企业回款难问题治理有关工作情况",
+      "published_at": "2026-09-15T16:01:00Z",
+      "content": "2026年9月14日下午，国务院新闻办公室举行国务院政策例行吹风会，介绍加强中小企业回款难问题治理有关工作情况。工业和信息化部副部长柯吉欣，会同中国人民银行金融市场司司长曹媛媛、国务院国资委财务监管与运行评价局负责人裴仁佺、市场监管总局信用监管司司长周卫军、中国证监会上市公司监管司司长郭瑞明出席吹风会，介绍有关情况并答记者问。以下为政策吹风会实录。\n国务院新闻办新闻局副局长、新闻发言人 周建设：\n女士们、先生们，大家下午好。欢迎出席国务院政策例行吹风会。近日，国务院办公厅印发了《关于加强中小企业回款难问题治理有关工作的通知》。为帮助大家更好地了解相关情况，今天我们邀请到工业和信息化部副部长柯吉欣先生，请他向大家介绍有关情况，并回答大家关心的问题。出席今天吹风会的还有，中国人民银行金融市场司司长曹媛媛女士，国务院国资委财务监管与运行评价局负责人裴仁佺先生，市场监管总局信用监管司司长周卫军先生，中国证监会上市公司监管司司长郭瑞明先生。\n现在，请柯吉欣先生作介绍。\n情况介绍\n工业和信息化部副部长 柯吉欣：\n谢谢主持人。各位媒体朋友，大家下午好！很高兴和相关部门的同事一起参加今天的政策吹风会，感谢大家一直以来对中小企业事业发展工作的关心和支持！\n回款难问题是中小企业的“心头大事”。治理中小企业回款难问题事关中小企业健康发展、事关市场竞争环境优化、事关国民经济畅通循环。党中央、国务院高度重视。习近平总书记多次作出重要指示批示，指出中小企业联系千家万户，是推动创新、促进就业、改善民生的重要力量，要为中小企业发展营造良好环境，加大对中小企业的支持力度；要求常态化解决企业账款拖欠问题。李强总理主持召开国务院常务会议研究部署相关工作，强调大力整治大企业拖欠中小企业账款问题。\n工业和信息化部会同中国人民银行、国务院国资委、市场监管总局、中国证监会等部门坚决贯彻落实党中央、国务院决策部署，着力治理中小企业回款难问题，修订出台《反不正当竞争法》《保障中小企业款项支付条例》等法律法规和相关政策文件，对大型企业及时支付中小企业账款提出了明确要求。随着工作的推进，我们也注意到，部分大型企业在对同行“卷价格”的同时，对中小企业“卷账期”，利用其市场竞争优势地位“搞猫腻、玩花样”拉长中小企业账期。这不仅挤占中小企业现金流、影响中小企业正常运转，而且影响行业健康发展和社会信用体系建设，阻碍国民经济畅通循环，亟需采取措施进行专项整治。\n近日，经国务院常务会议审议通过，国务院办公厅印发并公布了《关于加强中小企业回款难问题治理有关工作的通知》。《通知》坚持问题导向，在深入调研和听取企业意见的基础上，针对造成中小企业回款难的堵点难点问题，以健全行业账款支付规则为基础、以加强大型企业支付行为监管为重点、以规范管理非现金支付工具为支撑、以强化资金传导效能和融资支持为保障，综合施策、协同发力，提出了4方面10条具体措施。主要包括如下：\n一是健全行业账款支付规则。\n提出分行业明确合理账期，结合行业实际制定完善结算支付管理规定，明确“付款四项关键要素”；要求发布大型企业及时支付倡议，推动龙头企业率先践行“60日付现承诺”。\n二是加强大型企业支付行为监管。\n提出对故意拉长账期的大型企业开展联合约谈整治；对滥用竞争优势地位的大型企业严格反不正当竞争执法；完善细化上市公司和大型企业等账款披露要求；发挥央企国企及时支付的表率作用。\n三是规范管理非现金支付工具。\n提出规范管理电子凭证业务，将电子凭证最长付款期限压减至6个月；从严监管电子凭证服务平台，要求平台依法合规运行。\n四是强化资金传导效能和融资支持。\n提出畅通资金传导链条；支持大型企业融资置换应付账款，及时向上下游中小企业支付现金。\n《通知》特别强调，各地区各有关部门要加强工作配合、强化上下联动，压实责任持续推进，坚持引导纠正和执法追责并举，推动中小企业回款难问题整体好转，营造大中小企业融通发展、互利共赢的良好生态。\n我先介绍这些内容。下面，我和相关部门的同志一起回答记者朋友的问题。谢谢大家。\n答记者问\n总台央视财经记者：近日印发的《通知》提出，健全行业账款支付规则，分行业明确合理账期，明确付款四项关键要素，并引导大型企业将最长付款期限限制在60日以内。请问出台这一举措的相关考虑是什么，将如何推进落实？谢谢。\n柯吉欣：\n谢谢您的提问，这个问题由我来回答。我们认为，推动行业内企业及时支付账款、保障企业资金链畅通，是提升产业链供应链韧性和安全水平、提升行业治理体系和治理能力现代化水平的应有之义、也是必然要求。当前，多数行业暂未出台专门的结算支付规则，部分大型企业利用这一“漏洞”，滥用市场竞争优势地位，通过模糊账期起算节点、拖延验收或结算、滥用商业汇票和应收账款电子凭证（简称电子凭证）等相关手段故意拉长上下游中小企业账期，造成中小企业回款难。《通知》提出，相关行业主管部门要制定完善本行业结算支付规定，并明确账期起算节点、账款支付方式及流程、货物和服务检验验收（或工程竣工结算）标准及期限、最长付款期限等相关关键内容，这就是我前面提到的“付款四项关键要素”。这四项要素指向明确、对症下药，通过规范“付款四项关键要素”并推动纳入合同示范文本，填补当前各行业结算支付管理的存在“空白点”，既为大型企业及时支付账款划定明确边界，也让中小企业对什么时候能够拿到回款、以什么方式拿到回款做到心中有数。通过持续推进制度建设、健全长效机制，逐步实现从根本上治理中小企业回款难这一问题。\n同时，《通知》积极引导大型企业将对中小企业的最长付款期限压减至60日内。龙头企业及时支付账款的行为将对整条产业链、整个行业内的企业起到示范引领作用。《通知》要求相关行业主管部门发布及时支付倡议，引导本行业龙头企业率先发布并践行“60日付现承诺”，鼓励龙头企业自货物、工程、服务交付之日起60日内，以现金支付方式向中小企业付款，当然，这里的现金支付也包括银行转账等即时到账的支付方式。通过引导龙头企业先行一步、带头表率，带动整个行业形成及时支付的良好生态。谢谢。\n第一财经记者：《通知》提到，要重点关注应付账款规模大且现金类资产充裕的大型企业。请问对此应该如何理解？谢谢。\n中国人民银行金融市场司司长 曹媛媛：\n谢谢记者朋友的提问，这个问题我来回答，我来自中国人民银行。这几年，我们发现部分大型企业为了节省财务成本、获得竞争优势，利用自身的产业优势地位，对供应商拖延付款，这不仅损害了中小企业供应商的利益，宏观上也加剧了“内卷”竞争和供需失衡。特别是，从公开的财务数据看，部分大型企业应付类账款规模比较大，但同时现金类资产非常充裕，这说明它们有能力及时付款，但却没有付款。从金融宏观视角来看，大型企业扩张应付账款等无息负债，那些被挤占现金流的中小企业就不得不向银行贷款，实际上这些中小企业承担了大企业转嫁的融资成本，这种结构上的错配也给货币政策的传导造成了不利影响。\n人民银行密切关注大型企业拖欠账款对宏观经济、产业生态以及中小企业经营等带来的负面影响，积极配合有关部门开展大型企业账款治理工作，并积极支持大型企业通过贷款、债券发行等有息的负债融资，及时向中小企业等供应商支付现金。与此同时，人民银行积极做好普惠金融工作，缓解中小企业的流动性压力。一方面，我们持续加强对中小企业的融资支持，包括落实落细前期发布的金融支持民营经济25条举措，开展金融服务能力提升工程，用好支农支小再贷款等结构性货币政策工具，健全民营中小企业增信制度。截至2026年6月末，普惠小微贷款余额达到38.5万亿元，2020年以来，年均增速近20%。另一方面，我们积极推广运用人民银行动产融资统一登记公示系统，以及应收账款融资服务平台，进一步便利中小企业应收账款确权和融资。\n下一步，人民银行将严格按照《通知》要求，积极配合相关部门强化治理大型企业账款问题，对于在银行间市场发行债券的企业，我们将强化应付账款信息披露，持续支持企业通过贷款、发行债券置换应付账款。对于那些压降账款以及账期非常明显的企业，将在债券发行等方面给予融资便利。与此同时，我们将进一步加大对中小企业的融资支持力度，开展金融支持民营和普惠小微企业发展专项行动，引导民营和普惠小微企业贷款规模合理增长、贷款质量稳步提升、贷款利率和优质客户规模保持基本稳定，进一步提高普惠金融的服务质效。谢谢。\n四川台四川观察记者：《通知》要求，发挥央企国企及时支付的表率作用，请问国务院国资委如何推动有关工作的落实？谢谢。\n国务院国资委财务监管与运行评价局负责人 裴仁佺：\n谢谢您的提问，我来回答您的问题。国民经济循环中，各个环节是相互影响、环环相扣的，广大中小企业在央企国企的生产经营中发挥着重要作用，发挥央企国企的支付表率作用，助力解决中小企业回款难问题，我想这既是党中央、国务院的明确要求，也是央企国企义不容辞的责任。\n这些年来，国务院国资委持续加大督促力度，推动央企严格规范支付行为，努力对中小企业“应付尽付、应付快付”。这次《通知》对央企发挥表率作用提出了专门要求，广大中小企业也很期待，我们也感到责任重大。为此，我们将在本周召开全央企推进会，全面宣贯《通知》，我想主要是推动央企从三个方面带头行动。\n第一个带头是带头不违约拖欠。\n确保违约拖欠“动态清零”，这是我们对央企提出的必须严格遵守的底线。当前，不少企业面临行业性周期性困难，尤其是一些中小企业的资金周转困难更为突出。央企将本着从大中小企业协同融通发展、平等互利的原则出发，对发现的违约拖欠积极筹措资金，确保及时支付。\n第二个带头是带头少开票、多付现。\n2024年以来，我们就要求央企对中小企业使用现金方式支付，今后更要把对中小企业现金支付作为一条“硬杠杠”落实好。同时，央企也将结合自身实际对其他大型企业保持合理现金支付比例，推动现金支付沿业务链条进行传导，并严格“票证”使用管理，严禁开具6个月以上的“票证”。\n第三个带头就是带头打破不合理的行规和惯例。\n有关部门将制定完善各行业领域支付结算管理规定和信息披露相关要求，我们将督促指导央企带头遵守所在行业领域的规定，率先在合同中明确“四项关键要素”，率先响应并践行行业及时支付倡议，主动做好信息披露，自觉接受全社会的监督。\n这里还有一个问题，我想可能也是广大中小企业比较关心的。就是如果央企拖欠了找谁反映？在哪里投诉？为了便于中小企业反映拖欠问题，近年来我们一直致力于畅通中小企业的投诉渠道。在央企层面，我们明确要求各央企集团必须在官网上公布受理投诉的渠道。在国务院国资委层面，2025年1月份，我们在国务院国资委官网上，开通了中央企业欠款投诉平台“二维码”。在国家层面，也有工业和信息化部设立的全国违约拖欠中小企业款项投诉平台。广大中小企业可以通过其中任何一个平台投诉，我们将督促央企不分线上线下、不分平台，严格按照法律法规和合同约定核实处理、快速响应，对违约拖欠核实一起、清偿一起、问责一起，对有分歧的，也将督促央企加大沟通协调力度，努力推动高质量、高效率、低成本解决，尽可能把纠纷解决在基层、把矛盾化解在一线。\n同时，我们也将指导各地国资委按照《通知》要求，推动地方国有企业持续规范自身支付行为，发挥国企表率作用，积极为缓解中小企业资金困难作出应有贡献。谢谢。\n中国经营报记者：新修订的《反不正当竞争法》增设了第十五条，自去年十月份实施以来，广受社会各界关注。请问，下一步市场监管总局还将如何加强大型企业支付行为监管？谢谢。\n市场监管总局信用监管司司长 周卫军：\n谢谢您的提问，我来回答您的问题。近年来，部分行业“内卷式”竞争加剧，一些大型企业利用自身在资金、技术、交易渠道、行业影响力等方面的优势地位，压榨产业链、供应链下游的中小企业，拖欠中小企业的货物、工程、服务等账款，这种不合理的成本转嫁，不仅挤压了中小企业的生存空间，还可能削弱整个产业链、供应链的韧性和活力。《中华人民共和国反不正当竞争法》增设的第十五条，对上述行为作出了明确规定，我们觉得意义非常重大，有助于改善中小企业生存发展状况，有助于促进经营者确立正确的竞争观念，更有助于赋能经济高质量发展。\n党中央、国务院高度重视解决拖欠企业账款的问题，市场监管总局坚决贯彻落实，围绕反不正当竞争法的实施，我们主要开展了以下两个方面的工作：\n第一项工作主要是加强法律宣贯。\n起草制定关于反不正当竞争法第十五条有关执法指引，帮助省级市场监管部门正确理解法律、精准适用法律。同时，我们还印发了《市场监管总局关于进一步贯彻实施<反不正当竞争法>的通知》，将防治大型企业等经营者拖欠中小企业账款作为工作重点，突出抓好落实。\n第二项主要是加强监管执法。\n部署开展2026年反不正当竞争执法专项行动，将大型企业滥用优势地位拖欠中小企业账款作为重点执法内容。会同工业和信息化部、人民银行等部门对部分账款规模大、账期时间长的企业进行约谈。赴部分龙头汽车企业调研，敦促提醒这些企业要遵守相关法律法规要求，避免滥用优势地位拖欠账款。指导地方市场监管部门及时对有关线索进行研判，对当事人进行调查检查，通过法律宣贯、约谈指导、督导检查等方式要求有关大型企业进行整改，责令退还欠款。\n下一步，市场监管总局还将从以下两个方面来进一步落实反不正当竞争法。\n一是持续加强部门协作。\n与工业和信息化部、中国人民银行等部门加强协同配合，建立信息共享、定期交流的工作机制。对故意拉长账期或者被中小企业投诉较多的大型企业，市场监管总局将会同有关部门综合运用约谈、调解等方式督促整改，多方协同化解中小企业回款难的问题，削减潜在拖欠风险。\n第二项工作是严格反不正当竞争执法。\n持续畅通投诉举报渠道，依法处置有关线索，对大型企业通过模糊账期起算节点、拖欠货物和服务检验验收（包括工程结算）的流程，包括使用商业汇票或电子凭证变相延长付款期限的这些滥用优势地位故意拉长账期的恶劣行为，查实后将依法依规处罚。特别需要强调的是，《加强中小企业回款难问题治理有关工作的通知》中，明确了各行业主管部门将明确合理账期和支付规则，为下一步反不正当竞争法执法提供了很好的参考。谢谢。\n大众新闻大众日报记者：《通知》提出要细化完善上市公司信息披露规则，引导账期较长、采用非现金支付占比较高的上市公司逐步压缩账期。请问证监会下一步将采取什么举措来帮助中小企业解决回款难问题？谢谢。\n中国证监会上市公司监管司司长 郭瑞明：\n谢谢您的提问，这个问题我来回答。对于中小企业回款难问题，中国证监会高度重视，主要做法是督促上市公司做好信息披露，形成市场约束。\n企业会计准则对于应收账款、应付账款的披露都有明确要求。在此基础上，2024年以来，中国证监会指导沪深北证券交易所发布了上市公司可持续发展报告披露指引，其中专门设置了“平等对待中小企业”议题，目的是进一步强化应付账款披露，要求披露可持续发展报告的上市公司对逾期账款的情况作更具体的披露。具体来说，重点是针对两类企业：\n一类是存在逾期支付中小企业款项的上市公司。\n公司已经通过国家企业信用信息公示系统向社会公示逾期尚未支付中小企业款项信息的，应当在可持续发展报告中披露逾期未支付中小企业款项的金额、账期设置情况、形成原因和解决方案。\n第二类是应付账款余额较大的上市公司。\n大额应付账款是逾期的重要来源。对于应付账款金额比较大，或者占资产总额比重较高的上市公司，应当披露逾期金额，以及拟采取的解决方案。截至今年4月底，沪深两市披露可持续发展报告的上市公司中，已经有超百家上市公司按要求披露了平等对待中小企业的有关情况。\n同时，我们也关注到，有相当数量的上市公司也是中小企业，也面临回款的问题。解决好中小企业回款问题，也有助于推动提高上市公司质量。下一步，中国证监会将按照《通知》要求“两手抓”。一方面，细化披露要求，引导上市公司压缩账期，及时支付中小企业款项。另一方面，加大走访上市公司力度，帮助上市的中小企业解决回款难题，缓解现金流压力。谢谢。\n澎湃新闻记者：我们知道，在重点企业的带动下，我国汽车行业整体上账期情况得到了逐步好转。作为行业主管部门，请问工信部下一步采取怎样的工作，优化汽车行业的账期情况？谢谢。\n柯吉欣：\n我来回答这个问题。特别谢谢你对这个问题的关注。我们也认为，一段时间以来，汽车企业供应商支付的账款支付期限过长，我们也认为这是非理性竞争的典型表现，增加了供应商特别是中小企业的经营压力，影响产业链、供应链稳定和经济畅通循环运行。去年以来，汽车企业贯彻落实《保障中小企业款项支付条例》的要求，积极响应汽车供应协会《汽车整车企业供应商账款规范支付倡议》，17家重点车企率先承诺账期不超过60天，并在过程当中积极推进落实。我们从行业机构调研的情况来看，重点汽车企业平均账期到目前为止是有所改善的，应付账款电子凭证，就是我刚才讲的电子凭证，支付比例明显缩减，整体的账期情况逐步好转。\n但是也要看到，当前国内车企平均账期与产业链上下游广大企业，尤其是广大中小企业的期盼还是有差距。我们经过分析之后，也认为其中是有提升空间的。比如说，由于不同企业账期的起算时间不同，我前面讲的起算节点各有各的说法，导致实际账期与“名义账期”存在差距；验收条件不明确，而且时间很长，存在变相延长账期的情况。这些情况都需要我们持之以恒、久久为功，以“钉钉子”精神持续进行推进。\n在总结前段时间工作的基础上，工业和信息化部、市场监管总局联合出台了《关于推动汽车企业规范供应商账款支付 优化账期管理的通知》，这个《通知》里面对相关的情况进行了进一步明确，尤其是账期的起算、验收、支付等要求，并建立常态化监督检查工作机制，推动提升账款支付规范化、制度化的水平。下一步，我们还有两方面的重点工作要做：\n一是持续巩固已有账期优化成果，\n指导第三方机构建立车企账期承诺调研评估机制，常态化开展账期运行情况分级评估工作。\n二是加强协同监督，\n对应付账款规模大，存在故意拉长账期或者是被投诉比较多的企业，我们要开展联合约谈并督促其整改，推动两个《通知》要求真正落地见效。谢谢。\n闪电新闻记者：我们关注到，自2020年《保障中小企业款项支付条例》施行以来，大型企业年报公示逾期尚未支付中小企业款项信息的要求已施行多年。请问市场监管总局，这项制度对推动清欠工作具有怎样的意义？下一步还有哪些考虑？谢谢。\n周卫军：\n谢谢您的提问。《保障中小企业款项支付条例》于2020年7月公布、2020年9月1日起施行，自2021年1月1日起，大型企业即按照条例的要求，将逾期尚未支付中小企业款项的合同数量、金额等信息纳入企业的年度报告并通过国家企业信用信息公示系统进行公示。应该说，这些制度的核心理念是“建立支付信息披露制度”，不是直接去干预企业付款决策，而是将原本只有交易双方知晓的合同履约情况转化为公开可查的企业信用信息。通过信息公开，形成来自银行、供应商、合作伙伴乃至社会公众的多重监督压力，从根本上解决交易双方地位不对等导致的信息封闭问题，以市场化、法治化方式倒逼大型企业主动履行付款义务，切实维护中小企业合法权益。\n这项制度施行以来，市场监管总局扎实推进大型企业年报公示工作，重点做了以下两个方面的工作来保障制度的落地落实。\n第一方面是多措并举做好年报公示工作。\n市场监管总局已连续举办两届“经营主体年报服务月”活动，持续开展“年报服务入企”行动，做好大型企业依法如实填报拖欠中小企业合同数量、金额信息的督促、提醒、服务工作，告知大型企业未年报的法律后果。将相关部门依据大型企业划型标准形成的大型企业名单，发至各级省级市场监管部门，助力基层精准督导、高效推进年报工作落实。\n第二方面是深化协同开展线索核查处置。\n我们一般会将相关部门转来的大型企业拖欠中小企业账款信息线索下发地方，指导地方市场监管部门督促相关企业履行公示义务，做到“应公示尽公示”。年报工作结束后，将未依法公示相关年报信息的大型企业列入经营异常名录，并同步至相关部门，形成工作闭环。\n下一步，市场监管总局将持续深化大型企业年报公示工作，结合当前正在开展的大型企业年报公示信息“双随机”抽查，进一步提高大型企业年报公示信息的抽查比例，完善抽查检查内容，督促指导地方市场监管部门对大型企业公示信息进行细致核查，防范出现瞒报、漏报等情况。同时，加强与相关部门的信息共享和协同联动，对相关部门转交的大型企业拖欠中小企业账款线索，建立台账、分类管理，依法及时下发属地组织核查。将抽查检查发现存在未如实年报公示逾期拖欠中小企业账款信息的大型企业依法列入经营异常名录，做到“应列异尽列异”“应公示尽公示”，充分发挥信用监管震慑作用。谢谢。\n广东广播电视台记者：《通知》提出，要规范管理应收账款电子凭证业务，从严监管电子凭证服务平台。请问如何作出该项部署，采取了哪些举措？谢谢。\n曹媛媛：\n谢谢您的提问，这个问题由我来回答。应收账款电子凭证是核心企业依靠电子凭证服务平台开具的，承诺未来在一定期限付款的电子化记录，银行金融机构依据这个电子记录给核心企业上下游的供应商提供融资服务。账款凭证业务最初是市场自然发展起来的，因为账款凭证具有可拆分流转、融资比较便利的特点，所以这几年规模增长非常快，高峰的时候，全市场一共有200多家电子凭证服务平台，电子凭证的开立余额达到3万亿元，涉及众多核心企业和上下游供应商，影响非常大。但是账款凭证业务在发展初期规范性不足，一些核心企业用账款凭证来拖延付款、拉长账期，服务平台的管理规范也比较缺乏，一些核心企业一边通过开立账款凭证、大量拖延付款，来节约自身的财务成本，另一边对拿着账款凭证的供应商收取比较高的融资服务费，甚至有的核心企业通过自己关联的保理公司为账款凭证提供高息融资，赚取利息，存在对供应商“两头吃”的情况。\n人民银行会同金融监管总局等部门，去年4月份联合出台了《关于规范供应链金融业务 引导供应链信息服务机构更好服务中小企业融资有关事宜的通知》，指导中国互联网金融协会出台了自律规则，对账款凭证业务进行了规范管理。一年多来，相关工作取得了积极成效。\n第一，\n账款凭证业务规模显著下降。截至今年7月末，全市场的账款凭证余额2.4万亿元，比规范前的3万多亿下降20%。\n第二，\n账款凭证期限是明显缩短的。政策规定，账款凭证付款期限原则上应该在6个月以内，这次刚发布的《通知》进一步严格限制账款凭证只能开具6个月以内的。同时，也要求商业银行加强账期合理性审查，审慎为账款凭证开展融资服务。截至7月末，账款凭证平均期限已经较去年同期规范前缩短了92天。\n第三，\n刚才讲的“两头吃”的情况已经得到有效遏制，部分存在“两头吃”问题的大型企业已经退出账款凭证业务。\n第四，\n电子凭证服务平台的规范性也不断提升，目前在人民银行的监管下，主要的电子凭证服务平台已经开始明示收费标准、降低收费水平，现在平均的服务费率降至0.16%，收费水平是比较低的。同时，主要的电子凭证服务平台风险管控也进一步加强，建立了贸易背景信息归集机制，对于一些逾期违约的核心企业停止提供账款凭证开立服务。目前，全市场已经有145家不满足合规要求的平台退出或者承诺即将退出。\n下一步，人民银行将按照这次发布的《通知》要求，继续严格控制账款凭证期限，进一步强化对电子凭证服务平台的监管，推动核心企业及时支付现金，缓解中小企业的回款难问题，助力畅通宏观经济循环。谢谢。\n顶端新闻记者：我们看到，《通知》对引导、支持大型企业及时支付账款作出了相关安排，请介绍一下有什么具体的支持举措，又有哪些治理措施？谢谢。\n柯吉欣：\n谢谢您的提问，这个问题还是由我来回答。《通知》对大型企业的要求比较明确，包括对大型企业压减应付账款的期限、压降应付账款的规模、提高现金支付比例，这些都作出了系列明确要求。我们也感到，大型企业在落实相关要求的过程中，可能短时间内会存在一定的资金压力。《通知》充分考虑这一情形，作出了专门安排，明确对积极落实相关要求的大型企业要加强融资供给。金融管理部门将积极引导商业银行支持大型企业通过贷款、发债等融资方式置换应付账款，缓解大型企业资金压力，让大型企业打消顾虑，及时向上下游企业支付现金。同时，会对这些大型企业加强账款监测，如果发现大型企业一面故意拉长账期、一面又不愿意用好融资支持政策，相关部门将及时介入，通过联合约谈等方式进行督促整改，对那些拒不整改的，将进一步严格反不正当竞争执法，采取失信惩戒、公开曝光等措施，形成震慑。这是对大型企业的。\n对中小微企业，大家都知道，工业和信息化部是负责中小微企业促进工作的综合管理部门，我们将多维度提升中小企业的融资效能。\n一是\n联合财政部、中国人民银行等实施好中小微贷款贴息政策、科技创新和技术改造再贷款政策，切实降低中小企业的融资成本、写好科技金融大文章。\n二是\n探索将中小企业专精特新发展的评价结果用于金融领域，这个社会也是非常关注的，丰富中小企业融资增信工具。\n三是\n设立国家中小企业发展基金二期，为中小企业专精特新发展注入长期资本、耐心资本。\n四是\n会同金融管理部门健全中小企业融资促进体系，引导金融机构加力支持优质中小企业，做好资金供给保障工作，实实在在增强中小企业的获得感。谢谢。\n周建设：\n今天的吹风会就到这里，谢谢各位发布人，谢谢各位记者朋友，大家再见。",
+      "source": "工业和信息化部 · 中国网、国新网、工信微报",
       "category": "A股"
     },
     {
-      "id": "9a7c409c06221b63",
-      "title": "财经聚焦丨平陆运河何以改变西南出海的“经济账本” - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3cHMzcWc2ZDJhMTZaSFh3UHU3RTJBU0FWS1VsREw3OUVvNnQtTUtoQThoNVhlR3laY0RFbVF1d24zTVNjVnBaS2NfMHdaMGw3dF9sNmR3ZGFwZ2tnenViLW9GNTc3UQ?oc=5",
-      "published_at": "2026-09-16T10:14:09Z",
-      "summary": "财经聚焦丨平陆运河何以改变西南出海的“经济账本” 东方财富",
-      "source": "东方财富",
+      "id": "347d3869f6983d8a",
+      "title": "工业和信息化部召开部分省份工业经济运行座谈会",
+      "published_at": "2026-09-15T08:43:00Z",
+      "content": "2026年9月14日，工业和信息化部党组成员、副部长辛国斌在北京主持召开部分省份工业经济运行座谈会，了解各地区当前工业经济运行情况，分析研判工业经济形势，研究谋划2027年经济工作思路。\n会议指出，今年以来，工业经济稳健前行、向新向优。下一步，要切实把思想和行动统一到党中央对经济形势的科学判断和决策部署上来，坚持稳中求进工作总基调，把促进工业经济平稳运行摆在更加重要的位置，加力挖掘内需潜力，抓紧推进“十五五”规划重大项目落地实施，持续巩固提升工业品国际市场竞争力，加强和改进企业服务，提振社会和企业发展信心，全力以赴完成全年目标任务，努力实现“十五五”良好开局。\n会议强调，做好四季度和2027年工业经济工作，要坚持问题导向，加强统筹谋划和政策衔接，聚焦重点行业、重点地区，供需同向发力，持续夯实经济运行向好基础，按进度要求高质量完成好“十五五”各项目标任务。要强化供需平衡，努力打通供需循环堵点，加力推进大中小企业融通发展。要加快推进产业提质升级，促进新旧动能平稳接续，积极培育新产业新赛道，加快推动人工智能产业发展和赋能应用。要加强产能治理，坚持因地制宜，突出差异化发展，找准政策着力点，营造产业发展的良好生态。要守牢安全发展底线，把安全要求贯穿产业发展、科技创新、国际合作全过程，深度融入全球产业分工合作体系，保障产业链供应链稳定运行。\n会上，河北、江苏、浙江、安徽、福建、山东、河南、湖北、湖南、广东、四川等11个省份工业和信息化主管部门负责同志作了交流发言。工业和信息化部有关司局负责同志参加会议。",
+      "source": "工业和信息化部 · 运行监测协调局",
       "category": "宏观经济"
     },
     {
-      "id": "130e5832c212b13c",
-      "title": "汇正财经钱伟实力怎么样？深度解读汇正财经钱伟老师擅长的赛道与投资风格 - 财富号",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93eGpKYWhJakZXRWxJZjBnamJQVUZ4dzdGaFlseEwxM0NVUUt6d2JuYXdSSkJrTGt4cEZyT1FieF9YSXdoZmdtNW53dTlnRFpqcE0yY0ZscENPXzZoVjNDUVlwT0N4SkJjVGpF?oc=5",
-      "published_at": "2026-09-16T10:01:00Z",
-      "summary": "汇正财经钱伟实力怎么样？深度解读汇正财经钱伟老师擅长的赛道与投资风格 财富号",
-      "source": "东方财富",
+      "id": "6188154211661d91",
+      "title": "2026年8月汽车工业经济运行情况",
+      "published_at": "2026-09-11T09:31:00Z",
+      "content": "2026年8月，我国汽车产销分别完成268.4万辆和271.2万辆，同比分别下降4.7%和5.1%。其中，新能源汽车产销分别完成165.3万辆和164.3万辆，同比分别增长18.9%和17.8%。\n一、8月汽车销量同比下降5.1%\n8月，汽车产销分别完成268.4万辆和271.2万辆，同比分别下降4.7%和5.1%。\n1—8月，汽车产销分别完成2025.5万辆和2031.5万辆，同比分别下降3.8%和3.8%。\n（一）8月乘用车销量同比下降6.2%\n8月，乘用车产销分别完成236.9万辆和238.3万辆，同比分别下降5.3%和6.2%。\n1\n—\n8月，乘用车产销分别完成1733.9万辆和1737.3万辆，同比分别下降5.4%和5.5%。\n（二）8月商用车销量同比增长3.8%\n8月，商用车产销分别完成31.5万辆和32.8万辆，产量同比下降0.1%，销量同比增长3.8%。\n1\n—\n8月，商用车产销分别完成291.6万辆和294.2万辆，同比分别增长7.5%和7.2%。\n二、8月新能源汽车销量同比增长17.8%\n8月，新能源汽车产销分别完成165.3万辆和164.3万辆，同比分别增长18.9%和17.8%；新能源汽车新车销量达到汽车新车总销量的60.6%。\n1\n—\n8月，新能源汽车产销分别完成1066.8万辆和1065.0万辆，同比分别增长10.8%和10.7%，新能源汽车新车销量达到汽车新车总销量的52.4%。\n三、8月汽车出口同比增长65.3%\n8月，汽车整车出口101.0万辆，同比增长65.3%。其中，新能源汽车出口52.6万辆，同比增长134.6%。\n1—8月，汽车整车出口715.3万辆，同比增长66.7%。其中，新能源汽车出口343.5万辆，同比增长124.3%。\n（注：上述数据来自中国汽车工业协会。）",
+      "source": "工业和信息化部 · 装备工业一司",
       "category": "宏观经济"
     },
     {
-      "id": "e58348df9d4507db",
-      "title": "格林财经早报260916 - 财富号",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBmcW9rQXh0bXNmMmVEWUltVlRMN1doZlVYVF9EZl82bVNmT285NFhlakxvemdVWklhU2hKcWxfZnloSXQ2Z1VreFgtUlhlQ3RIVUhJcmNWS09GVWliaXRaTjFyLUVOYjJIdXNN?oc=5",
-      "published_at": "2026-09-16T01:34:00Z",
-      "summary": "格林财经早报260916 财富号",
-      "source": "东方财富",
+      "id": "1186c64c3e6bc003",
+      "title": "中华人民共和国工业和信息化部公告2026年第22号",
+      "published_at": "2026-09-02T14:30:00Z",
+      "content": "工业和信息化部批准《无人驾驶工业车辆》等674项行业标准。其中，化工行业34项、石化行业15项、黑色冶金行业10项、有色金属行业9项、黄金行业1项、建材行业36项、机械行业223项、船舶行业1项、轻工行业107项、纺织行业25项、电子行业37项、通信行业176项。批准《酵母蛋白》1项轻工行业标准修改单。批准《粗梳羊绒机织纱》等2项纺织行业标准外文版。行业标准修改单自发布之日起实施。\n附件：1.\n674项行业标准编号、名称及主要内容等一览表\n2.\n1项行业标准修改单\n3.\n2项行业标准外文版名称及主要内容等一览表\n4.\n行业标准出版情况\n工业和信息化部\n2026年8月17日",
+      "source": "工业和信息化部 · 科技司",
+      "category": "黄金"
+    },
+    {
+      "id": "cdfb20f2238653a6",
+      "title": "2026年1—7月份软件业运行情况",
+      "published_at": "2026-08-31T17:26:00Z",
+      "content": "2026年前7个月，我国软件和信息技术服务业（以下简称“软件业”）运行态势良好，软件业务收入稳健增长，利润总额增势平稳，软件业务出口保持正增长。\n一、总体运行情况\n前7个月，我国软件业务收入89785亿元，同比增长9.2%。软件业利润总额10396亿元，同比增长1.3%。软件业务出口406.1亿美元，同比增长12.2%。\n二、分领域运行情况\n软件产品收入稳定增长。前7个月，软件产品收入同比增长6.3%，占全行业收入比重为21.6%。其中，基础软件产品收入同比增长9.4%；工业软件产品收入同比增长8.4%。\n信息技术服务收入保持两位数增长。前7个月，信息技术服务收入同比增长10.0%，占全行业收入的68.7%。其中，云计算、大数据服务共实现收入同比增长12.3%，占信息技术服务收入的16.7%；集成电路设计收入同比增长21.5%；电子商务平台技术服务收入同比增长5.1%。\n信息安全收入和嵌入式系统软件收入平稳增长。前7个月，信息安全产品和服务收入同比增长6.2%。嵌入式系统软件收入同比增长10.5%。\n三、分地区运行情况\n前7个月，东部地区、中部地区、西部地区和东北地区软件业务收入分别同比增长9.0%、14.6%、9.1%和4.9%。东部地区软件业务收入占全国的83.9%。京津冀地区软件业务收入同比增长8.4%，长三角地区软件业务收入同比增长10.2%，两个地区软件业务收入在全国的占比分别为26.4%、29.9%。北京、广东、江苏、上海、山东软件业务收入居全国前5，同比分别增长8.3%、9.3%、9.3%、10.5%和7.0%。",
+      "source": "工业和信息化部 · 运行监测协调局",
       "category": "宏观经济"
     },
     {
-      "id": "78e5b34597ae50a6",
-      "title": "财经日历详情 - emdatah5.eastmoney.com",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA0VnhVSU96eU4xMVFCMFV6alZlSjVSSm9RRzNYMnJSOTVDaHp2UUN1LWtIQVViOElaQVlTam5QMXVJY3lBakdiSUlyVjlOdC1qRjk2ZnJlV1ZzeHR5dkxjMTFnQ3ZWcjNtaFE4?oc=5",
-      "published_at": "2026-09-15T06:27:26Z",
-      "summary": "财经日历详情 emdatah5.eastmoney.com",
-      "source": "东方财富",
+      "id": "72157aaa8b76a622",
+      "title": "2026年前7个月通信业经济运行情况",
+      "published_at": "2026-08-28T10:54:00Z",
+      "content": "前7个月，通信业总体运行平稳。电信业务总量平稳增长，新型基础设施建设有序推进，5G、千兆、物联网等用户规模持续扩大，移动互联网接入流量较快增长。\n一、总体运行情况\n前7个月，电信业务收入累计完成1.02万亿元，同比下降2.1%。按照上年不变价计算的电信业务总量同比增长7.7%。\n图1 电信业务收入和电信业务总量累计增速\n二、电信用户发展情况\n固定宽带接入用户持续向千兆转移。截至7月末，三家基础电信企业的固定互联网宽带接入用户总数达7.02亿户，比上年末净增1146万户。其中，100Mbps及以上接入速率的固定互联网宽带接入用户达6.71亿户，占总用户数的95.6%；1000Mbps及以上接入速率的固定互联网宽带接入用户达2.6亿户，比上年末净增2198万户，占总用户数的37.1%，占比较上年末提升2.6个百分点。\n5G移动电话用户占比超七成。截至7月末，三家基础电信企业及中国广电的移动电话用户总数达18.47亿户，比上年末净增2062万户。其中，5G移动电话用户达13.03亿户，比上年末净增9875万户，占移动电话用户的70.5%。\n图2 5G移动电话用户情况\n移动物联网终端用户增长较快。截至7月末，三家基础电信企业发展移动物联网终端用户29.93亿户，比上年末净增1.05亿户。互联网电视（IPTV、OTT）用户数达4.09亿户，比上年末净增68.3万户。\n三、电信业务使用情况\n移动互联网流量较快增长，7月DOU值维持高位。前7个月，移动互联网累计流量达2587亿GB，同比增长17.6%。截至7月末，移动互联网用户数达16.38亿户，比上年末净增2858万户。7月当月户均移动互联网流量（DOU）达到23.81GB/户·月，同比增长13.9%，比上年底高0.77GB/户·月。\n移动传统业务持续收缩。前7个月，移动电话去话通话时长完成1.1万亿分钟，同比下降6.5%；固定电话主叫通话时长完成327.6亿分钟，同比下降\n18.6%。\n前7个月，全国移动短信业务量同比下降8.7%；移动短信业务收入同比下降12.2%。\n四、通信能力情况\n千兆光纤宽带网络建设有序推进。截至7月末，全国互联网宽带接入端口数量达12.7亿个，比上年末净增2152万个。其中，光纤接入（FTTH/O）端口达到12.3亿个，比上年末净增1935万个，占互联网宽带接入端口的96.7%。截至7月末，具备千兆网络服务能力的10G PON端口数达3304万个，比上年末净增\n141.7\n万个。\n5G网络建设稳步推进。截至7月末，5G基站总数达515.4万个，比上年末净增31.6万个，占移动基站总数的39.4%，占比较上半年提高0.3个百分点。\n五、地区发展情况\n各地区5G和千兆用户渗透率持续提升。截至7月末，东、中、西部和东北地区1000Mbps及以上固定宽带接入用户渗透率分别为36.4%、37.8%、38.5%和\n32.4%，\n较上年末分别提升1.8个、3.9个、2.4个和3.4个百分点；5G移动电话用户渗透率分别为70%、71.4%、70.5%、71.2%，较上年末分别提升4.5个、4.9个、4.6个和4.7个百分点。\n各地区移动互联网接入流量增速保持两位数水平。前7个月，东、中、西部和东北地区移动互联网接入流量分别达到1099亿GB、599.8亿GB、733.5亿GB和154.2亿GB，同比增长19.3%、15.7%、16.4%和18.4%。",
+      "source": "工业和信息化部 · 运行监测协调局",
       "category": "宏观经济"
     },
     {
-      "id": "278400d37845f77f",
-      "title": "财经早报09-15 - 财富号",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CUTV0S05tY3A0djFzYUlOOGNaVmU5blQzU3AxVTA1eWpEVUcxQnViUTRqVW5wWWQ1a0RDekVvaGp0UGEwM19vVkdRaldPc1B1MFZnYjV2TnNxcmt0Nm1MWWx1S2ZRd1dwOExj?oc=5",
-      "published_at": "2026-09-14T23:50:00Z",
-      "summary": "财经早报09-15 财富号",
-      "source": "东方财富",
+      "id": "8262fbe87c35025e",
+      "title": "工业和信息化部关于2026年第二季度电信服务质量的通告",
+      "published_at": "2026-08-14T10:36:00Z",
+      "content": "工信部信管函〔2026〕258号\n根据《中华人民共和国电信条例》等相关规定，现将2026年第二季度电信服务有关情况通告如下：\n一、电信服务重点工作情况\n（一）提升信息通信服务水平。指导发布2026年“信息通信暖心服务十件实事”。持续提升电信业务办理便利化水平，线上业务办理量占比超91%，视频客服服务约2600万人次。组织开展2026年“数字适老中国行”活动，公布62个2025年数字适老助残产品和服务典型案例名单，指导3161家与老年人、残疾人生活密切相关的网站、APP、小程序等完成适老化及无障碍改造，基础电信企业“一键呼入人工客服”尊老专线累计服务超7.5亿人次。拓展“二次号码焕新”服务范围，不断提升服务质量，完善互联网应用分类展示，目前该服务已覆盖258款常用互联网应用，服务用户超1435万人次，申请解绑应用超\n8.5\n亿次。\n（二）开展服务质量监测。组织第三方机构对部分重点互联网企业客服热线进行拨测。在客服热线公示方面，“植物大战僵尸2”应用内未找到客服热线号码；在人工客服响应方面，百度、微博、钉钉、优酷视频、T3出行、途游斗地主、好看视频人工客服电话未能接通，已督促相关企业提高响应能力。组织第三方机构对网络视频、即时通信、网盘服务、地图导航、应用商店、信息资讯等六类互联网信息服务开展用户满意度指数测评。整体服务满意度环比小幅下降，其中网盘服务、信息资讯类满意度较低；网络视频、应用商店类满意度保持平稳。\n（三）做好应急通信保障。强化重点任务部署，印发《工业和信息化部办公厅关于进一步做好应急通信保障工作的通知》，组织信息通信行业全力做好湖南石门、湖北宣恩、贵州贵定等地洪涝灾害以及青海海西6.3级地震等突发事件应急通信保障。二季度，全国信息通信行业共投入应急人员10.2万人次、应急车辆1.65万辆次、应急油机2.7万台次，发送应急预警短信6.5亿余条。\n（四）引导APP规范发展。组织开展APP技术抽测27批次，责令整改983款，公开通报122款，下架28款违规APP。持续督促应用商店落实主体责任，强化在架APP日常巡查监测。在架APP合规率同比提升7.3个百分点，其中，vivo应用商店、小米应用商店、OPPO应用商店、应用宝等平台合规率位居前列。组织召开规范APP信息窗口跳转行为专题会议，指导督促相关互联网平台和智能终端企业，强化APP信息窗口呈现方式的规范管理并取得积极成效。推动移动智能终端完善权限设置管理等必要功能，方便用户查看APP最小化选取所必需的权限，及时关闭非必要授权。\n（五）巩固提升非应邀商业电子信息治理成效。修订出台实施《通信短信息服务管理规定》，进一步完善短信息服务管理制度。持续清理整治营销电话和短信扰民问题，组织依法责令整改、督办、处罚违规企业315家次，关停违规语音专线1034条、短信端口762个，加大“来电来信免打扰”服务推广力度，依据用户意愿为13.8亿用户提供营销电话、短信防护服务91.2亿次。深化十三部门联动治理机制，及时转办涉各行业问题线索，曝光违规营销商家38家次，推动相关部门依法处置违规源头企业34家次，齐抓共管合力持续提升。\n二、电信用户投诉申诉情况\n（一）电信用户申诉情况\n2026年第二季度，全国电信用户申诉中，涉及资费（收费）争议的申诉占比42.1%，涉及服务争议的申诉占比36.0%，涉及营销争议的申诉占比10.4%。各级电信用户申诉受理机构按照《电信用户申诉处理办法》相关规定，对用户申诉进行了处理和调解，有效维护了电信用户合法权益。2026年第二季度用户申诉率较高的移动转售企业见附件1。\n图1 电信用户申诉情况\n（二）互联网信息服务投诉情况\n2026年第二季度，互联网信息服务投诉平台收到的互联网用户投诉中，服务功能类投诉占比52.2%，客服渠道类投诉占比16.1%，个人信息保护类投诉占比15.7%，其他类投诉占比16.0%。在接入平台的181家互联网企业中，墨迹天气等4家企业投诉处理及时率较低（详见附件2），工业和信息化部已督促相关企业妥善处理用户反映的问题。\n图2 互联网信息服务投诉情况\n（三）不良手机应用投诉情况\n2026年第二季度，不良手机应用投诉中，涉及网络安全问题的投诉占比58.4%，涉及个人信息及权限问题的投诉占比23.9%，涉及信息安全问题的投诉占比17.7%。强化行业自律，中国互联网协会联合应用商店、安全检测厂商对存在问题的129款不良手机应用进行下架处理。\n图3 不良手机应用投诉情况\n（四）非应邀商业电子信息投诉情况\n2026年第二季度，非应邀商业电子信息用户投诉中，涉及欠款催收、贷款理财、保险推销等金融类投诉占比76.5%，涉及零售推销类投诉占比5.1%，涉及教育培训、医疗保健、房产中介等其他类投诉占比18.4%。工业和信息化部督促相关电信企业对有关线索进行了核查处置，将涉及源头营销的问题线索转相关行业主管部门处理。\n图4 非应邀商业电子信息投诉情况\n三、工作要求及服务提示\n（一）各相关企业要落实2026年“信息通信暖心服务十件实事”承诺，完善资费公示，优化线上办理功能，强化电信业务办理“二次确认”，保障新老用户在同等条件下享受同等服务权益，充分保障用户知情权、选择权。及时回应群众关心关切，持续规范经营行为，全面提升服务质量。\n（二）工业和信息化部提醒广大用户，办理电信业务请认准官方渠道，办理业务前全面了解套餐资费、合约期限、退订规则等信息，仔细阅读服务协议内容，查看账单信息，如有争议，及时联系企业客服处理。\n附件：1.2026年第二季度用户申诉率较高的移动转售企业名单\n2.2026年第二季度互联网信息服务投诉处理及时率未达标的企业名单\n工业和信息化部\n2026年8月5日",
+      "source": "工业和信息化部 · 信息通信管理局",
       "category": "宏观经济"
     },
     {
-      "id": "f9f30d24b235ca2d",
-      "title": "【今日重点关注的财经数据与事件：2026年9月15日周二】09:30中国70个大 - 财富号",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xMHhxNm9MZW5VVG5COUMwMVAwWlNrcjZYU3lyMVhzOVRXcHhGRDNKeWVZLWItZFFUMm1aajdNbndqVDZYY3drbk9GT0lGWWVZTEtxNmhacDQzckN1SE5lYlI3cU5KX3V4UTBF?oc=5",
-      "published_at": "2026-09-14T23:49:00Z",
-      "summary": "【今日重点关注的财经数据与事件：2026年9月15日周二】09:30中国70个大 财富号",
-      "source": "东方财富",
+      "id": "ce98b7c17de3af6b",
+      "title": "2026年7月汽车工业经济运行情况",
+      "published_at": "2026-08-13T15:58:00Z",
+      "content": "2026年7月，我国汽车产销分别完成257.3万辆和258.4万辆，同比分别下降0.7%和0.3%。其中，新能源汽车产销分别完成157.6万辆和156.1万辆，同比分别增长26.8%和23.7%。\n一、7月汽车销量同比下降0.3%\n7月，汽车产销分别完成257.3万辆和258.4万辆，同比分别下降0.7%和0.3%。\n1—7月，汽车产销分别完成1756.7万辆和1760.2万辆，同比均下降3.7%。\n（一）7月乘用车销量同比下降0.9%\n7月，乘用车产销分别完成224.6万辆和226.8万辆，同比分别下降2.1%和0.9%。\n1—7月，乘用车产销分别完成1496.7万辆和1498.8万辆，同比分别下降5.5%和5.4%。\n（二）7月商用车销量同比增长3.5%\n7月，商用车产销分别完成32.8万辆和31.7万辆，同比分别增长10%和3.5%。\n1—7月，商用车产销分别完成260万辆和261.4万辆，同比分别增长8.4%和7.7%。\n二、7月新能源汽车销量同比增长23.7%\n7月，新能源汽车产销分别完成157.6万辆和156.1万辆，同比分别增长26.8%和23.7%；新能源汽车新车销量达到汽车新车总销量的60.4%。\n1—7月，新能源汽车产销分别完成901.4万辆和900.7万辆，同比分别增长9.5%和9.6%，新能源汽车新车销量达到汽车新车总销量的51.2%。\n三、7月汽车出口同比增长81.3%\n7月，汽车整车出口104.3万辆，同比增长81.3%。新能源汽车出口55.3万辆，同比增长1.5倍。\n1—7月，汽车整车出口614万辆，同比增长66.8%。新能源汽车出口290.9万辆，同比增长1.2倍。\n（注：上述数据来自中国汽车工业协会。）",
+      "source": "工业和信息化部 · 装备工业一司",
       "category": "宏观经济"
     },
     {
-      "id": "f70961f9d310a67b",
-      "title": "9月14日东方财富财经晚报（附新闻联播） - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9fNVV1c0lnVHluX3R3QjEyYUxUWmstdy1HYzBZQm5aNENqVW9NbW5UVlotYV9raWhkSUsxczItSGhZT0ItTU1jUHVmM2JIVlVmOGl0bVFtQ1VwbG9SZnFCSFIwNGVoQQ?oc=5",
-      "published_at": "2026-09-14T12:34:37Z",
-      "summary": "9月14日东方财富财经晚报（附新闻联播） 东方财富",
-      "source": "东方财富",
+      "id": "35510022021794a5",
+      "title": "《道路机动车辆生产企业及产品》（第409批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第八十八批）、《减免车辆购置税的新能源汽车车型目录》（第三十三批）",
+      "published_at": "2026-08-13T14:38:00Z",
+      "content": "根据《中华人民共和国行政许可法》、《国务院对确需保留的行政审批项目设定行政许可的决定》、《财政部 税务总局 工业和信息化部 交通运输部关于节能 新能源车船享受车船税优惠政策的通知》（财税〔2018〕74号）、《工业和信息化部 财政部 税务总局关于调整享受车船税优惠的节能 新能源汽车产品技术要求的公告》（2025年第25号）、《财政部 税务总局 工业和信息化部 科技部关于免征新能源汽车车辆购置税的公告》（2017年第172号）、《财政部 税务总局 工业和信息化部关于延续和优化新能源汽车车辆购置税减免政策的公告》（2023年第10号）、《工业和信息化部 财政部 税务总局关于2026—2027年减免车辆购置税新能源汽车产品技术要求的公告》（2025年第24号）等有关规定，现将许可的《道路机动车辆生产企业及产品》（第409批）以及经商国家税务总局同意的《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第八十八批）、《减免车辆购置税的新能源汽车车型目录》（第三十三批）予以公告。\n附件：\n1.道路机动车辆生产企业及产品（第409批）.doc\n2.享受车船税减免优惠的节约能源 使用新能源汽车车型目录（第八十八批）.doc\n3.减免车辆购置税的新能源汽车车型目录（第三十三批）.doc\n工业和信息化部\n2026年8月12日",
+      "source": "工业和信息化部 · 装备工业一司",
       "category": "宏观经济"
     },
     {
-      "id": "1cb86618338f8f1b",
-      "title": "财经早报09-14 - 财富号",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5lejZKRVRjaHMxeGpVekFHU0Nsdkh6M0dqczliaGh2bzJNMy1iVlJqazZKYkhXX2NQeExNeFRlT092eXNMWHFkbGZWc2JYSXRrMFQ0Qnl5bVdjWi0wMXZzZ2pNVnlCTVMyc0NF?oc=5",
-      "published_at": "2026-09-13T23:50:00Z",
-      "summary": "财经早报09-14 财富号",
-      "source": "东方财富",
+      "id": "e347c63f090969f7",
+      "title": "2026年上半年通信业经济运行情况",
+      "published_at": "2026-08-04T10:04:00Z",
+      "content": "上半年，通信业运行基本平稳，新型基础设施建设稳步推进，5G、千兆、物联网等用户规模持续扩大，移动互联网接入流量保持较快增长。\n一、总体运行情况\n上半年，电信业务收入累计完成8873亿元，同比下降2.1%。按照上年不变价计算的电信业务总量同比增长7.7%【注1】。\n图1 电信业务收入和电信业务总量累计增速\n二、电信用户发展情况\n固定宽带接入用户稳步增加，千兆用户规模持续扩大。\n截至6月末，三家基础电信企业的固定互联网宽带接入用户总数达7.01亿户，比上年末净增1024万户。其中，100Mbps及以上接入速率的固定互联网宽带接入用户达6.7亿户，占总用户数的95.6%；1000Mbps及以上接入速率的固定互联网宽带接入用户达2.58亿户，比上年末净增1949万户，占总用户数的36.8%，占比较一季度提升1个百分点。\n移动电话用户规模稳中有增，5G用户快速发展。\n截至6月末，三家基础电信企业及中国广电的移动电话用户总数达18.44亿户，比上年末净增1704万户。其中，5G移动电话用户达12.88亿户，比上年末净增8434万户，占移动电话用户的69.9%。\n图2 5G移动电话用户情况\n移动物联网终端用户增长较快。\n截至6月末，三家基础电信企业发展移动物联网终端用户29.94亿户，比上年末净增1.06亿户。互联网电视（IPTV、OTT）用户数达4.09亿户，比上年末净增99万户。\n三、电信业务使用情况\n移动互联网流量较快增长，6月DOU值维持较高水平。\n上半年，移动互联网累计流量达2197亿GB，同比增长17.7%。截至6月末，移动互联网用户数达16.36亿户，比上年末净增2591万户。6月当月户均移动互联网接入流量（DOU）达到23.57GB/户·月，同比增长13.6%，比上年底高0.53GB/户·月。\n电话通话量持续下滑。\n上半年，移动电话去话通话时长完成9469亿分钟，同比下降6.2%；固定电话主叫通话时长完成279.3亿分钟，同比下降20.4%。上半年，全国移动短信业务量同比下降8%；移动短信业务收入同比下降12.9%。\n四、通信能力情况\n光缆线路总长度稳步增加。\n截至6月末，全国光缆线路总长度达到7612万公里，同比增长3.2%。其中接入网光缆、本地网中继光缆和长途光缆线路所占比重分别为60.5%、38%和1.5%。\n千兆光纤宽带网络建设有序推进。\n截至6月末，全国互联网宽带接入端口数量达12.7亿个，比上年末净增1790万个。其中，光纤接入（FTTH/O）端口达到12.3亿个，比上年末净增1552万个，占互联网宽带接入端口的96.6%。截至6月末，具备千兆网络服务能力的10G PON端口数达3286万个，比上年末净增124.1万个。\n5G网络建设持续深化。\n截至6月末，5G基站总数达510.2万个，比上年末净增26.3万个，占移动基站总数的39.1%，占比较一季度提高0.9个百分点。\n五、地区发展情况\n各地区加快推动千兆和5G用户渗透。\n截至6月末，东、中、西部和东北地区1000Mbps及以上固定宽带接入用户渗透率分别为36.1%、37.4%、38.3%和31.8%，较上年末分别提升1.5个、3.5个、2.2个和2.8个百分点；5G移动电话用户渗透率分别为69.4%、70.8%、69.7%、70.6%，较上年末分别提升3.9个、4.3个、3.8个和4.1个百分点。\n各地区移动互联网接入流量保持较快增长。\n上半年，东、中、西部和东北地区移动互联网接入流量分别达到931.8亿GB、511.8亿GB、622.4亿GB和130.9亿GB，同比增长19.4%、15.8%、16.5%和18.7%。\n注：1.电信业务总量同比增速按同比口径进行调整。",
+      "source": "工业和信息化部 · 运行监测协调局",
       "category": "宏观经济"
     },
     {
-      "id": "1c18648a4d4fdc32",
-      "title": "【财经分析】AI大模型加速“下矿” 规模化商用仍存挑战 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5OTkx2V2dhc0wxRGd1TzRTY0Jpc1BRMnV1eGllMkZOaVhRbGhhNlp5WF82RER4ZmR4SFY4SGlaeDFlVmk2MlpvWHZid2h4YTZKdk52TFhrM080TG1UMnNLR2wxMklBQQ?oc=5",
-      "published_at": "2026-09-12T04:22:35Z",
-      "summary": "【财经分析】AI大模型加速“下矿” 规模化商用仍存挑战 东方财富",
-      "source": "东方财富",
+      "id": "993ad4c72b3a8375",
+      "title": "中华人民共和国工业和信息化部公告2026年第20号",
+      "published_at": "2026-07-31T09:58:00Z",
+      "content": "为落实《新能源汽车废旧动力电池回收和综合利用管理暂行办法》，加强法规政策标准协同，保障人民群众生命财产安全，促进行业健康发展，现就有关事项公告如下：\n一、废止《新能源汽车废旧动力电池综合利用行业规范条件（2024年本）》中“梯次利用”有关条款，不再开展“梯次利用”企业公告管理，将已公告的“梯次利用”企业移出符合新能源汽车废旧动力电池综合利用行业规范条件的企业名单（见附件），已公告的再生利用企业名单继续有效。\n二、企业利用废旧动力电池生产的电池产品应符合应用领域的质量标准要求，任何组织或者个人不得将废旧动力电池整体或经过拆分、重组、装配等相关工艺，以电池包、模块、单体等形式用于电动自行车以及法律、行政法规和强制性标准禁止使用的其他领域。\n三、相关标准化技术组织要全面梳理本单位归口管理的废旧动力电池“梯次利用”相关国家标准、行业标准等，加紧予以废止或修订，以符合管理要求。\n四、相关主管部门要加快推进废旧动力电池“梯次利用”相关政策、标准的废止或修订工作，协同有关部门强化监管执法，依法依规查处利用废旧动力电池生产不合格电池产品等行为。\n五、相关社会团体要全面梳理本单位及下属机构（含专业化委员会、分会等）的名称、业务范围、工作内容等，对于涉及“梯次利用”有关内容的，加紧修改调整，并停止“梯次利用”相关宣传推广、会议展览、服务咨询、培训交流等各类活动。\n附件：移出《新能源汽车废旧动力电池综合利用行业规范条件》公告的“梯次利用”企业名单\n工业和信息化部\n2026年7月30日",
+      "source": "工业和信息化部 · 节能与综合利用司",
       "category": "宏观经济"
     }
   ]
