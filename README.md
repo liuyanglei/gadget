@@ -1,63 +1,28 @@
-# 中文外贸公司 GitHub Pages 官网模板
+# 财经观察
 
-这是一个可以直接部署到 GitHub Pages 的纯静态外贸企业官网。
+基于 GitHub Pages、Python RSS 采集器和 GitHub Actions 的免费静态财经资讯站。
 
-## 包含内容
-- 英文首页
-- 产品分类
-- 公司介绍
-- 工厂实力
-- 质量控制
-- 认证展示
-- 全球出口市场
-- 合作流程
-- 邮件询盘
-- WhatsApp 悬浮按钮
-- 手机端自适应
+## 自动更新
 
-## 使用方法
-把以下文件直接上传到 GitHub Pages 仓库根目录：
-- index.html
-- style.css
-- script.js
+工作流 `.github/workflows/update-news.yml` 按北京时间每天 08:00、12:00、16:00、20:00 运行：
 
-## 上线前必须修改
-### 1. 邮箱
-搜索：
-sales@example.com
+1. 安装 `crawler/requirements.txt` 中的依赖；
+2. 执行 `crawler/spider.py`；
+3. 将公开 RSS 资讯写入 `data/news.json`；
+4. 当数据变化时自动提交并推送。
 
-替换成你的真实业务邮箱。
+也可以在仓库的 **Actions → Update finance news → Run workflow** 手动触发。
 
-### 2. WhatsApp
-搜索：
-8613800000000
-以及
-+86 138 0000 0000
+## 本地预览
 
-替换成你的真实号码。
+```bash
+python -m pip install -r crawler/requirements.txt
+python crawler/spider.py
+python -m http.server 8000
+```
 
-### 3. 公司名
-搜索：
-GLOBALPEAK
-GlobalPeak
+浏览器打开 `http://localhost:8000/`。直接双击 `index.html` 时，浏览器可能因本地文件安全策略禁止读取 JSON，因此建议使用本地静态服务器预览。
 
-替换成你的公司英文名称。
+## 数据说明
 
-### 4. 产品内容
-在 index.html 中替换 Product Categories 里的产品名称、说明和图片。
-
-### 5. 认证
-ISO 9001 / CE / RoHS / REACH 目前仅为演示文字。
-只能放你公司真实拥有的认证。
-
-## 询盘说明
-本模板为了兼容纯 GitHub Pages，表单提交使用 mailto，会唤起访客设备上的邮件客户端。
-
-如果后续需要真正的网页表单后台，可再接：
-- Formspree
-- Web3Forms
-- Cloudflare Workers
-- Supabase
-- 自建 API
-
-这样无需更换 GitHub Pages，也能接收真正的表单询盘。
+资讯来自新浪财经、东方财富、Reuters 和 CNBC 的公开 RSS 或公开 RSS 搜索结果。本站只展示标题、摘要、来源、时间及原文链接，版权归原媒体及作者所有；内容不构成投资建议。

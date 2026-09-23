@@ -1,32 +1,27 @@
-const menuBtn = document.querySelector('.menu-btn');
-const nav = document.querySelector('.nav');
+const state={articles:[],category:'全部',query:'',visible:8};
+const newsList=document.getElementById('newsList');
+const leadCard=document.getElementById('leadCard');
+const loadMoreButton=document.getElementById('loadMore');
+const listTitle=document.getElementById('listTitle');
 
-menuBtn.addEventListener('click', () => nav.classList.toggle('open'));
-document.querySelectorAll('.nav a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
-
-function buildMailto(subject, body) {
-  return `mailto:sales@example.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+function escapeHtml(value=''){return String(value).replace(/[&<>'"]/g,character=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'})[character]);}
+function safeUrl(value=''){try{const url=new URL(value,window.location.href);return['http:','https:'].includes(url.protocol)?url.href:'#';}catch{return'#';}}
+function formatDate(value,mode='full'){
+  const date=new Date(value);
+  if(Number.isNaN(date.getTime()))return mode==='day'?['--','日期未知']:'时间未知';
+  if(mode==='day')return[date.toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',day:'2-digit'}).padStart(2,'0'),date.toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',month:'short',hour:'2-digit',minute:'2-digit',hour12:false})];
+  return new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(date);
 }
-
-document.getElementById('quickForm').addEventListener('submit', function(e) {
-  e.preventDefault();
-  const name = document.getElementById('qName').value || '';
-  const email = document.getElementById('qEmail').value || '';
-  const message = document.getElementById('qMessage').value || '';
-  const body = `姓名：${name}\n邮箱：${email}\n\n需求：\n${message}`;
-  window.location.href = buildMailto('网站产品询盘', body);
-});
-
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-  e.preventDefault();
-  const body =
-`姓名：${document.getElementById('name').value || ''}
-邮箱：${document.getElementById('email').value || ''}
-公司：${document.getElementById('company').value || ''}
-国家/地区：${document.getElementById('country').value || ''}
-产品：${document.getElementById('product').value || ''}
-
-需求：
-${document.getElementById('message').value || ''}`;
-  window.location.href = buildMailto('网站商务询盘', body);
-});
+function filteredArticles(){const query=state.query.toLocaleLowerCase('zh-CN');return state.articles.filter(article=>{const inCategory=state.category==='全部'||article.category===state.category;const text=`${article.title||''} ${article.summary||''} ${article.source||''}`.toLocaleLowerCase('zh-CN');return inCategory&&(!query||text.includes(query));});}
+function articleMarkup(article){const[day,detail]=formatDate(article.published_at,'day');return`<article class="news-card"><time class="news-card__date" datetime="${escapeHtml(article.published_at)}"><strong>${day}</strong><span>${escapeHtml(detail)}</span></time><div class="news-card__body"><div class="news-card__meta"><span class="news-card__category">${escapeHtml(article.category||'宏观经济')}</span><i></i><span>${escapeHtml(article.source||'财经资讯')}</span></div><h3><a href="${safeUrl(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(article.title||'无标题')}</a></h3><p>${escapeHtml(article.summary||'点击标题查看原文详情。')}</p></div></article>`;}
+function renderLead(article){if(!article){leadCard.innerHTML='<span class="lead-card__category">暂无头条</span><h2>资讯正在汇集中</h2><p>请稍后刷新页面查看。</p>';return;}leadCard.innerHTML=`<div class="lead-card__topline"><span class="lead-card__category">今日焦点 · ${escapeHtml(article.category)}</span><time datetime="${escapeHtml(article.published_at)}">${escapeHtml(formatDate(article.published_at))}</time></div><h2>${escapeHtml(article.title)}</h2><p>${escapeHtml(article.summary||'点击下方链接阅读完整报道。')}</p><a class="lead-card__link" href="${safeUrl(article.url)}" target="_blank" rel="noopener noreferrer">阅读完整报道 →</a>`;}
+function renderList(){const articles=filteredArticles();const visible=articles.slice(0,state.visible);newsList.setAttribute('aria-busy','false');listTitle.textContent=state.category==='全部'?'最新财经资讯':`${state.category}资讯`;newsList.innerHTML=visible.length?visible.map(articleMarkup).join(''):'<div class="empty-state"><strong>没有找到匹配资讯</strong><p>试试其他分类或搜索关键词。</p></div>';loadMoreButton.hidden=state.visible>=articles.length;}
+function renderStats(){const categories=['A股','港股','美股','黄金','原油','基金','宏观经济'];document.getElementById('categoryStats').innerHTML=categories.map(category=>{const count=state.articles.filter(article=>article.category===category).length;return`<div class="category-stat"><button type="button" data-stat-category="${category}">${category}</button><span>${String(count).padStart(2,'0')}</span></div>`;}).join('');}
+function selectCategory(category){state.category=category;state.visible=8;document.querySelectorAll('.category-button').forEach(button=>{const selected=button.dataset.category===category;button.classList.toggle('is-active',selected);button.setAttribute('aria-pressed',String(selected));});renderList();document.getElementById('latest-news').scrollIntoView({behavior:'smooth',block:'start'});}
+async function loadNews(){try{const response=await fetch('./data/news.json',{cache:'no-store'});if(!response.ok)throw new Error(`HTTP ${response.status}`);const payload=await response.json();state.articles=Array.isArray(payload)?payload:(payload.articles||[]);renderLead(state.articles[0]);renderStats();renderList();const updatedAt=Array.isArray(payload)?state.articles[0]?.published_at:payload.updated_at;document.getElementById('updatedAt').textContent=formatDate(updatedAt);}catch(error){console.error('无法加载资讯数据：',error);leadCard.innerHTML='<span class="lead-card__category">连接提示</span><h2>暂时无法读取新闻数据</h2><p>请稍后刷新页面；自动更新任务会继续运行。</p>';newsList.setAttribute('aria-busy','false');newsList.innerHTML='<div class="empty-state"><strong>资讯加载失败</strong><p>请检查网络后刷新页面。</p></div>';document.getElementById('updatedAt').textContent='暂不可用';}}
+document.querySelectorAll('.category-button').forEach(button=>{button.setAttribute('aria-pressed',String(button.classList.contains('is-active')));button.addEventListener('click',()=>selectCategory(button.dataset.category));});
+document.getElementById('categoryStats').addEventListener('click',event=>{const button=event.target.closest('[data-stat-category]');if(button)selectCategory(button.dataset.statCategory);});
+document.getElementById('searchInput').addEventListener('input',event=>{state.query=event.target.value.trim();state.visible=8;renderList();});
+loadMoreButton.addEventListener('click',()=>{state.visible+=8;renderList();});
+const now=new Date();document.getElementById('currentDate').textContent=new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'long',day:'numeric',weekday:'long'}).format(now);document.getElementById('currentYear').textContent=now.getFullYear();
+loadNews();
