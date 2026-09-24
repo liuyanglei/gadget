@@ -1,9 +1,16 @@
 name: Update finance news
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/update-news.yml"
+      - "crawler/**"
+      - "data/settings.json"
   schedule:
-    # Beijing time (UTC+8): 08:00, 12:00, 16:00, 20:00
-    - cron: "0 0,4,8,12 * * *"
+    # Beijing time (UTC+8): 08:17, 12:17, 16:17, 20:17.
+    # Avoid the top of the hour, when GitHub's schedule queue is busiest.
+    - cron: "17 0,4,8,12 * * *"
   workflow_dispatch:
 
 permissions:
@@ -37,6 +44,20 @@ jobs:
       - name: Collect finance news
         run: python crawler/spider.py
 
+      - name: Validate generated data
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          payload = json.loads(Path("data/news.json").read_text(encoding="utf-8"))
+          articles = payload.get("articles", [])
+          assert articles, "crawler produced no articles"
+          assert all(len(str(item.get("content", ""))) >= 180 for item in articles), "incomplete article found"
+          assert len({item.get("id") for item in articles}) == len(articles), "duplicate article id found"
+          print(f"Validated {len(articles)} complete articles")
+          PY
+
       - name: Commit updated data
         run: |
           if git diff --quiet -- data/news.json; then
@@ -47,4 +68,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/news.json
           git commit -m "chore: update finance news"
+          git pull --rebase origin main
           git push
