@@ -4,7 +4,7 @@
 
 ## 自动更新
 
-工作流 `.github/workflows/update-news.yml` 按北京时间每天 08:17、12:17、16:17、20:17 运行（避开 GitHub Actions 整点拥堵）：
+工作流 `.github/workflows/update-news.yml` 按北京时间每天 08:17、12:17、16:17、20:17 运行，并在每轮 30 分钟后设置备用触发；主任务成功后备用任务会自动跳过：
 
 1. 安装 `crawler/requirements.txt` 中的依赖；
 2. 执行 `crawler/spider.py`；

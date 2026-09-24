@@ -8,9 +8,12 @@ on:
       - "crawler/**"
       - "data/settings.json"
   schedule:
-    # Beijing time (UTC+8): 08:17, 12:17, 16:17, 20:17.
-    # Avoid the top of the hour, when GitHub's schedule queue is busiest.
-    - cron: "17 0,4,8,12 * * *"
+    # Four primary runs plus a retry 30 minutes later. The retry exits early
+    # when the primary run already refreshed the data.
+    - cron: "17 8,12,16,20 * * *"
+      timezone: "Asia/Shanghai"
+    - cron: "47 8,12,16,20 * * *"
+      timezone: "Asia/Shanghai"
   workflow_dispatch:
 
 permissions:
@@ -18,7 +21,7 @@ permissions:
 
 concurrency:
   group: update-finance-news
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   update-news:
@@ -28,7 +31,27 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Check whether this run is needed
+        id: freshness
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          payload = json.loads(Path("data/news.json").read_text(encoding="utf-8"))
+          updated = datetime.fromisoformat(payload["updated_at"].replace("Z", "+00:00"))
+          age_seconds = (datetime.now(timezone.utc) - updated.astimezone(timezone.utc)).total_seconds()
+          print("run=true" if age_seconds >= 2700 else "run=false")
+          PY
+
       - name: Set up Python
+        if: steps.freshness.outputs.run == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -36,15 +59,18 @@ jobs:
           cache-dependency-path: crawler/requirements.txt
 
       - name: Install dependencies
+        if: steps.freshness.outputs.run == 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends poppler-utils tesseract-ocr tesseract-ocr-chi-sim antiword libreoffice-calc
           python -m pip install --disable-pip-version-check -r crawler/requirements.txt
 
       - name: Collect finance news
+        if: steps.freshness.outputs.run == 'true'
         run: python crawler/spider.py
 
       - name: Validate generated data
+        if: steps.freshness.outputs.run == 'true'
         run: |
           python - <<'PY'
           import json
@@ -59,6 +85,7 @@ jobs:
           PY
 
       - name: Commit updated data
+        if: steps.freshness.outputs.run == 'true'
         run: |
           if git diff --quiet -- data/news.json; then
             echo "No news changes to commit."
