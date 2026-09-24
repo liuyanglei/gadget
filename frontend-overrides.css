@@ -4,12 +4,21 @@
 .search-box{min-width:430px;height:46px;border:2px solid #0b1c33;box-shadow:0 7px 20px rgba(9,25,44,.07)}
 .search-label{padding:0 13px;color:#fff;background:#0b1c33;align-self:stretch;display:flex;align-items:center;font-size:12px;font-weight:700;white-space:nowrap}
 .search-box input{font-size:13px}
+.section-heading h2,.news-card h3,.news-title,.sidebar-card h3,.article-dialog h2{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-serif}
+.news-title{padding:0;border:0;background:transparent;text-align:left;font-weight:700;cursor:pointer}
+.news-title:hover{color:var(--red)}
+.news-card__date{justify-content:center;gap:8px}
+.news-card__date strong{color:var(--red);font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif;font-size:11px;font-weight:700}
+.news-card__date span{color:var(--ink);font-family:Arial,"Microsoft YaHei",sans-serif;font-size:13px;font-weight:700;white-space:nowrap}
+.news-card__date em{color:var(--muted);font-family:Arial,"Microsoft YaHei",sans-serif;font-size:12px;font-style:normal}
+.category-stat span{font-family:Arial,"Microsoft YaHei",sans-serif;font-variant-numeric:tabular-nums}
+.article-dialog__meta time{white-space:nowrap}
 @media(max-width:800px){.section-heading{align-items:flex-start;flex-direction:column}.news-tools,.search-box{width:100%;min-width:0}.news-tools{align-items:flex-start;flex-direction:column}.search-label{padding:0 10px}}
 
 /* Large, distraction-free article reader. */
 .article-dialog{width:min(1180px,92vw);height:94vh;max-height:94vh;padding:54px 68px 64px;overflow-y:auto}
 .article-dialog__meta,.article-dialog h2,.article-dialog__rule,.article-dialog>p,.article-dialog__notice{width:min(100%,900px);margin-left:auto;margin-right:auto}
-.article-dialog h2{font-size:clamp(32px,3.2vw,48px);line-height:1.42}
+.article-dialog h2{font-size:clamp(30px,2.8vw,44px);font-weight:700;line-height:1.5}
 .article-dialog>p{font-size:17px;line-height:2.05;letter-spacing:.015em}
 .article-dialog__notice{font-size:12px}
 .article-dialog__close{position:sticky;z-index:2;top:-38px;float:right;margin-right:-42px;background:rgba(255,255,255,.94);border-radius:50%}
