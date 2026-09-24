@@ -18,7 +18,7 @@ permissions:
 
 concurrency:
   group: update-finance-news
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update-news:

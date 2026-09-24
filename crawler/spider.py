@@ -28,6 +28,8 @@ DEFAULT_CATEGORY_LIMIT = 500
 SSE_DISCOVERY_LIMIT = 400
 MAX_DOWNLOAD_BYTES = 25 * 1024 * 1024
 MAX_PDF_PAGES = 80
+MAX_OCR_PAGES = 8
+OCR_TIMEOUT_SECONDS = 25
 MIN_CONTENT_LENGTH = 180
 TIMEOUT_SECONDS = 30
 WORKERS = 6
@@ -122,7 +124,7 @@ def download(session: requests.Session, url: str, referer: str | None = None) ->
 def image_ocr(image) -> str:
     try:
         import pytesseract
-        return normalized_text(pytesseract.image_to_string(image, lang="chi_sim+eng"))
+        return normalized_text(pytesseract.image_to_string(image, lang="chi_sim+eng", timeout=OCR_TIMEOUT_SECONDS))
     except Exception:
         return ""
 
@@ -145,7 +147,7 @@ def extract_pdf(data: bytes) -> tuple[str, dict[str, int]] | None:
 
         ocr_pages = 0
         if needs_ocr:
-            if len(needs_ocr) > 20:
+            if len(needs_ocr) > MAX_OCR_PAGES:
                 return None
             try:
                 from pdf2image import convert_from_bytes
