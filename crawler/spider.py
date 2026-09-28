@@ -226,6 +226,15 @@ def extract_attachment(data: bytes, url: str) -> tuple[str, dict[str, int]] | No
 
 
 def discover_sse(session: requests.Session, start_date: str, end_date: str) -> list[dict[str, str]]:
+    if start_date != end_date:
+        entries = {}
+        day = datetime.fromisoformat(end_date).date()
+        first = datetime.fromisoformat(start_date).date()
+        while day >= first and len(entries) < SSE_DISCOVERY_LIMIT:
+            for entry in discover_sse(session, day.isoformat(), day.isoformat()):
+                entries[entry["id"]] = entry
+            day -= timedelta(days=1)
+        return list(entries.values())[:SSE_DISCOVERY_LIMIT]
     params = {
         "isPagination": "true",
         "securityType": "0101,120100,020100,020200,120200",
@@ -240,7 +249,11 @@ def discover_sse(session: requests.Session, start_date: str, end_date: str) -> l
     }
     response = session.get(SSE_API, params=params, headers={"Referer": SSE_ORIGIN}, timeout=TIMEOUT_SECONDS)
     response.raise_for_status()
-    rows = response.json().get("pageHelp", {}).get("data", [])
+    payload = response.json()
+    page = payload.get("pageHelp")
+    if not isinstance(page, dict) or not isinstance(page.get("data"), list):
+        raise ValueError("SSE response missing announcement list")
+    rows = page["data"]
     results = []
     for row in rows[:SSE_DISCOVERY_LIMIT]:
         url = urljoin(SSE_FILE_ORIGIN, row.get("URL") or "")
@@ -387,13 +400,18 @@ def main() -> None:
     previous = load_previous()
     previous_ids = {str(item.get("id")) for item in previous}
     today = datetime.now(CHINA_TZ).date()
-    start_date = (today - timedelta(days=1)).isoformat()
-    end_date = today.isoformat()
+    start_date = (today - timedelta(days=6)).isoformat()
+    # SSE indexes notices by disclosure date, which can be tomorrow even
+    # when the document has already been published this afternoon.
+    end_date = (today + timedelta(days=1)).isoformat()
+    old_payload = json.loads(OUTPUT.read_text(encoding="utf-8")) if OUTPUT.exists() else {}
+    source_status = {}
 
     collected: list[dict[str, object]] = []
     try:
         sse_entries = discover_sse(session, start_date, end_date)
         new_sse = [item for item in sse_entries if item["id"] not in previous_ids]
+        source_status["sse"] = {"discovered": len(sse_entries), "attempted": len(new_sse), "extracted": 0, "status": "ok"}
         logging.info("Discovered %d SSE notices (%d new) for %s to %s", len(sse_entries), len(new_sse), start_date, end_date)
         with ThreadPoolExecutor(max_workers=WORKERS) as executor:
             futures = [executor.submit(extract_sse, item) for item in new_sse]
@@ -401,21 +419,30 @@ def main() -> None:
                 article = future.result()
                 if article:
                     collected.append(article)
+                    source_status["sse"]["extracted"] += 1
+        if new_sse and not source_status["sse"]["extracted"]:
+            source_status["sse"]["status"] = "failed"
     except (requests.RequestException, ValueError) as exc:
+        source_status["sse"] = {"status": "failed", "error": str(exc)[:300]}
         logging.warning("SSE discovery failed: %s", exc)
 
     try:
-        for url in discover_miit(session):
+        miit_urls = discover_miit(session)
+        source_status["miit"] = {"status": "ok" if miit_urls else "failed", "discovered": len(miit_urls), "attempted": 0, "extracted": 0}
+        for url in miit_urls:
             candidate_id = article_id(url)
             if candidate_id in previous_ids:
                 continue
             try:
+                source_status["miit"]["attempted"] += 1
                 article = extract_miit(session, url)
                 if article:
                     collected.append(article)
+                    source_status["miit"]["extracted"] += 1
             except requests.RequestException as exc:
                 logging.warning("Skipping MIIT page %s: %s", url, exc)
     except requests.RequestException as exc:
+        source_status["miit"] = {"status": "failed", "error": str(exc)[:300]}
         logging.warning("MIIT discovery failed: %s", exc)
 
     combined = collected + previous
@@ -433,16 +460,25 @@ def main() -> None:
             continue
         articles.append(item)
         category_counts[category] += 1
+    now = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+    changed = articles != old_payload.get("articles", [])
+    failures = [name for name, status in source_status.items() if status["status"] == "failed"]
     payload = {
-        "updated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "successful_sources": len({str(item.get("source", "")).split(" · ")[0] for item in articles}),
+        "updated_at": now if changed else old_payload.get("updated_at", now),
+        "checked_at": now,
+        "last_successful_check_at": old_payload.get("last_successful_check_at") if failures else now,
+        "source_status": source_status,
+        "new_articles": len({item["id"] for item in articles} - previous_ids),
+        "successful_sources": sum(s["status"] == "ok" for s in source_status.values()),
         "content_mode": "official_full_text_zh_with_attachments",
-        "backfill_days": 2,
+        "backfill_days": 7,
         "category_limits": category_limits,
         "articles": articles,
     }
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     logging.info("Wrote %d complete articles (%d newly extracted)", len(articles), len(collected))
+    if failures:
+        raise RuntimeError("Source collection failed: " + ", ".join(failures))
 
 
 if __name__ == "__main__":

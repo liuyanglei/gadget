@@ -45,7 +45,8 @@ jobs:
           from pathlib import Path
 
           payload = json.loads(Path("data/news.json").read_text(encoding="utf-8"))
-          updated = datetime.fromisoformat(payload["updated_at"].replace("Z", "+00:00"))
+          value = payload.get("last_successful_check_at")
+          updated = datetime.fromisoformat(value.replace("Z", "+00:00")) if value else datetime.min.replace(tzinfo=timezone.utc)
           age_seconds = (datetime.now(timezone.utc) - updated.astimezone(timezone.utc)).total_seconds()
           print("run=true" if age_seconds >= 2700 else "run=false")
           PY
@@ -66,11 +67,13 @@ jobs:
           python -m pip install --disable-pip-version-check -r crawler/requirements.txt
 
       - name: Collect finance news
+        id: collect
         if: steps.freshness.outputs.run == 'true'
         run: python crawler/spider.py
 
       - name: Validate generated data
-        if: steps.freshness.outputs.run == 'true'
+        id: validate
+        if: ${{ !cancelled() && steps.collect.outcome != 'skipped' && steps.freshness.outputs.run == 'true' }}
         run: |
           python - <<'PY'
           import json
@@ -85,7 +88,7 @@ jobs:
           PY
 
       - name: Commit updated data
-        if: steps.freshness.outputs.run == 'true'
+        if: ${{ !cancelled() && steps.validate.outcome == 'success' && steps.freshness.outputs.run == 'true' }}
         run: |
           if git diff --quiet -- data/news.json; then
             echo "No news changes to commit."

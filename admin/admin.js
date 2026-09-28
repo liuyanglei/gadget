@@ -27,6 +27,8 @@ function qualityChecks(){const articles=state.articles;const ids=articles.map(x=
   ['栏目归类',articles.filter(x=>!CATEGORIES.includes(x.category)).length,'不属于有效栏目'],
   ['发布时间',articles.length-validDates,'时间格式无效'],
   ['来源字段',articles.filter(x=>!x.source).length,'缺少官方来源'],
+  ['本轮采集',Object.values(state.payload.source_status||{}).filter(s=>s.status==='failed').length,`最近检查：${formatTime(state.payload.checked_at)}；最近一轮新增 ${state.payload.new_articles??'未知'} 篇`],
+  ['定时更新',!state.payload.last_successful_check_at||Date.now()-new Date(state.payload.last_successful_check_at).getTime()>16*3600000?1:0,'超过16小时没有成功检查时提示异常'],
   ['附件解析',articles.filter(x=>String(x.source||'').startsWith('上海证券交易所')&&Number(x.attachment_stats?.pages||0)<1).length,'交易所公告缺少 PDF 页数'],
   ['栏目容量',CATEGORIES.filter(category=>articles.filter(x=>x.category===category).length>limits[category]).length,'栏目记录数超过配置上限'],
 ];return checks}
