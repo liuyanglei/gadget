@@ -71,6 +71,8 @@ def iso_datetime(value: str) -> str:
 
 
 def category_for(title: str, source_kind: str) -> str:
+    if source_kind in {"stats", "csrc_regulatory", "csrc_policy"}:
+        return {"stats": "宏观数据", "csrc_regulatory": "监管动态", "csrc_policy": "政策解读"}[source_kind]
     if re.search(r"权益分派|利润分配|现金分红|现金红利|派息|分红派息|股息", title):
         return "分红派息"
     if re.search(r"年度报告|半年度报告|季度报告|业绩说明|业绩预告|业绩快报|投资者关系|调研活动|经营数据|研究报告|评估报告|审计报告|募集说明书|上市保荐书|法律意见书", title):
@@ -192,6 +194,20 @@ def extract_xlsx(data: bytes) -> str:
 
 
 def extract_legacy_office(data: bytes, suffix: str) -> str:
+    if suffix == ".xls":
+        import xlrd
+        try:
+            workbook = xlrd.open_workbook(file_contents=data)
+        except xlrd.XLRDError:
+            return ""
+        parts: list[str] = []
+        for sheet in workbook.sheets():
+            parts.append(f"【{sheet.name}】")
+            for row in range(sheet.nrows):
+                cells = [str(value).strip() for value in sheet.row_values(row)]
+                if any(cells):
+                    parts.append("\t".join(cells))
+        return normalized_text("\n".join(parts))
     command = shutil.which("antiword") if suffix == ".doc" else shutil.which("libreoffice")
     if not command:
         return ""
@@ -351,7 +367,17 @@ def load_previous() -> list[dict[str, object]]:
         payload = json.loads(OUTPUT.read_text(encoding="utf-8"))
         articles = [item for item in payload.get("articles", []) if item.get("content")]
         for item in articles:
-            source_kind = "sse" if str(item.get("source", "")).startswith("上海证券交易所") else "miit"
+            source = str(item.get("source", ""))
+            if source.startswith("上海证券交易所"):
+                source_kind = "sse"
+            elif source.startswith("国家统计局"):
+                source_kind = "stats"
+            elif source.startswith("中国证监会"):
+                source_kind = "csrc_policy" if item.get("category") == "政策解读" else "csrc_regulatory"
+            elif source.startswith("中华人民共和国财政部"):
+                source_kind = "csrc_policy"
+            else:
+                source_kind = "miit"
             item["category"] = category_for(str(item.get("title", "")), source_kind)
             published_at = str(item.get("published_at", ""))
             if published_at.endswith("Z"):
@@ -377,6 +403,12 @@ def is_publishable(item: dict[str, object]) -> bool:
             r"企业|行业|经济|工业|制造|汽车|新能源|通信|软件|电池|金属|市场|投资|产业|生产|消费|经营|标准|政策|税|回款"
         )
         return bool(finance_terms.search(title + "\n" + content[:1000]))
+    if source.startswith("国家统计局"):
+        return category == "宏观数据"
+    if source.startswith("中国证监会"):
+        return category in {"监管动态", "政策解读"}
+    if source.startswith("中华人民共和国财政部"):
+        return category == "政策解读"
     return False
 
 
@@ -391,6 +423,43 @@ def load_category_limits() -> dict[str, int]:
     except (OSError, ValueError, TypeError, json.JSONDecodeError, AttributeError):
         logging.warning("Invalid settings.json; using safe defaults")
     return limits
+
+
+def collect_official_sources(session: requests.Session, previous_ids: set[str]) -> tuple[list[dict[str, object]], dict[str, dict[str, object]]]:
+    from backfill import (
+        extract_official, listing_csrc_policy, listing_csrc_regulatory,
+        listing_mof_policy, listing_stats,
+    )
+
+    sources = (
+        ("stats", lambda: listing_stats(session, pages=1), "国家统计局", "宏观数据"),
+        ("csrc_regulatory", lambda: listing_csrc_regulatory(session, pages=2), "中国证监会", "监管动态"),
+        ("csrc_policy", lambda: listing_csrc_policy(session, pages=1), "中国证监会", "政策解读"),
+        ("mof_policy", lambda: listing_mof_policy(session, pages=1), "中华人民共和国财政部", "政策解读"),
+    )
+    articles: list[dict[str, object]] = []
+    statuses: dict[str, dict[str, object]] = {}
+    seen = set(previous_ids)
+    for name, discover, source, category in sources:
+        try:
+            entries = discover()
+            pending = [entry for entry in entries if entry["id"] not in seen]
+            status: dict[str, object] = {"status": "ok" if entries else "failed", "discovered": len(entries),
+                                         "attempted": len(pending), "extracted": 0}
+            with ThreadPoolExecutor(max_workers=WORKERS) as executor:
+                futures = [executor.submit(extract_official, entry, source, category) for entry in pending]
+                for future in as_completed(futures):
+                    article = future.result()
+                    if article and str(article["id"]) not in seen:
+                        articles.append(article)
+                        seen.add(str(article["id"]))
+                        status["extracted"] = int(status["extracted"]) + 1
+            status["rejected"] = len(pending) - int(status["extracted"])
+            statuses[name] = status
+        except Exception as exc:
+            statuses[name] = {"status": "failed", "error": str(exc)[:300]}
+            logging.warning("%s discovery failed: %s", name, exc)
+    return articles, statuses
 
 
 def main() -> None:
@@ -420,8 +489,7 @@ def main() -> None:
                 if article:
                     collected.append(article)
                     source_status["sse"]["extracted"] += 1
-        if new_sse and not source_status["sse"]["extracted"]:
-            source_status["sse"]["status"] = "failed"
+        source_status["sse"]["rejected"] = len(new_sse) - source_status["sse"]["extracted"]
     except (requests.RequestException, ValueError) as exc:
         source_status["sse"] = {"status": "failed", "error": str(exc)[:300]}
         logging.warning("SSE discovery failed: %s", exc)
@@ -445,10 +513,13 @@ def main() -> None:
         source_status["miit"] = {"status": "failed", "error": str(exc)[:300]}
         logging.warning("MIIT discovery failed: %s", exc)
 
+    official_articles, official_status = collect_official_sources(session, previous_ids)
+    collected.extend(official_articles)
+    source_status.update(official_status)
     combined = collected + previous
     unique: dict[str, dict[str, object]] = {}
     for item in combined:
-        key = re.sub(r"\W+", "", str(item.get("title", "")).lower())
+        key = str(item.get("id", ""))
         if key and is_publishable(item) and key not in unique:
             unique[key] = item
     sorted_articles = sorted(unique.values(), key=lambda item: str(item.get("published_at", "")), reverse=True)
