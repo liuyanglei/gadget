@@ -1,11 +1,11 @@
 {
   "updated_at": "2026-10-17T12:40:18.242723Z",
-  "checked_at": "2026-10-17T15:37:33.656879Z",
+  "checked_at": "2026-10-17T15:58:39.670412Z",
   "last_successful_check_at": "2026-10-17T05:04:53.981658Z",
   "source_status": {
     "sse": {
       "status": "failed",
-      "error": "HTTPSConnectionPool(host='query.sse.com.cn', port=443): Max retries exceeded with url: /security/stock/queryCompanyBulletin.do?isPagination=true&securityType=0101%2C120100%2C020100%2C020200%2C120200&reportType=ALL&beginDate=2026-10-18&endDate=2026-10-18&pageHelp.pageSize=400&pageHelp.pageNo=1&pageHe"
+      "error": "403 Client Error: Forbidden for url: https://query.sse.com.cn/security/stock/queryCompanyBulletin.do?isPagination=true&securityType=0101%2C120100%2C020100%2C020200%2C120200&reportType=ALL&beginDate=2026-10-18&endDate=2026-10-18&pageHelp.pageSize=400&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.ca"
     },
     "miit": {
       "status": "ok",
