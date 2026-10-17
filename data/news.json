@@ -1,14 +1,11 @@
 {
   "updated_at": "2026-10-17T05:04:53.981658Z",
-  "checked_at": "2026-10-17T05:04:53.981658Z",
+  "checked_at": "2026-10-17T12:12:55.497085Z",
   "last_successful_check_at": "2026-10-17T05:04:53.981658Z",
   "source_status": {
     "sse": {
-      "discovered": 400,
-      "attempted": 77,
-      "extracted": 50,
-      "status": "ok",
-      "rejected": 27
+      "status": "failed",
+      "error": "403 Client Error: Forbidden for url: https://query.sse.com.cn/security/stock/queryCompanyBulletin.do?isPagination=true&securityType=0101%2C120100%2C020100%2C020200%2C120200&reportType=ALL&beginDate=2026-10-18&endDate=2026-10-18&pageHelp.pageSize=400&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.ca"
     },
     "miit": {
       "status": "ok",
@@ -45,8 +42,8 @@
       "rejected": 2
     }
   },
-  "new_articles": 50,
-  "successful_sources": 6,
+  "new_articles": 0,
+  "successful_sources": 5,
   "content_mode": "official_full_text_zh_with_attachments",
   "backfill_days": 7,
   "category_limits": {
