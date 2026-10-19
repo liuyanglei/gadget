@@ -1,14 +1,11 @@
 {
   "updated_at": "2026-10-19T04:52:01.837075Z",
-  "checked_at": "2026-10-19T04:52:01.837075Z",
+  "checked_at": "2026-10-19T05:22:58.742117Z",
   "last_successful_check_at": "2026-10-18T12:40:26.837942Z",
   "source_status": {
     "sse": {
-      "discovered": 400,
-      "attempted": 26,
-      "extracted": 1,
-      "status": "ok",
-      "rejected": 25
+      "status": "failed",
+      "error": "403 Client Error: Forbidden for url: https://query.sse.com.cn/security/stock/queryCompanyBulletin.do?isPagination=true&securityType=0101%2C120100%2C020100%2C020200%2C120200&reportType=ALL&beginDate=2026-10-20&endDate=2026-10-20&pageHelp.pageSize=400&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.ca"
     },
     "miit": {
       "status": "ok",
@@ -19,13 +16,16 @@
     "stats": {
       "status": "ok",
       "discovered": 15,
-      "attempted": 9,
-      "extracted": 9,
+      "attempted": 0,
+      "extracted": 0,
       "rejected": 0
     },
     "csrc_regulatory": {
-      "status": "failed",
-      "error": "HTTPSConnectionPool(host='www.csrc.gov.cn', port=443): Max retries exceeded with url: /searchList/625e0ed8a45842c28751458bfcacb422?_isAgg=true&_isJson=true&_pageSize=18&_template=index&_rangeTimeGte=&_channelName=&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.csrc.gov.cn', port=44"
+      "status": "ok",
+      "discovered": 21,
+      "attempted": 2,
+      "extracted": 0,
+      "rejected": 2
     },
     "csrc_policy": {
       "status": "ok",
@@ -42,7 +42,7 @@
       "rejected": 2
     }
   },
-  "new_articles": 10,
+  "new_articles": 0,
   "successful_sources": 5,
   "content_mode": "official_full_text_zh_with_attachments",
   "backfill_days": 7,
