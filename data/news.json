@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-31T06:25:34.149757Z",
-  "checked_at": "2026-10-31T14:33:10.227458Z",
+  "checked_at": "2026-10-31T14:51:23.118324Z",
   "last_successful_check_at": "2026-10-30T15:08:46.014826Z",
   "source_status": {
     "sse": {
@@ -21,11 +21,8 @@
       "rejected": 0
     },
     "csrc_regulatory": {
-      "status": "ok",
-      "discovered": 24,
-      "attempted": 4,
-      "extracted": 0,
-      "rejected": 4
+      "status": "failed",
+      "error": "HTTPSConnectionPool(host='www.csrc.gov.cn', port=443): Max retries exceeded with url: /searchList/625e0ed8a45842c28751458bfcacb422?_isAgg=true&_isJson=true&_pageSize=18&_template=index&_rangeTimeGte=&_channelName=&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.csrc.gov.cn', port=44"
     },
     "csrc_policy": {
       "status": "ok",
@@ -43,7 +40,7 @@
     }
   },
   "new_articles": 0,
-  "successful_sources": 5,
+  "successful_sources": 4,
   "content_mode": "official_full_text_zh_with_attachments",
   "backfill_days": 7,
   "category_limits": {
