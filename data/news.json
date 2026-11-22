@@ -1,12 +1,12 @@
 {
   "updated_at": "2026-11-22T06:54:54.119276Z",
-  "checked_at": "2026-11-22T06:54:54.119276Z",
-  "last_successful_check_at": "2026-11-21T16:26:12.498457Z",
+  "checked_at": "2026-11-22T07:31:23.411084Z",
+  "last_successful_check_at": "2026-11-22T07:31:23.411084Z",
   "source_status": {
     "sse": {
       "discovered": 400,
-      "attempted": 15,
-      "extracted": 1,
+      "attempted": 14,
+      "extracted": 0,
       "status": "ok",
       "rejected": 14
     },
@@ -24,8 +24,11 @@
       "rejected": 0
     },
     "csrc_regulatory": {
-      "status": "failed",
-      "error": "HTTPSConnectionPool(host='www.csrc.gov.cn', port=443): Read timed out. (read timeout=30)"
+      "status": "ok",
+      "discovered": 25,
+      "attempted": 1,
+      "extracted": 0,
+      "rejected": 1
     },
     "csrc_policy": {
       "status": "ok",
@@ -42,8 +45,8 @@
       "rejected": 2
     }
   },
-  "new_articles": 1,
-  "successful_sources": 5,
+  "new_articles": 0,
+  "successful_sources": 6,
   "content_mode": "official_full_text_zh_with_attachments",
   "backfill_days": 7,
   "category_limits": {
